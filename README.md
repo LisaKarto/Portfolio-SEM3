@@ -12,7 +12,7 @@
 **Main project IP:**  Planpal  
 **Project GP:** Parking system  
 **GP customer organisation:** Mediaan  
-
+<a id="contact_info"></a>  
 **Student:** Lisa Kartodimedjo  
 **E-mail:** elizabethkartodimedjo@gmail.com  
 **Phone number:** ~~I wrote this so you don't have to call me, piss off~~  
@@ -46,9 +46,9 @@ SC = Semester coach
 
 Over the period of September the 8th 2022 until January the 26th 2023 I have been following the HBO ICT Demand based software engineering course at Fontys university of applied sciences. To establish what I've learnt I've put together this portfolio. Having established this portfolio helps to demonstrate how far I've come to prove sufficient at the necessary learning outcomes of this semester. Within this portfolio you will be able to find all the information for all the different products on which I've worked this semester.
 
-My portfolio consists out of several parts. This document serves as the central part, which is why it consists out of a introduction, reader's guide and afterword and not much more. More information about my portfolio's structure and contents can be found underneath the next topic <a href="#">"Reader's guide"</a>.
+My portfolio consists out of several parts. This document serves as the central part, which is why it consists out of a introduction, reader's guide, afterword and not much more. More information about my portfolio's structure and contents can be found underneath the next topic [Reader's guide.](#Readers_guide)
 
-In case of any questions about my portfolio, I have left my contact info at the top of this document. I won't remember much as I am not God. But feel free to try and ask me about stuff anyway.  
+In case of any questions about my portfolio, I have left my [contact info](#contact_info) at the top of this document. I won't remember much as I am not God. But feel free to try and ask me about stuff anyway.  
 [^ Table of contents](#table_of_contents)
 ## <a id="LO_Simple_Overview"></a> 1.1 Learning outcomes simple overview
 In the table underneath you will find the learning outcomes that have been set by Fontys for students of this semester to prove suffient at. <p style="font-size:12px"> A detailed substantation report on the relationship of my products to the learning outcomes can be found <a href="#"> here. </a> </p>

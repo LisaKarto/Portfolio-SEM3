@@ -1,0 +1,51 @@
+Full portfolio structure
+
+Technical Projects/deliverables
+	ip
+		projects
+		practice
+	gp
+		projects
+		practice
+
+Written documents
+	ip
+		general
+		project documentation
+		journals
+		research reports
+	gp
+		general
+		project documentation
+		research reports
+
+Feedpulse
+
+	IP
+	GP
+
+* Introduction
+* Reader's guide
+  * Full portfolio structure
+  * Technical Projects/Technical deliverables
+    * S-DB-IPS3-S3
+      * Projects
+      * Practice
+    * S-DB-GPS3-S3
+      * Projects
+      * Practice
+  * Written documents/Written deliverables
+    * S-DB-IPS3-S3
+      * General
+        * Feedpulse
+        * Planning
+      * Project documentation
+      * Journals
+      * Research reports
+    * S-DB-GPS3-S3
+      * General
+        * Feedpulse
+        * Planning
+      * Project documentation
+      * Research documents 
+* Afterword

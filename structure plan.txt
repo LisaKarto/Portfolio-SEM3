@@ -1,0 +1,47 @@
+Main readme ->  
+Introduction
+Reader's guide
+	-> General
+		-> Agile 
+			-> scrum
+			-> experiences this semester
+				-> GP scrum
+				-> IP scrum
+		-> work environment
+			-> Jira
+			-> Github
+		-> work methodology
+			-> CI/CD
+			-> Planning
+		-> sem 3 retrospective
+			-> first 2 months
+				-> what I've learnt
+				-> How it went
+
+			-> sprint.. 0 Time to do it better
+				-> new planning
+	-> Learning outcomes GP
+		-> GP General planning
+		-> Project
+			-> Parkkings
+			-> work environment
+			-> 
+			
+		-> Research
+			-> Stakeholders
+			-> Ethical 
+			-> Business
+			-> ???
+	-> Learning outcomes IP
+		-> IP General Planning
+		-> Project
+			-> Planpal
+			-> Work environment
+				-> Github
+				-> issues -> planning
+				-> Planpal Docs
+				-> Detailed Planning for user story
+		-> Research
+			-> CSRF
+			-> Something else
+contact info

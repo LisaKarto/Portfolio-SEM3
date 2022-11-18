@@ -1,0 +1,28 @@
+
+* Introduction
+* Reader's guide
+  * Full portfolio structure
+  * Technical Projects/Technical deliverables
+    * S-DB-IPS3-S3
+    * S-DB-GPS3-S3
+  * Written documents/Written deliverables
+    * S-DB-IPS3-S3
+    * S-DB-GPS3-S3
+* Afterword
+
+--------- general semester plans
+
+* About this semester
+  * Individual project
+  * Group project
+* What I have learnt this semester
+  * The learning outcomes I feel most confident about
+  * The learning outcomes I feel less confident about
+* What I think about my performance this semester
+    * What went well
+      * sprint journal
+      * overall conclusion
+    * What didn't go well
+      * sprint journal
+      * overall conclusion
+    * What I need to do to improve

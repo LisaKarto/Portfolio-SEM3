@@ -46,9 +46,9 @@ SC = Semester coach
 
 Over the period of September the 8th 2022 until January the 26th 2023 I have been following the HBO ICT Demand based software engineering course at Fontys university of applied sciences. To establish what I've learnt I've put together this portfolio. Having established this portfolio helps to demonstrate how far I've come to prove sufficient at the necessary learning outcomes of this semester. Within this portfolio you will be able to find all the information for all the different products on which I've worked this semester.
 
-My portfolio consists out of several parts. This document serves as the central part, which is why it consists out of a introduction, reader's guide and afterword. More information about my portfolio's structure and contents can be found underneath the next topic <a href="#">"Reader's guide"</a>.
+My portfolio consists out of several parts. This document serves as the central part, which is why it consists out of a introduction, reader's guide and afterword and not much more. More information about my portfolio's structure and contents can be found underneath the next topic <a href="#">"Reader's guide"</a>.
 
-In case of any questions about my portfolio, I have left my contact info at the top of this document. I won't remember much as I am not God. But feel free to try and ask me stuff anyway.
+In case of any questions about my portfolio, I have left my contact info at the top of this document. I won't remember much as I am not God. But feel free to try and ask me about stuff anyway.
 
 ## 1.1 Learning outcomes simple overview
 In the table underneath you will find the learning outcomes that have been set by Fontys for students of this semester to prove suffient at. <p style="font-size:12px"> A detailed substantation report on the relationship of my products to the learning outcomes can be found <a href="#"> here. </a> </p>
@@ -68,11 +68,10 @@ In the table underneath you will find the learning outcomes that have been set b
 # 2. Reader's guide
 <!-- How to read this portfolio? -->
 ## 2.1 Portfolio structure
-My portfolio is structured in a way that you can read through it and access all locations. However it is very intertwined and rather large. Therefore for practicality I decided it would be nice for a reader to have a simple central point of navigation.
-The reason I structured my portfolio this way is to keep certain matters seperated for a clearer overview and practical use. This way you can quickly navigate through my portfolio to different subjects using the navigator below. The downpart is that certain
-So I've tried my hardest to still have it be one cohorent product.
-The semester is structured as follows,
-During the semester we are tasked to work on 2 main things. Namely a group project which you tackle together with 5 or 6 other students. 
+
+I've split this portfolio into multiple parts in order to avoid my portfolio becoming one very tall brain numbing document, instead this way it's set up that the reader can specifically choose the type of topics to numb their brain with.
+
+I've set up the structure in a way that you can read through it and access all locations as one cohorent story. However as there is a lot of content it would be tedious to go through the whole thing when looking for a specific topic. Therefore for the sake of practicality and not overwhelming my reader's feeble brain for my reader is me. I decided to structure the portfolio to have a simple central point of navigation that can lead everywhere thus this document. This way I also aim to keep certain matters seperated for a clearer overview and again practical use. 
 
 
 * * *

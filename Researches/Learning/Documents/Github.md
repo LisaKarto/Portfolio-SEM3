@@ -1,23 +1,28 @@
-# Version Control substansiation report
-Applicable to my individual project.
+<h1> Version Control substansiation report</h1>
+Applicable to my individual project.  
+
+<br>
 
 # Table of content
-* [Introduction]()
-* [My background]()
-* [Version control systems]()
-  * [Version control and version control software]()
-  * [Comparing version control software]()
-    * [What is Bazaar]()
-    * [What is Mercurial]()
-    * [What is Git]()
-    * [My final choice]()
-* []()
-  * []()
-  * []()
-  * []()
-  * []()
-* [Related topics]()
-* [Sources]()
+- [Table of content](#table-of-content)
+- [Introduction](#introduction)
+- [My background](#my-background)
+- [Version control systems](#version-control-systems)
+    - [**Version control and version control software**](#version-control-and-version-control-software)
+    - [**Comparing version control software**](#comparing-version-control-software)
+    - [**What is Bazaar**](#what-is-bazaar)
+    - [**What is Mercurial**](#what-is-mercurial)
+    - [**What is Git**](#what-is-git)
+    - [**My final choice in version control system**](#my-final-choice-in-version-control-system)
+- [Version control platforms](#version-control-platforms)
+    - [**What are version control platforms**](#what-are-version-control-platforms)
+    - [**Comparing Version control platforms**](#comparing-version-control-platforms)
+    - [**What is BitBucket**](#what-is-bitbucket)
+    - [**What is GitHub**](#what-is-github)
+    - [**What is GitLab**](#what-is-gitlab)
+    - [**My final choice in version control platform**](#my-final-choice-in-version-control-platform)
+- [Related topics](#related-topics)
+- [Sources](#sources)
 
 
 
@@ -25,23 +30,26 @@ Applicable to my individual project.
 
 This document serves as a substansiation report to my version control tools choices, In this report I hope to make my decision to use the version control tools that I use (Git and GitHub) clear by exploring the basics of version control and comparing the chosen tools to other tools that are out there which offer similar functions. In the end I will draw a conclusion as to why I've decided to settle for Git and GitHub. 
   
+  [^ Back to table of content](#table-of-content)
 # My background
 
 Although I am fairly familiar with Git and GitHub for version control and quick code publishing solely. I haven't got that much *proper* version control experience. I've done the tedious manual nooby version control and then quickly got hooked to using Git's basic functions. However since everyone in my experience seems to use and recommend Git without question, I have never really done any research on whatever else is out there. So I want to explore and document that now. 
 
-I am familiar with the top leading source code hosting platforms however, namely GitHub and GitLab.
+I am familiar with the top leading source code hosting platforms however, namely GitHub and GitLab.  
 
+[^ Back to table of content](#table-of-content)
 # Version control systems
 
 ### **Version control and version control software**
 Version control, is the practice of tracking and managing changes to computer programs, documents and could also be applied to other software or digital files.
 However doing this manually has a lot of flaws as well as it is time consuming and honestly.. tedious. But since it's a very essential practice, used in almost every development process from individual passion projects to large projects made in teams. So naturally the smart brains that roam around this planet have invented something that assists you in this process. Namely, Version control systems. 
 
+[^ Back to table of content](#table-of-content)
 ### **Comparing version control software**
 Underneath I have listed a couple of version control software that are out there free to use. You can read the core of the software as well as some pros and cons. In the end I am giving a conclusion which states which version control software I have chosen for my current project and why.
 note: I willl only be comparing distributed version control software.
 
-
+[^ Back to table of content](#table-of-content)
 ### **What is Bazaar**
 
 **Description:**  Bazaar is a version control system that helps you track project history over time and to collaborate easily with others. Whether you're a single developer, a co-located team or a community of developers scattered across the world, Bazaar scales and adapts to meet your needs.   
@@ -68,7 +76,7 @@ note: I willl only be comparing distributed version control software.
 **Cost:** Free  
 **Website:** http://bazaar.canonical.com/en/
 
-
+[^ Back to table of content](#table-of-content)
 ### **What is Mercurial**
 
 **Description:**  Mercurial is a free, distributed source contrtol management tool. It offers you the power to efficiently handle projects of any size while using an intuitive interface. It is easy to use and hard to break, making it ideal for anyone working with versioned files.    
@@ -99,7 +107,7 @@ note: I willl only be comparing distributed version control software.
 **Cost:** Free  
 **Website:** https://www.mercurial-scm.org/
 
-
+[^ Back to table of content](#table-of-content)
 ### **What is Git**
 
 **Description:** Git is a version control management system that allows you to keep track of your source code history. Utilizing Git's features can make your project's development a lot more efficient, especially when developing in large groups. Git is mainly popular for it's efficiency and simplicity.   
@@ -134,7 +142,7 @@ note: I willl only be comparing distributed version control software.
 **Cost:** Free  
 **Website:** https://git-scm.com/
 
-
+[^ Back to table of content](#table-of-content)
 ### **My final choice in version control system**
 
 I chose to use Git due to my prior experience, the many options to host with and the giant community. Git's very popular and strongly recommended from my experience. Using Git opens the door to many other tools that are collaborative to Git, for example GitHub (my choice of source code hosting platform) without having to any extra measures in order to make it work. Which you would have to do if you want to to collaborate GitHub with Mercurial for example. So since I'm just looking to get my footing, I figure I'll walk the most traveled path.
@@ -145,9 +153,10 @@ I chose to use Git due to my prior experience, the many options to host with and
 
 Version control platforms offer softwre developers the ability to share and host their code. Nowadays these platforms come with additional features, such as project management features. These version control platforms boost collaborative working amongst developers. Together with version control systems developers can share, develop and track their projects.  
 
+[^ Back to table of content](#table-of-content)
 ### **Comparing Version control platforms**
-Next I have to find a source code hosting service that goes well with my prefered version control software. I've chosen to compare 3 services, namely "BitBucket", "GitHub" and "GitLab". Below I have listed what each one of these have to offer and in the end I'll build upon which one of these 3 I have chosen to use for my project and why.
-
+Next I have to find a source code hosting service that goes well with my prefered version control software. I've chosen to compare 3 services, namely "BitBucket", "GitHub" and "GitLab". Below I have listed what each one of these have to offer and in the end I'll build upon which one of these 3 I have chosen to use for my project and why.  
+[^ Back to table of content](#table-of-content)
 ### **What is BitBucket**
 
 **Description:**   BitBucket is a source code hosting service that offers you to host an unlimited number of private repositories for teams up to 5 members. BitBucket also offers built-in CI/CD and has the best-in-class jira intergration. Which makes sense because both Jira and Bitbucket are owned by Atlassian.
@@ -179,8 +188,9 @@ Next I have to find a source code hosting service that goes well with my prefere
 
 **Recommended use cases:** Small, medium businesses
  
-**Website:** https://bitbucket.org/
+**Website:** https://bitbucket.org/  
 
+[^ Back to table of content](#table-of-content)
 ### **What is GitHub**
 
 **Description:** Github biggest functionalities are repisotory branching and forking, pull and merge request and codebase cloning and shows fast performance during these. Github allows developers to quickly upload files and offers fast and useful collaborative features. As well as project management features.
@@ -216,6 +226,7 @@ Next I have to find a source code hosting service that goes well with my prefere
  
 **Website:** https://github.com/
 
+[^ Back to table of content](#table-of-content)
 ### **What is GitLab**
 
 
@@ -250,14 +261,16 @@ Sytse "Sid" Sijbrandi
 * not enough guides and tutorials
   
  
-**Website:** https://about.gitlab.com/
+**Website:** https://about.gitlab.com/  
 
+[^ Back to table of content](#table-of-content)
 ### **My final choice in version control platform**
 I've prior experience using GitLab, namely in the last semesters so I wanted to try something new instead. For my IP project I'd like to keep all my information central which is why I opted to use GitHub, GitHub offers a lot of functionalities for project management and source code hosting. This way I can keep all my work central as opposed to BitBucket where you'd use it in collaboration with Jira. But I am definitely not eliminating BitBucket nor GitLab for future projects.
 
 **Definitive version control system of choice:** Git  
-**Definitive version control platform:** GitHub
+**Definitive version control platform:** GitHub  
 
+[^ Back to table of content](#table-of-content)
 # Related topics 
 * [Workflow within my project]()
   * [Agile]()
@@ -274,7 +287,7 @@ I've prior experience using GitLab, namely in the last semesters so I wanted to 
 * [Learning GitHub workflow]()
 * [Learning outcomes]() 
   
-
+[^ Back to table of content](#table-of-content)  
 # Sources
 https://en.wikipedia.org/wiki/Concurrent_Versions_System  
 https://www.altamira.ai/blog/4-most-popular-source-code-hosting-services/  
@@ -282,4 +295,6 @@ https://www.softwaretestinghelp.com/version-control-software/
 https://sccs.sourceforge.net/sccs_vs_rcs.html  
 https://www.geeksforgeeks.org/centralized-vs-distributed-version-control-which-one-should-we-choose/  
 https://www.ryadel.com/en/using-github-with-mercurial-and-tortoisehg/  
-https://jelvix.com/blog/bitbucket-vs-github-vs-gitlab
+https://jelvix.com/blog/bitbucket-vs-github-vs-gitlab  
+
+[^ Back to table of content](#table-of-content)

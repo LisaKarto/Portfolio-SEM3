@@ -132,8 +132,7 @@ Quick navigation for those who want to take a look at my written deliverables on
 <a id="Navigator_written_docs_IP"></a>**S-DB-IPS3-S3**:  
 
 ##### Here you can find the written deliverables and documents applicable to S-DB-IPS3-S3. 
-```
-```
+* [Version control substantiation report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning/Documents/Version%20control%20substansiation%20report.md)
 <a id="Navigator_written_docs_GP"></a>**S-DB-GPS3-S3**: 
 
 ##### Here you can find the written deliverables and documents applicable to S-DB-GPS3-S3. 

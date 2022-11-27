@@ -1,7 +1,9 @@
 <h1> Version Control substantiation report</h1>
 Applicable to my individual project.  
 
-<br>
+<br> 
+
+[< redirect to portfolio main](https://github.com/LisaKarto/Portfolio-SEM3)
 
 # Table of content
 - [Table of content](#table-of-content)
@@ -272,6 +274,9 @@ I've prior experience using GitLab, namely in the last semesters so I wanted to 
 
 [^ Back to table of content](#table-of-content)
 # Related topics 
+[redirect to portfolio main](https://github.com/LisaKarto/Portfolio-SEM3)  
+
+
 * [Workflow within my project]()
   * [Agile]()
     * [Scrum]()
@@ -281,7 +286,6 @@ I've prior experience using GitLab, namely in the last semesters so I wanted to 
   * [GitHub issues]()
   * [GitHub projects]()
   * [GitHub boards]()
-
 * [Learning projects with GitHub]()
 * [Learning Issues with GitHub]()
 * [Learning GitHub workflow]()

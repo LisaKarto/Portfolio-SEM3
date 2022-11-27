@@ -51,7 +51,7 @@ My portfolio consists out of several parts. This document serves as the central 
 In case of any questions about my portfolio, I have left my [contact info](#contact_info) at the top of this document. I won't remember much as I am not God. But feel free to try and ask me about stuff anyway.  
 [^ Table of contents](#table_of_contents)
 ## <a id="LO_Simple_Overview"></a> 1.1 Learning outcomes simple overview
-In the table underneath you will find the learning outcomes that have been set by Fontys for students of this semester to prove suffient at. <p style="font-size:12px"> A detailed substantation report on the relationship of my products to the learning outcomes can be found [here]() </p>
+In the table underneath you will find the learning outcomes that have been set by Fontys for students of this semester to prove suffient at. <p style="font-size:12px"> A detailed substantation report on the relationship of my products to the learning outcomes can be found [here](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning%20outcomes%20substansiation/detailed_learning_outcomes_substansiation.md) </p>
 
 
 

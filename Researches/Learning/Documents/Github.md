@@ -1,9 +1,30 @@
 # Version Control substansiation report
+Applicable to my individual project.
+
+# Table of content
+* [Introduction]()
+* [My background]()
+* [Version control systems]()
+  * [Version control and version control software]()
+  * [Comparing version control software]()
+    * [What is Bazaar]()
+    * [What is Mercurial]()
+    * [What is Git]()
+    * [My final choice]()
+* []()
+  * []()
+  * []()
+  * []()
+  * []()
+* [Related topics]()
+* [Sources]()
+
+
 
 # Introduction
 
 This document serves as a substansiation report to my version control tools choices, In this report I hope to make my decision to use the version control tools that I use (Git and GitHub) clear by exploring the basics of version control and comparing the chosen tools to other tools that are out there which offer similar functions. In the end I will draw a conclusion as to why I've decided to settle for Git and GitHub. 
-
+  
 # My background
 
 Although I am fairly familiar with Git and GitHub for version control and quick code publishing solely. I haven't got that much *proper* version control experience. I've done the tedious manual nooby version control and then quickly got hooked to using Git's basic functions. However since everyone in my experience seems to use and recommend Git without question, I have never really done any research on whatever else is out there. So I want to explore and document that now. 
@@ -114,25 +135,128 @@ note: I willl only be comparing distributed version control software.
 **Website:** https://git-scm.com/
 
 
-### **Why I chose to use Git**
+### **My final choice in version control system**
 
-I chose to use Git due to my prior experience, the many options to host with and the giant community. Git's very popular and strongly recommended from my experience. Using Git opens the door to many other tools that are collaborative to Git, for example GitHub and GitLab without having to install extensions or plugins to make it work. Which you would have to do in order to collaborate GitHub with Mercurial for example. Since I'm just looking to get my footing, I figure I'll run on the most traveled path.
+I chose to use Git due to my prior experience, the many options to host with and the giant community. Git's very popular and strongly recommended from my experience. Using Git opens the door to many other tools that are collaborative to Git, for example GitHub (my choice of source code hosting platform) without having to any extra measures in order to make it work. Which you would have to do if you want to to collaborate GitHub with Mercurial for example. So since I'm just looking to get my footing, I figure I'll walk the most traveled path.
 
-# Source code hosting platforms
+# Version control platforms
 
-### **Comparing source code hosting platforms**
+### **What are version control platforms**
+
+Version control platforms offer softwre developers the ability to share and host their code. Nowadays these platforms come with additional features, such as project management features. These version control platforms boost collaborative working amongst developers. Together with version control systems developers can share, develop and track their projects.  
+
+### **Comparing Version control platforms**
+Next I have to find a source code hosting service that goes well with my prefered version control software. I've chosen to compare 3 services, namely "BitBucket", "GitHub" and "GitLab". Below I have listed what each one of these have to offer and in the end I'll build upon which one of these 3 I have chosen to use for my project and why.
 
 ### **What is BitBucket**
 
+**Description:**   BitBucket is a source code hosting service that offers you to host an unlimited number of private repositories for teams up to 5 members. BitBucket also offers built-in CI/CD and has the best-in-class jira intergration. Which makes sense because both Jira and Bitbucket are owned by Atlassian.
+**original developer:**  Jesper Noehr
+**Initial release:** 2008
+
+**features:**   
+* Pipelines is a CI/CD service that displays the entire development life cycle of the product. On BitBucket, developers can track the deployment progress of the software. 
+* Branch permissions: developers can allow specific people access to a repository;
+* Integrations with Slack, Bamboo, Jenkins, HipChat, Crucible, and other tools;
+* A Mac and Windows client, and an Android app, called Bit Beaker;
+* BitBucket Snippets: the creation of snippets for the codebase;
+* Documentation and wiki;
+* Search panel for codebase navigation;
+* A lot of add-ons on the Atlassian marketplace, most of which can be easily integrated within the entire ecosystem. 
+  
+**pros:**  
+* Intergration with Jira, Asana and other
+* High project visibility
+* Cost-efficiency
+* Intergration with Slack and other tools
+  
+**cons:**  
+* Complex interface
+* Slow performance
+* Not enough free CI/CD functionality
+* Not as many tutorials and guides
+* Decreasing popularity
+
+**Recommended use cases:** Small, medium businesses
+ 
+**Website:** https://bitbucket.org/
 
 ### **What is GitHub**
-Now you know Git and it's own fundamentals, we can visit "GitHub" and what it is. Because these 2 go hand in hand.
+
+**Description:** Github biggest functionalities are repisotory branching and forking, pull and merge request and codebase cloning and shows fast performance during these. Github allows developers to quickly upload files and offers fast and useful collaborative features. As well as project management features.
+
+**original developer(s):** Chris Wanstrath, P. J. Hyett, Tom Preston-Werner, and Scott Chacon  
+**Initial release:** April 2008
+
+**features:**   
+* Issue tracker that detects problems within the codebase and alerts collaborators;
+* Issue boards support Kanban and Scrum and allow structuring tasks;
+* GitHub supports epics that allow tracking the progress of the team;
+* Roadmaps help to plan team projects and pinpoint key milestones;
+* Estimation and points: developers can estimate effort points for each issue and * share details with collaborators;
+* Synchronizing merged versions, GitHub issues, and pull requests;
+* Desktop applications for Windows and Mac, as well as a mobile app for Android
+* The support of 200+ programming languages
+* Integrations with Asana, AWS, Windows Azure, Google Cloud, Code Climate
+* GitHub Pages is a built-in service for building and hosting sites with GitHub.
+* Syntax highlighting (isn’t present in BitBucket)
+* Popular open-source communities
+  
+**pros:**  
+* Big community
+* Open-source popularity
+* Easy interface
+* Fast performance
+* A lot of information
+  
+**cons:**  
+* Not enough CI/CD functionality
+* Small storage in free version
+  
+ 
+**Website:** https://github.com/
 
 ### **What is GitLab**
 
-### **Why I chose to use GitHub**
 
+**Description:** GitLab offers a lot of source code hosting features as well as project management features. But what mostly stands out are their many CI/CD features, which are supported in their free version.  
 
+**original developer:**  Dmytro Zaporozhets
+Sytse "Sid" Sijbrandi  
+**Initial release:** 2011
+
+**features:**   
+* Subgroups, compliance management, and audit events: GitLab allows restricting access to projects and viewing the compliance status of each participant;
+* Project planning: developers track code issues with built-in task lists, description templates, and issue management panels;
+* Communication: developers can exchange attached files, create threads and participate in them, track changes, prioritize discussions with labels, set milestones, and finalize iterations;
+* Source code management: GitLab is appreciated for its intuitive interface for branching, merging, file locking, reporting. GitLab also offers free source code templates and JIRA integrations;
+* Continuous integration: the main selling points of the platform are free CI tools, including parent-child pipelines, horizontal autoscaling, visualization of HTML artifacts and protected variables, etc.;
+* Package building: developers can use separate packages depending on their tech stack – there’s a package for PHP, Node.js, Java, and others;
+* Security: GitLab provides security scans, allows dynamic security testing (however, only in the most expensive Gold and Ultimate plans);
+* Configuration and DevOps: the Auto DevOps feature is available in the free plan, whereas the specialized add-ons are supported only by Gold and Ultimate plans.
+
+  
+**pros:**  
+* Rich free CI/CD functionality
+* Competitive pricing
+* Rich add-ons
+* Simple interface
+* Rising popularity
+  
+**cons:**  
+* small open-source community
+* Relatively few users
+* slow performance 
+* not enough guides and tutorials
+  
+ 
+**Website:** https://about.gitlab.com/
+
+### **My final choice in version control platform**
+I've prior experience using GitLab, namely in the last semesters so I wanted to try something new instead. For my IP project I'd like to keep all my information central which is why I opted to use GitHub, GitHub offers a lot of functionalities for project management and source code hosting. This way I can keep all my work central as opposed to BitBucket where you'd use it in collaboration with Jira. But I am definitely not eliminating BitBucket nor GitLab for future projects.
+
+**Definitive version control system of choice:** Git  
+**Definitive version control platform:** GitHub
 
 # Related topics 
 * [Workflow within my project]()
@@ -149,10 +273,13 @@ Now you know Git and it's own fundamentals, we can visit "GitHub" and what it is
 * [Learning Issues with GitHub]()
 * [Learning GitHub workflow]()
 * [Learning outcomes]() 
+  
+
 # Sources
 https://en.wikipedia.org/wiki/Concurrent_Versions_System  
 https://www.altamira.ai/blog/4-most-popular-source-code-hosting-services/  
 https://www.softwaretestinghelp.com/version-control-software/  
 https://sccs.sourceforge.net/sccs_vs_rcs.html  
 https://www.geeksforgeeks.org/centralized-vs-distributed-version-control-which-one-should-we-choose/  
-https://www.ryadel.com/en/using-github-with-mercurial-and-tortoisehg/
+https://www.ryadel.com/en/using-github-with-mercurial-and-tortoisehg/  
+https://jelvix.com/blog/bitbucket-vs-github-vs-gitlab

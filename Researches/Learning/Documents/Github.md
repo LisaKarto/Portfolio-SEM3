@@ -2,7 +2,7 @@
 
 # Introduction
 
-This document serves as a substansiation report to my version control tools choices, In this report I hope to make my decision to use the version control tools that I use (Git and GitHub) clear by exploring the basics of version control and comparing the chosen tools to other tools that are out there which offer similar functions. In the end I will draw a conclusion as to why I've decided to settle for Git and GitHub. Additionally I also list what learning outcomes a student tackles by utilizing version control. 
+This document serves as a substansiation report to my version control tools choices, In this report I hope to make my decision to use the version control tools that I use (Git and GitHub) clear by exploring the basics of version control and comparing the chosen tools to other tools that are out there which offer similar functions. In the end I will draw a conclusion as to why I've decided to settle for Git and GitHub. 
 
 # My background
 
@@ -133,10 +133,6 @@ Now you know Git and it's own fundamentals, we can visit "GitHub" and what it is
 ### **Why I chose to use GitHub**
 
 
-
-### **What learning outcomes do Git and GitHub usage attest for?**
-#### **Proffesional  skills**
-#### **CI/CD**
 
 # Related topics 
 * [Workflow within my project]()

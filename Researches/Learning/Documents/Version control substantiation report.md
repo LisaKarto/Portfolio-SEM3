@@ -1,4 +1,4 @@
-<h1> Version Control substansiation report</h1>
+<h1> Version Control substantiation report</h1>
 Applicable to my individual project.  
 
 <br>
@@ -28,7 +28,7 @@ Applicable to my individual project.
 
 # Introduction
 
-This document serves as a substansiation report to my version control tools choices, In this report I hope to make my decision to use the version control tools that I use (Git and GitHub) clear by exploring the basics of version control and comparing the chosen tools to other tools that are out there which offer similar functions. In the end I will draw a conclusion as to why I've decided to settle for Git and GitHub. 
+This document serves as a substantiation report to my version control tools choices, In this report I hope to make my decision to use the version control tools that I use (Git and GitHub) clear by exploring the basics of version control and comparing the chosen tools to other tools that are out there which offer similar functions. In the end I will draw a conclusion as to why I've decided to settle for Git and GitHub. 
   
   [^ Back to table of content](#table-of-content)
 # My background

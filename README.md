@@ -14,9 +14,9 @@
 **GP customer organisation:** Mediaan  
 <a id="contact_info"></a>  
 **Student:** Lisa Kartodimedjo  
-**E-mail:** elizabethkartodimedjo@gmail.com  
+**E-mail:** Try calling me instead  
 **Phone number:** ~~I wrote this so you don't have to call me, piss off~~  
-**Spotify playlist:**  
+**Spotify playlist:** https://www.youtube.com/watch?v=WyAg1EZdQf8  
 IP = Individual project,
 GP = Group project,
 SC = Semester coach

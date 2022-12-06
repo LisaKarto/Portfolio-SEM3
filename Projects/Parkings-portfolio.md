@@ -21,9 +21,8 @@ SC = Semester coach
 Huge thank you to everyone involved for all their guidence, help and knowledge.
 
 # Table of content
-* [Introduction](#introduction)
-* [Stakeholders](#stakeholders)
-* []
+
+
 # Introduction
 
 During semester 3 of the Fontys HBO-ICT demand based programme, Fontys challenges it's students to complete 2 courses. Namely an individual course and a group project course. This document is written with focus on my group project course experience. If you want to read more about my experience and what I've been doing for the individual course you can find more information in the central portfolio document [here](https://github.com/LisaKarto/Portfolio-SEM3).  
@@ -121,11 +120,41 @@ Mediaan as a whole has a lot of employees, but the people that we've been fortun
 * * *
 # The project
 
-## Parking garage case
+Mediaan has had for parking garages but don't currently have the resources to build a proof of concept for. And that's where we, Parkkings come in to play. 
 
+
+<!-- Requirements -->
+## **The parking garage case**
+<!-- Is this allowed to be public? -->
+**Milestone 1, MVP(Minimal viable product):**  
+When a driver arrives at the gate of a garage, he/she can open the gate by identifying themselves and the system will register their license plate. They will park their car and can do whatever they need to do. When they want to drive out of the garage, they can pay for their ticket the gate will then open for the. People can also reserve a parking spot in the garage up-front, making sure a spot is free for them around the time they want to arrive.
+
+The amount of people need to pay depends on the length of their stay and the time of day. Parking staff can define specific tariffs for certain moments in the day or for certain days in a week. On their overview, they can see the daily revenue in real-time.
+
+**Milestone 2:**  
+The staff at the garage have a real-time overview of the state of the garage. They can see which lots are vacant occupied or reserved. Whenever they see something in the garage that blocks a parking spot, they have the option to disable this lot in the system. For example, it might be that someone parked a car across multiple spots or some construction is going on.
+
+**Milestone 3:**  
+All of the parking garages owned by the company lie in places where many businesses reside. Some of these businesses have a lack of parking space on their own grounds and want to hire some parking spots in the garage. Employees of such companies can park their company car for free on the hired spots during work hours. The parking staff can fine non-employees for parking on these spots. Outside of work hours, hired spots can be used  by anyone. Every month, the system sends all companies an invoice.
+
+**Bonus:**  
+Many parking garages have multple exists which lead to different areas of the city above. People always want to park their car as close as possible to their wanted destination. The company has decided to invest in projectors that can project arrows on the ground that drivers can see. By stating their destination (by reserving up-front or indicating it at the gate), the system will lead them to a free parking spot that is closest to the exit for their destination.
+
+From that information we have set up a bunch of user stories based on each milestone, which you can find in our [Jira environment's backlog](https://s3-gp-groep2.atlassian.net/jira/software/projects/PAR/boards/1/backlog). The use stories are marked their milestone.
+
+<!-- Business process -->
 ## How does our software improve the current situation?
+We believe our system will have impact in
+The biggest impact will be made when ->
 
+For ease you can refer to the below activity diagram that serves as a abstract illustration on the current real life parking space reservation process: 
+
+Compare this to the following activity diagram which symbolizes the parking space reserveration process in collaboration with our software system:
+<!-- Web application -->
 # Technicalities
+Software consists out of a bunch of building blocks, building blocks like languages and frameworks and a lot more that's going on below that. But the way we software developers create it is by utilizing languages and frameworks. Now decisions need to be made, which languages and frameworks do you use for what project and why? In this chapter I will list what we have made use of during our building process and why. You will also find diagrams to help clearify these architectural structures.
+
+For this semester Fontys has challenged it's software engineering students to set up a distributed architecture since this has many benefits and is commonly used in software development today. So we better get to learning. This is the reason that we've chosen to set up REST api's for the backend. Fontys also wanted us to use a javascript based framework for the front end and that pairs well with a REST api distributed architecture. 
 
 ## Architecture and infrastructure
 
@@ -145,20 +174,20 @@ Underneath I have listed the languages alongsides the frameworks we have decided
 * Google Oauth 2.0
 
 ### Architecture diagram
-
+<!-- cultural differences and ethics -->
 # Decisions we've had to make 
 ## Ethical decisions
 ## Cultural decisions
 
 # Website design
-
+<!-- UX/UI -->
 ## UI
 
 ### design
 ## UX 
 
 ### decisions
-
+<!-- Agile method -->
 # Our working process
 
 ## Agile Method
@@ -172,7 +201,7 @@ Underneath I have listed the languages alongsides the frameworks we have decided
 
 Hiring team members  
 Miro board
-
+<!-- Professional skills -->
 # Reflection
 
 ## dificulties we've faced as a team and how we got over it 

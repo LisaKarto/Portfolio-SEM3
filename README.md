@@ -85,8 +85,11 @@ I've set up the structure in a way that you can read through it and access all l
 ## <a id="Navigator_full_portfolio"></a> 2.2.1 Full portfolio navigator
 Navigation for those who would like to explore all aspects of my portfolio.
 
-```
-```
+There are 2 main projects and thus 2 main portfolios that I've constructed. Both are written as cohorent stories that you can just read through with ease. They can be found below:
+
+* [Group project course Parkkings portfolio whole](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md)  
+
+
 [^ Table of contents](#table_of_contents)
 ## <a id="Navigator_Technical"></a> 2.2.2 Technical projects and deliverables navigator
 
@@ -138,8 +141,8 @@ Quick navigation for those who want to take a look at my written deliverables on
 **S-DB-GPS3-S3**: 
 
 ##### Here you can find the written deliverables and documents applicable to S-DB-GPS3-S3. 
-```
-```
+* [Parkings full portfolio](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md)  
+  
 [^ Table of contents](#table_of_contents)
 
 # <a id="Afterword"></a>3. Afterword

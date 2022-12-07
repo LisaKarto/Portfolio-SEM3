@@ -21,7 +21,8 @@ SC = Semester coach
 Huge thank you to everyone involved for all their guidence, help and knowledge.
 
 # Table of content
-
+[Introduction](#introduction)
+[]
 
 # Introduction
 
@@ -205,28 +206,53 @@ I conclude out of the analysis I've carried out above that our software will hav
 ##### other business processes tackled by our software system may be described in the future
 <!-- Web application -->
 # Technicalities
-Software consists out of a bunch of building blocks, building blocks like languages and frameworks and a lot more that's going on below that. But the way we software developers create it is by utilizing languages and frameworks. Now decisions need to be made, which languages and frameworks do you use for what project and why? In this chapter I will list what we have made use of during our building process and why. You will also find diagrams to help clearify these architectural structures.
+Software consists out of a bunch of building blocks, building blocks like languages, frameworks and a lot more that's going on below that. But the way we software developers create it is by utilizing languages and frameworks. So decisions need to be made, which languages and frameworks do you use for what project and why? In this chapter I will list what we have made use of during our building process and why. You will also find diagrams to help clearify these architectural structures.
 
 For this semester Fontys has challenged it's software engineering students to set up a distributed architecture since this has many benefits and is commonly used in software development today. So we better get to learning. This is the reason that we've chosen to set up REST api's for the backend. Fontys also wanted us to use a javascript based framework for the front end and that pairs well with a REST api distributed architecture. 
 
 ## Architecture and infrastructure
 
+### **Architecture**
 ### Languages and frameworks used:
 Underneath I have listed the languages alongsides the frameworks we have decided to use for the project.
 
 **Backend:** 
-* **Main REST API:** C# - ASP.NET
+* **Main REST API:** C# - ASP.NET - Swagger
+  * Substantiation:  The main API is written in C#, we find c# and ASP.Net core is more than capable for the functionalities we need to make for this project. We have made use of the swagger framework to make this process easier and thus save us some time.
 * **CMS REST API:** C# - ASP.NET
-* **DATABASE:** SQL server
+  * Substantiation: Again c# ASP.NET is fully capable for the functionalities needed in the CMS rest api.
+  * Note: This API, may be removed in the future. It is currently up for discussion within our team.
+* **DATABASE:** Relational SQL database - Microsoft SQL server
+  * Substantiation: For this project we have deduced that we need a relational database for it's functions. And since we all have SQL experience we decided that MSSQL is more than viable for the job. MSSQL also cooperates  well with C# - ASP.Net.
 
 **Frontend:**
-* **MAIN UI:** Javascript, HTML, CSS - REACT
-* **CMS UI:** Javascript, HTML, CSS - REACT
+* **MAIN UI:** Javascript, HTML, CSS - REACT - Material UI
+  * Substantiation: We found that REACT is fully capable of carrying out and looks very slick. Additionally we had variations in experiences in react so we figured this could work well for us as some students could further their current skill on it and others could learn whilst always having various helpers available.
+* **CMS UI:** Javascript, HTML, CSS - REACT - Material UI
+  * Substantiation: We found that REACT is fully capable of carrying out and looks very slick. Additionally we had variations in experiences in react so we figured this could work well for us as some students could further their current skill on it and others could learn whilst always having various helpers available.
 
 **External services:**
 * Google Oauth 2.0
+  * Substantiation: Google's Oauth 2.0 protocol is very strong and easy for developers to use. Google is wildly popular so the chances that an adult today has a car but not a google account are very slim so we found Google's Oauth the perfect solution to having a safe authentication feature. Fontys also challenged us to make use of a microservice and by calling Google's Oauth we do exactly that.
+### Languages and frameworks used architectural diagram:
+Below you can view a diagram that symbolizes the interaction/flow between these languages and frameworks.
+![Languages and frameworks diagram](/Projects/assets/Languages_and_frameworks_architecture_diagram.png)
 
-### Architecture diagram
+
+### **Infrastructure**
+Now that we know what languages and frameworks are used in the project, it may be nice to go over how these applications interact with eachother. You can find such information here. First I will list what applications make the whole Parkkings application.
+
+The Parkkings application consists out of: 
+
+**Clients:**  
+Guest User interface (used by visitors/customers):   
+Content Management system (used by admins):  
+
+**Developers:**  
+REST API:  
+MSSQL database:
+### Infrastructure diagram
+![Parkkigs infrastructure](/Projects/assets/architectuur_parkkings.drawio.png)
 <!-- cultural differences and ethics -->
 # Cultural & Ethical Decisions we've had to make 
 ## Ethical decisions

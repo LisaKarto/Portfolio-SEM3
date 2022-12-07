@@ -120,36 +120,89 @@ Mediaan as a whole has a lot of employees, but the people that we've been fortun
 * * *
 # The project
 
-Mediaan has had for parking garages but don't currently have the resources to build a proof of concept for. And that's where we, Parkkings come in to play. 
+Mediaan has had for parking garages but don't currently have the resources to build a proof of concept for. And that's where we, Parkkings come in to play. Below you can read the information we have received from our Product owners to work with.
 
 
 <!-- Requirements -->
-## **The parking garage case**
-<!-- Is this allowed to be public? -->
-**Milestone 1, MVP(Minimal viable product):**  
-When a driver arrives at the gate of a garage, he/she can open the gate by identifying themselves and the system will register their license plate. They will park their car and can do whatever they need to do. When they want to drive out of the garage, they can pay for their ticket the gate will then open for the. People can also reserve a parking spot in the garage up-front, making sure a spot is free for them around the time they want to arrive.
-
-The amount of people need to pay depends on the length of their stay and the time of day. Parking staff can define specific tariffs for certain moments in the day or for certain days in a week. On their overview, they can see the daily revenue in real-time.
-
-**Milestone 2:**  
-The staff at the garage have a real-time overview of the state of the garage. They can see which lots are vacant occupied or reserved. Whenever they see something in the garage that blocks a parking spot, they have the option to disable this lot in the system. For example, it might be that someone parked a car across multiple spots or some construction is going on.
-
-**Milestone 3:**  
-All of the parking garages owned by the company lie in places where many businesses reside. Some of these businesses have a lack of parking space on their own grounds and want to hire some parking spots in the garage. Employees of such companies can park their company car for free on the hired spots during work hours. The parking staff can fine non-employees for parking on these spots. Outside of work hours, hired spots can be used  by anyone. Every month, the system sends all companies an invoice.
-
-**Bonus:**  
-Many parking garages have multple exists which lead to different areas of the city above. People always want to park their car as close as possible to their wanted destination. The company has decided to invest in projectors that can project arrows on the ground that drivers can see. By stating their destination (by reserving up-front or indicating it at the gate), the system will lead them to a free parking spot that is closest to the exit for their destination.
+>## **The parking garage case**
+><!-- Is this allowed to be public? -->
+>**Milestone 1, MVP(Minimal viable product):**  
+>When a driver arrives at the gate of a garage, he/she can open the gate by identifying themselves and the system will register their license plate. They will park their car and can do whatever they need to do. When they want to drive out of the garage, they can pay for their ticket the gate will then open for the. People can also reserve a parking spot in the garage up-front, making sure a spot is free for them around the time they want to arrive.
+>
+>The amount of people need to pay depends on the length of their stay and the time of day. Parking staff can define specific tariffs for certain moments in the day or for certain days in a week. On their overview, they can see the daily revenue in real-time.
+>
+>**Milestone 2:**  
+>The staff at the garage have a real-time overview of the state of the garage. They can see which lots are vacant occupied or reserved. Whenever they see something in the garage that blocks a parking spot, they have the option to disable this lot in the system. For example, it might be that someone parked a car across multiple spots or some construction is going on.
+>
+>**Milestone 3:**  
+>All of the parking garages owned by the company lie in places where many businesses reside. Some of these businesses have a lack of parking space on their own grounds and want to hire some parking spots in the garage. Employees of such companies can park their company car for free on the hired spots during work hours. The parking staff can fine non-employees for parking on these spots. Outside of work hours, hired spots can be used  by anyone. Every month, the system sends all companies an invoice.
+>
+>**Bonus:**  
+>Many parking garages have multple exists which lead to different areas of the city above. People always want to park their car as close as possible to their wanted destination. The company has decided to invest in projectors that can project arrows on the ground that drivers can see. By stating their destination (by reserving up-front or indicating it at the gate), the system will lead them to a free parking spot that is closest to the exit for their destination.
 
 From that information we have set up a bunch of user stories based on each milestone, which you can find in our [Jira environment's backlog](https://s3-gp-groep2.atlassian.net/jira/software/projects/PAR/boards/1/backlog). The use stories are marked their milestone.
 
 <!-- Business process -->
-## How does our software improve the current situation?
-We believe our system will have impact in
-The biggest impact will be made when ->
+## How does our software support the parking garages?
+For this chapter I want to focus on the parking reservations process of a parking space soley. Other processes may be described in the future. 
 
-For ease you can refer to the below activity diagram that serves as a abstract illustration on the current real life parking space reservation process: 
+I believe our system will have impact during the parking reservations process by ensuring a parking space for visitors, because our system lets a visitor know in advance wether a parking space is available or not for the specified time at which the visitor want to park. However a visitor now needs to reserve a parking space in advance if they want their parking space to be ensured. So in order to keep the benefits in the visitor's favour the system's end to end journey for the reservation process needs to be non taxing. So our team has done it's best to ensure that more about that ux/ui listed below underneath the chapter [UI/UX]().
 
-Compare this to the following activity diagram which symbolizes the parking space reserveration process in collaboration with our software system:
+Below you can read/follow the analysis that has been done to have reached the above conclusion. if that's not what you're into feel free to [skip to the next chapter](#technicalities).
+
+## The reservation business process analysis
+I've analysed the business processes by comparing them to eachother, first you will find the parking space process without the aid of our software system alongsides it's flaws and why they're flaws. Then you will find the same process but this time aided by our software system, alongside will be the same list of flaws but with an explaination with why in this use case those same flaws are eliminated. Symbolistic diagrams of the processes will also be included to clearify. Lastly you can read the conclusion drawn from the evidence found during the analysis.
+
+
+### **parking reservations process without our software system**
+To accurately carry out our analysis we must first describe the situation without any aid of software. 
+
+**current flow:** A visitor shows up at a parking garage and enters through the gate. A visitor will then look around to see if there's any parking spaces available. A visitor will then find a parking space and park their car there.
+<!-- insert diagram here -->
+
+current flow diagram, For ease you can refer to the below activity diagram that serves as a symbolistic illustration on the current process flow:  
+ ![Activity diagram no software](/Projects/assets/AD%20no%20software.png)
+
+**Exceptions:** 
+* busy hours, during busy hours the visitor can have issue finding a spot if able to find a spot at all.
+  * no spots, if the visitor then finds there's no spots at all. The visitor will then have to either wait around for a spot to be freed with incoming information or go home in defeat.
+  
+**Current flaws:** 
+* **Parking space uncertainty:**
+  Without reservations there is no certainty for visitors to actually be able to find a parking space during busy hours.
+* **Not time efficient:**
+  Driving around looking for a parking spot may cose a visitor a lot of time during busy hours.
+* **Loss of customers/potential buyers:**
+  Driving/waiting around for a spot is tedious, visitors might not want to revisit because of this reason. The parking space will be associated with a bad experience and so will their destinations. This causes a loss of potential customers and thus also a loss of money that could have been earned.
+
+### **parking reservations process using our software system**
+To accurately carry out our analysis we must now describe the situation with the aid of software. 
+
+**software aided flow:** A visitor uses our web application to make a reservation, a visitor chooses a date and time to park. The system lets the visitor know wether or not the visitor can park at that time. If the visitor is able to park at that time the system will assign a designated parking space to the visitor. Now the visitor has a guaranteed spot for the day and time they arrive. On the reserved date a visitor simply drives up to the garage, identifies themselves at the gate and parks in their designated spot.  
+
+software aided flow diagram, For ease you can refer to the below activity diagram that serves as a symbolistic illustration on the software aided process flow:  
+
+![Activity diagram no software](/Projects/assets/AD%20software.png)  
+
+**Eceptions:**
+* no spots available, during very busy days/hours what if there's absolutely no spots available. This exception could still occur yet is improved because the visitor is aided with the benefit of knowing this information before driving out to the parking space and thus has the time to come up or initialize their backup plan. The system could in the future also be optimized to notify a visitor when reservations for their desired date and time are canceled so they can reserve a spot after all.
+
+How our software system eliminates these flaws:
+* **Parking space uncertainty**
+  With the use of our system parking space uncertainty is eliminated when you reserve a parking spot in advance. The system will let you know if there's any place available for your desired parking time or not.
+* **Not time efficient:**
+  With the use of our software system you won't have to drive around to find a spot, instead when you have made a reservation. There will be a designated parking spot for the visitor.
+* **Loss of customers:**
+Due to elimination of the above issues, the parking experience will have improved. And thus they'll feel more at ease going to park at the garages, which results in more regular visits/visitors, which results in more potential buyers, which means Ka-ching, more money.
+
+Additional support:
+* **Potential to carry out data analysis:**
+  Through the system experts would be able to track the parking garages, with that data experts get the potential to draw useful conclusions. Such as whether there's enough parking spaces, or at what hour most customers arrive. This way the parking garage's owners will have more support/evidence when making new decisions. For example, data could conclude that much more people want to reserve spots throughout the week than is available in the garage. This new deiscovery can prompt the parking garage's owner to expand their garage or open a new garage nearby.
+
+### **Conclusion**
+I conclude out of the analysis I've carried out above that our software will have a positive impact on the finding a parking space process at parking garages. Yet a downside may be that visitors have to reserve a spot in advance. But I suspect it's better and cheaper than going out to a parking garage only to find out there's no available spaces and losing money on gasoline aimlessly driving around for a space whilst wating for a space to clear up. And thus would cause overall benefits for anyone making use of the parking garages and even for stores near parking spaces. Why not grab a quick red bull since we're close? :) ~~Red bull does not sponsor this portfolio~~
+
+##### other business processes tackled by our software system may be described in the future
 <!-- Web application -->
 # Technicalities
 Software consists out of a bunch of building blocks, building blocks like languages and frameworks and a lot more that's going on below that. But the way we software developers create it is by utilizing languages and frameworks. Now decisions need to be made, which languages and frameworks do you use for what project and why? In this chapter I will list what we have made use of during our building process and why. You will also find diagrams to help clearify these architectural structures.
@@ -175,7 +228,7 @@ Underneath I have listed the languages alongsides the frameworks we have decided
 
 ### Architecture diagram
 <!-- cultural differences and ethics -->
-# Decisions we've had to make 
+# Cultural & Ethical Decisions we've had to make 
 ## Ethical decisions
 ## Cultural decisions
 

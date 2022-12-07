@@ -11,7 +11,7 @@
 **Professors:** Leon van Bokhorst (IP), Thijs Naus (GP), John Wijnen (SC)  
 **Main project IP:**  Planpal  
 **Project GP:** Parking system  
-**GP customer organisation:** Mediaan  
+**GP Partner in Education:** Mediaan  
 <a id="contact_info"></a>  
 **Student:** Lisa Kartodimedjo  
 **E-mail:** Try calling me instead  

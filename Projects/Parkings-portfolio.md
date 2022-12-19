@@ -229,7 +229,10 @@ As the name Agile suggests, Agile designs it's teams to be able to pivot quickly
 Agile puts focus upon the way of thinking about collaboration and workflows with a set of values to guides a team's choices.  
 
 ### **How do you work Agile** 
-Working Agile is working according to the agile values and principles. Below I have listed a simple overview of these values and principles. For more information on these values and principles you can refer to the appendix. (The appendix has anchors back to this part of this document, so you don't have to fear getting lost.)  Or you can redirect to wrike's documentation on agile, which I've used as a source [here](https://www.wrike.com/agile-guide/agile-manifesto/).
+
+Working Agile is working according to the agile values and principles. But for those who prefer consuming knowledge in paragraphs over lists here are a few examples of actions that Agile teams take; When working Agile teams break large projects down into short timelines and deliver regularly. Delivering regularly helps to make sure that stakeholders are involved during the development cycle as much as possible. Agile teams must have a flexible mindset. If during a delivery meetup with the stakeholders changes are made to requirements, the Agile team should be able to implement this change without suffering too much of a delay. When working Agile you are required to think innovatively and strive to improve by participating in frequent reflections.
+
+Below I have listed a simple overview of these values and principles. For more information on these values and principles you can refer to the appendix. (The appendix has anchors back to this part of this document, so you don't have to fear getting lost.)  Or you can redirect to wrike's documentation on agile, which I've used as a source [here](https://www.wrike.com/agile-guide/agile-manifesto/).
 
 quick navigation:  
 [Check out valeus in the appendix](#agile-values).  
@@ -258,6 +261,25 @@ Below a list of the 12 Agile principles values:
 >10. Simplicity — the art of maximizing the amount of work not done — is essential.
 >11. The best architectures, requirements, and designs emerge from self-organizing teams.
 >12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+
+When staying faithful to these values and principles Agile rewards you with a few benefits. 
+
+### **Agile benefits**
+
+When staying faithful to these values and principles Agile rewards you with many benefits of which 6 core benefits. I have listed these benefits underneath. These benefits are also listed in the appendix with more detailed descriptions of how they come to be. 
+
+quick navigation:  
+[Check out Agile benefits in the appendix](#agile-benefits).  
+
+Below a list of the 6 core Agile benefits:
+
+>**6 Agile benefits** 
+>1. Satisfied customers
+>2. Improved quality
+>3. Adaptability
+>4. Predictability 
+>5. Reduced risk
+>6. Better communication
 
 #### **Agile frameworks**
 Agile doesn't come with a singular approach and is not a set of prescriptions listing exactly what actions to take. But then how do you really work with it? You can develop your own way of working and still abide to Agile. However to save teams some time, they have the option to choose out of various Agile frameworks and follow accordingly. To list a few of the popular ones: Scrum, Kanban and Extreme programming(XP). However our team Parkkings have made use of the Scrum Agile development framework, therefore in this document I'll only focus on that framework in particular and you can learn more about the others on your own.
@@ -509,7 +531,30 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
 **12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.**
 >When you review team performance regularly, you can spot issues before they escalate, as well as potential areas for improvement. A healthy Agile team is one that self-reflects in order to eliminate unhelpful practices and advance skills.
 
->**source four Agile values and 12 Agile princples:** https://www.wrike.com/agile-guide/agile-manifesto/  
+* * * 
+
+# Agile Benefits 
+
+**1. Satisfied customers** [🔙](#agile-benefits)
+>By involving customers in the development process, Agile teams keep them in the loop and show that they value their opinion. Stakeholders want to be engaged throughout the project life cycle so they can offer feedback and ensure that the final product will be suited to their needs. These tailor-made deliverables will likely improve the overall user experience and boost customer retention.
+
+**2. Improved quality**
+>Agile methodologies use an iterative approach to project management, meaning processes are improved upon each time an interval is repeated. This consistent focus on improvement and quality control is one of the core principles of Agile, and it helps to create superior products.
+
+**3. Adaptability**
+>The central theme of Agile is flexibility. Agile teams are responsive to change, even at the last minute, and can adapt to it without much disruption. Project deliverables are not set in stone, so teams can easily reassess their plans and adjust their priorities to align with updated goals. Being adaptable means teams can deliver consistently and manage clients’ changing requirements effectively.
+
+**4. Predictability**
+>Agile teams work in short time periods, sometimes referred to as sprints. These fixed durations (e.g., two weeks) make it easier for project managers to measure team performance and assign resources accordingly. It is also easier to predict costs for shorter time periods than for a long-term project, simplifying the estimation process. 
+
+**5. Reduced risk**
+>Developers regularly assess progress during sprints, meaning they have better visibility into the project and can spot potential obstacles quickly. These minor issues can be tackled before they escalate, creating an effective risk mitigation process and giving the project a greater chance of success.
+
+**6. Better communication**
+>Agile teams prioritize face-to-face communication and continuous interaction. They will usually conduct daily meetings to ensure everyone is on the same page and working towards the same objectives. By regularly communicating with each other, they eliminate potential confusion to successfully achieve their objectives. 
+
+
+>**source 4 Agile values, 12 Agile princples and 6 Agile benefits:** https://www.wrike.com/agile-guide/agile-manifesto/  
 * * * 
 # Sources
 

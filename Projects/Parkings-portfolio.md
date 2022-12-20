@@ -472,13 +472,15 @@ used for: Communication
 
 
 # Website design
-<!-- UX/UI -->
-## UI
+<!-- UI/UX -->
+## User Interface 
+User interface
 
 ### design
-## UX 
+## User Experience 
 
-### decisions
+navigation
+
 
 <!-- Web application -->
 # Project Technicalities

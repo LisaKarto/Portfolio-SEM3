@@ -1,5 +1,5 @@
-<span style="font-size:30px"> SEM 3 Portfolio Lisa Kartodimedjo </span>
-* * *
+# SEM 3 Portfolio Lisa Kartodimedjo 
+
 
 **Institution of education:** Fontys university of applied sciences   
 **Study:** HBO ICT  
@@ -20,9 +20,12 @@
 IP = Individual project,
 GP = Group project,
 SC = Semester coach
+* * *
 
-<span style="font-size:2em"> <a id="table_of_contents"></a>Table of contents </span>
-* * * 
+# <a id="table_of_contents"></a>Table of contents
+
+- [SEM 3 Portfolio Lisa Kartodimedjo](#sem-3-portfolio-lisa-kartodimedjo)
+- [Table of contents](#table-of-contents)
 - [1. Introduction](#1-introduction)
   - [1.1 Learning outcomes simple overview](#11-learning-outcomes-simple-overview)
 - [2. Reader's guide](#2-readers-guide)

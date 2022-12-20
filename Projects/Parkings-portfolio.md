@@ -231,7 +231,7 @@ As the name Agile suggests, Agile designs it's teams to be able to pivot quickly
 
 Agile puts focus upon the way of thinking about collaboration and workflows with a set of values to guides a team's choices.  
 
-### **How do you work Agile** 
+### **Working Agile** 
 
 Working Agile is working according to the agile values and principles. But for those who prefer consuming knowledge in paragraphs over lists here are a few actions that Agile teams take; When working Agile teams break large projects down into short timelines and deliver regularly. As for requirement documentation the development team won't spend too much time writing exhaustive documentation. Instead the team will set up a backlog with user stories that have been agreed upon by the customer. User stories are descriptive and relatively quick to write and easy to understand.
 Delivering regularly helps to make sure that stakeholders are involved during the development cycle as much as possible. Agile teams must have a flexible mindset. If during a delivery meetup with the stakeholders changes are made to requirements, the Agile team should be able to implement this change without suffering too much of a delay. When working Agile you are required to think innovatively and strive to improve by participating in frequent reflections.
@@ -372,10 +372,12 @@ Agile is nice but without framework I wouldn't entirely know where to start or h
 
 ### **How we, Parkkings used Agile**
 As mentioned up above, We use the Agile methodology together with it's scrum framework.
-We have also broken our project into smaller parts right away.
-Agile wise we follow most of it's values and principles. For example. Value 2 is utilized, We haven't made much more documentation than user stories so we could start developing swiftly. 
+As suggested by Agile we started by breaking the project down into smaller pieces and
+we've made sure to abide to most of it's values and principles if not all. For example the way Value 2 is utilized within our project, We haven't made extra documentation other than user stories so we could start developing swiftly. And throughout the entire development cycle we have included our customers. We did all of this by abiding to Agile's notorious framework; Scrum.
 
 ### **How we, Parkkings used Scrum**
+In order to work Agile and get lost due to lack of structure we've decided to make use of Agile's framework: Scrum. We took actions from Scrum such as, assigning scrum roles, working in sprints, keeping a scrumboard and holding frequent retrospectives. You can read more about these things specifically below.
+
 
 **Scrum roles:**  
 As far as the Product owner role went it always stayed the same. The employees from Mediaan would be our Product owners and this never changed. As for Scrum masters however this was different. We've decided to rotate this role around after sprints.
@@ -420,15 +422,16 @@ Throughout our development phase we've done a few retrospective after sprints wi
   For this retrospective excercise Mediaan (POs) gave us a board with various types of blanks to fill in below statements. This proved to be challenging as the statements really made you think in certain directions. An example statement would be "The sharks that could bite us". This enforced us to really think about what kind of challenges we could come to face, which we otherwise would have maybe overlooked during a retrospective. 
 
 ### My experiences with Agile and scrum during this project
+Here I'd like to lay the focus back a little bit on me, as this is my portfolio and so far what I've written about our workflow has been very teambased or generic.
+And that generic,team based information doesn't really make much clear about what I've learnt and have experienced personally. So in order to make my experiences clear I've written some of my experiences and things I've learnt from them below. 
 
 #### **My time as scrummaster**
 
 I find that as scrummaster my team seemed to be asking me a lot more questions. 
-And the questions I was being asked were more decision based than technical. I also find that Daily stand-ups and stand-downs aren't as nervewrecking to do as I thought but this may also be because I have a very nice team with good morale. We usually have good laughs as I look them all in the eyes and ask them if they need anything. I dont know why they think that is funny, but they do.
+And the questions I was being asked were more decision based than technical. As to when I am a fellow developer I am approached with more technical question. I also find that Daily stand-ups and stand-downs aren't as nervewrecking to do as I thought it would be. I was lucky to have been in a team with good morale, We usually had good laughs as I look them all in the eyes and ask them if they needed anything for during their workdays. I'm not sure why it was funny as I think it's a necessary question to ask according to Agile's value number one that prompts teams to value their people. But it made them laugh which raised morale so that's good.
 
-During this time I also had to lead a scrum review. This means, setting up a powerpoint and 
-To do this it is important you prepare yourself well as you don't want to have any slip ups in front of your customers. As much as I had tried to prepare myself I wasn't quite prepared for just how bad my laptop would handle the application, I usually develop on my PC and it has a lot more power than my laptop. So I did have a bit of a panick realizing that my laptop wasn't taking it well during the review.
- However do not forget that when something like that happens you do still have your team to back you up. And fortunately I had a very nice team for this course who backed me up during my struggles by taking over the presentation to their laptop so I could present without laptop performance issues.
+During my time as scrum master I also had to lead a scrum review. This means, setting up a powerpoint and present previous sprint to the stakeholders. To do this it is important you prepare yourself well as you don't want to have any slip ups in front of your stakeholders. As much as I had tried to prepare myself I wasn't quite prepared for just how bad my laptop would handle the application, I usually develop on my PC and it has a lot more power than my laptop. So I did have a bit of a panick realizing that my laptop wasn't taking it well during the review.
+However in moments like these it is important to not forget that when a situation like that occurs you do still have your team to back you up. And fortunately I had a very nice team for this course who backed me up during my struggles by taking over the presentation to their laptop so I could present without laptop performance issues. Over all I found my time as scrum master to be informative and positive.
 
 **Feedback I received/What I've learnt while leading a scrum review:**
 
@@ -446,11 +449,11 @@ So the tips they gave are very handy as I will probably continue on with the sam
 So in conclusion.. I agree with the feedback, at fact there was more positive feedback than I had expected. :) So Thank you to the product owners, my GP-teacher and Semestercoach for being so kind about the review. 
 
 #### **My time as a teammember/developer**
-Because we rotate the scrum master role you spent most of the time working as just a regular developer. You won't hear me complaining about that, I was very fond of
-I think it's a nice way of working. As stand-ups and stand-downs give you a good oppertunity to communicate with your team. It's nice to have a moment where you are free to speak and everyone listens. It makes sure that if you're in need of anything you are heard. The scrum board also is a very nice tool when you are a developer. Being able to accurately establish what you've done and what others are doing. Makes it a lot harder to have misunderstandings where people point fingers and say "Hey, you're just sitting on your ass." It also helps when handing out tasks as you can easily tell who seemingly has got time to spare.
+Because we rotated the scrum master role you spent most of the time working as just a regular developer. You won't hear me complaining about that, I was very fond of being a teammember as it gives you the luxury to mostly focus on yourself and knock out tasks. And because of Stand-ups and Stand-downs you don't risk being completely isolated from your team. As stand-ups and stand-downs enforce oppertunities to communicate with your team. During stand-ups and stand-downs you get a moment where you are free to speak and everyone listens. It makes sure that if you're in need of anything you are heard. The scrum board also is a very nice tool when you are a developer. Being able to accurately establish what you've done and what others are doing. Makes it a lot harder to have misunderstandings within the team. It also helps when handing out tasks as you can easily tell who seemingly has got time to spare.
 
 #### **My overal opinion on Agile and Scrum**
 Would I use these methodologies again in the future? 
+
 Yes I would, I really like the structures that this combination of methodologies offer. I think the benefits are very much worth it, And I've had good experiences using this way of working this far. I think adaptability is one of the strongest skills you can possess of in life and this way of working supports that. I also do think communication in teams is very important and this is supported as well. Therefore I am very satisfied.
 
 

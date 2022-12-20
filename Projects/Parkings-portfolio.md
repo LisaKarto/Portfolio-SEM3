@@ -301,7 +301,7 @@ Scrum is an Agile framwork that provides structure for Agile teams to abide to. 
 
 
 #### **scrum roles**
-Scrum makes used of different roles, each of which hold specific accountabilities. 
+Scrum makes use of different roles, each of which hold specific accountabilities. 
 Below I have listed these roles and what their accountabilities are. The amount of each role in scrum teams can vary. For example a team could have 2 scrummasters at once. 
 
 Disclaimer: These are the most common practices, teams may customize these roles within their organization as they like.
@@ -331,8 +331,8 @@ accountabilities:
  -  Holding themselves and others accountable as professionals
  -  Adapting their plan each day to meet the sprint goal
   
-#### **backlog**
-As for documentation in Agile, software gets valued more. As stated in Scrum value 2, and scrum principle 7. But there has to be some kind of minimal written down contract. In Agile/scrum the requirements documentation consists out of user stories. These user stories together form a product backlog. This product backlog containing all of the user stories is later used to pick tasks from for sprints. The backlog is never definitive, meaning it is flexible to change and changes may occur throughout the whole development life cycle if demanded. 
+#### **Product backlog**
+As for documentation in Agile, software gets valued more. As stated in Scrum value 2, and scrum principle 7. But there has to be some kind of minimal written down contract. In Agile/scrum the requirements documentation consists out of user stories. User stories are a clear, concise, compact and less taxing form of requirement documentation. These user stories together form a product backlog. This product backlog containing all of the user stories is later used to pick tasks from for sprints. The backlog is never definitive, meaning it is flexible to change and changes may occur throughout the whole development life cycle if demanded. 
 
 >**scrum value 2:** Working software over comprehensive documentation
 
@@ -360,34 +360,82 @@ According to Agile, reflection is important in a team during the development lif
 
 ## Workflow parkkings
 
-### Why we use Agile and scrum
-First and foremost, obviously
-### How we, Parkkings used Agile
+### **Why we use Agile and scrum**
+First and foremost, Using Agile is one of our learning outcomes for this course. So us using Agile is a given as it is forced upon us. However that doesn't mean that is the only reason. If I were to choose what methodology we could pick from, I would still choose Agile as opposed to the Waterfall approach. Why?
 
-### How we, Parkkings used Scrum
+Now, Fontys did require us to use Agile but if you remember from last chapter. Agile has quite a handful of different frameworks to pick from. So why Scrum and not something like.. XP?
 
-*  Hiring team members exercise  
+**Why Agile?**  
+[Benefits](#agile-benefits)  
+
+**Why Scrum?**
+
+### **How we, Parkkings used Agile**
+
+As mentioned up above, We use the Agile methodology together with it's scrum framework.
+We have also broken our project into smaller parts right away.
+Agile wise we follow most of it's values and principles. For example. Value 2 is utilized, We haven't made much more documentation than user stories so we could start developing swiftly. 
+
+### **How we, Parkkings used Scrum**
+
+Scrum roles:   
+As far as the Product owner role went it always stayed the same. The employees from Mediaan would be our Product owners and this never changed. As for Scrum masters however this was different. We've decided to rotate this role around after sprints.
+
+Daily stand-ups:  
+We made an agreement to hold Daily stand-ups each workday as soon as every member arrived. These went smoothly, The scrum master would call out someone's name and that person would then get the oppertunity to talk. Everyone gave eachother room to speak and if needed for additional information this was always done respectfully.
+
+Daily stand-downs:  
+Just like Daily stand-ups we made an agreement to hold Daily stand-downs. However this was less smooth as some members would sometimes have to leave earlier than others. For this the suggestion had been made to send a message in our discord environment with what you would have wanted to say during the stand-down.
+
+sprints:  
+During this development cycle we worked in sprints of 3 weeks.
+
+sprint reviews:
+
+retrospectives:
+
+* Hiring team members exercise  
   For this excercise Mediaan challenged us to sit with the whole team look them straight in the eye and tell them whether you would hire them for your hypothetical business or not. 
 * Miro board exercise  
   For this excercise Mediaan gave us a board with various types of blanks to fill in. 
 
 ### My experiences with these methodologies during this project
 
-#### My time as scrummaster
+#### **My time as scrummaster**
 
-##### Leading scrum reviews
+I find that as scrummaster my team seemed to be asking me a lot more questions. 
+And the questions I was being asked were more decision based than technical.
 
-Feedback I received/What I've learnt: 
-#### My time as a teammember
-#### My overal opinion
-Would I do it again? ..
+##### **Leading scrum reviews**
+As team we decided that whoever is the scrum master for a sprint also leads the review at the start. 
 
-Yes. 
+Feedback I received/What I've learnt while leading a scrum review: 
+
+**Do I agree with the feedback/tips I received?**
+
+Overall I do agree with this feedback, in my mind events went terribly because of this laptop performance issue. Perhaps I am being hard on myself, it's just that I had envisioned it to go a completely different route. At fact I had told myself to take lead in the review as best as possible. But instead I stuttered as the application failed to load and the product owners started lagging on my end. 
+
+So the tips they gave are very handy as I will probably continue on with the same setup. I am definitely taking these tips with me for the future.
+
+So in conclusion.. I agree with the feedback, at fact there was more positive feedback than I had expected. :) So Thank you to the product owners, my GP-teacher and Semestercoach for being so kind about the review. 
+
+#### **My time as a teammember/developer**
+Because we rotate the scrum master role you spent most of the time working as just a regular developer. You won't hear me complaining about that, I was very fond of
+I think it's a nice way of working. As stand-ups and stand-downs give you a good oppertunity to communicate with your team. It's nice to have a moment where you are free to speak and everyone listens. It makes sure that if you're in need of anything you are heard. The scrum board also is a very nice tool when you are a developer. Being able to accurately establish what you've done and what others are doing. Makes it a lot harder to have misunderstandings where people point fingers and say "Hey, you're just sitting on your ass." It also helps delegate tasks as you can easily tell who seemingly has got time to spare.
+
+#### **My overal opinion on Agile and Scrum**
+Would I use these methodologies again in the future? 
+
+
 ## Our work environment
+Here I have listed our work environment platforms and what we used them for.
 
-**Jira:**  
-**Github:**  
-**Discord:**
+**Jira:**    
+used for: Scrum environment, Scrum board and backlog  
+**Github:**    
+used for: source code hosting, CI/CD pipelines  
+**Discord:**  
+used for: Communication
 
 
 # Website design

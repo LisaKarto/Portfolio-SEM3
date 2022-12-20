@@ -361,14 +361,16 @@ According to Agile, reflection is important in a team during the development lif
 ## Workflow parkkings
 
 ### **Why we use Agile and scrum**
-First and foremost, Using Agile is one of our learning outcomes for this course. So us using Agile is a given as it is forced upon us. However that doesn't mean that is the only reason. If I were to choose what methodology we could pick from, I would still choose Agile as opposed to the Waterfall approach. Why?
+First and foremost, Using Agile is one of our learning outcomes for this course. So us using Agile is a given as it is forced upon us. However that doesn't mean that is the only reason. If I were to choose what methodology we could pick from, I would still choose Agile as opposed to the Waterfall approach. I have written more about that below.
 
-Now, Fontys did require us to use Agile but if you remember from last chapter. Agile has quite a handful of different frameworks to pick from. So why Scrum and not something like.. XP?
+And Fontys did require for us to use Agile but if you remember from last chapter. Agile has quite a handful of different frameworks to pick from. So why Scrum?
 
-**Why Agile?**  
-[Benefits](#agile-benefits)  
+**Why I would choose Agile for this project**  
+But personally for me the Agile [Benefits](#agile-benefits) are it's main selling point. Throughout my developer career I've always been warned of the following situation, the situation where you've worked on a product for 6 months without seeying your customer and delivering it to them. And then the customer looks at you confused and says "This isn't what I asked for?". And 6 months go down the drain, Agile mitigates the risk of this happening as you take your customer with you throughout the entire development cycle.  
 
-**Why Scrum?**
+**Why I would choose Scrum for this project**
+Agile is nice but without framework I wouldn't entirely know where to start or how to keep going. Scrum has helped a lot by providing some structure. Scrum's daily stand-up and stand-down idealogy has proved very well for in team communication, and I value it just as much as Agile does. I personally struggle with communication at times so the guidelines/structure proves very beneficial for a person like me.
+
 
 ### **How we, Parkkings used Agile**
 
@@ -378,28 +380,35 @@ Agile wise we follow most of it's values and principles. For example. Value 2 is
 
 ### **How we, Parkkings used Scrum**
 
-Scrum roles:   
+**Scrum roles:**  
 As far as the Product owner role went it always stayed the same. The employees from Mediaan would be our Product owners and this never changed. As for Scrum masters however this was different. We've decided to rotate this role around after sprints.
 
-Daily stand-ups:  
+**Product Backlog:**
+
+**StoryPoints:**
+
+**Daily stand-ups:**  
 We made an agreement to hold Daily stand-ups each workday as soon as every member arrived. These went smoothly, The scrum master would call out someone's name and that person would then get the oppertunity to talk. Everyone gave eachother room to speak and if needed for additional information this was always done respectfully.
 
-Daily stand-downs:  
+**Daily stand-downs:**  
 Just like Daily stand-ups we made an agreement to hold Daily stand-downs. However this was less smooth as some members would sometimes have to leave earlier than others. For this the suggestion had been made to send a message in our discord environment with what you would have wanted to say during the stand-down.
 
-sprints:  
-During this development cycle we worked in sprints of 3 weeks.
+**Sprints:**  
+During our development we worked in sprints of 3 weeks. Each sprint we'd have a number of tasks to work on.
 
-sprint reviews:  
+**Sprint reviews:**  
 At the end of each sprint we scheduled sprint reviews with our product owners to discuss last sprint and also establish the following sprint.
 
 
-retrospectives:
+**Retrospectives:**  
+We've done a few retrospective after sprints with our team, sometimes lead by our semestercoach and sometimes even lead by our product owners.
 
-* Hiring team members exercise  
-  For this excercise Mediaan challenged us to sit with the whole team look them straight in the eye and tell them whether you would hire them for your hypothetical business or not. 
-* Miro board exercise  
-  For this excercise Mediaan gave us a board with various types of blanks to fill in. 
+* Excel list:  
+  For this retrospective, we sat down with our semestercoach and went down a list of statements to which each team member then gave a 1-5 number signifying whether they agreed with the statement or not. This proved to be rather interesting as certain points did spark, laughter or slight conversation. However this was rather early into the development and our team seemed rather streamlined on most things at the time.
+* Hiring team members exercise:  
+  For this retrospective excercise Mediaan (POs) challenged us to sit with the whole team look them straight in the eye and tell them whether you would hire them for your hypothetical business or not. This was right after a sprint in which we've had our best perormance thus far. (I am writing this during sprint 4 so not all sprints have been ended yet) So happily for us, everyone hired eachother on the spot.
+* Miro board exercise:  
+  For this retrospective excercise Mediaan (POs) gave us a board with various types of blanks to fill in below statements. This proved to be challenging as the statements really made you think in certain directions. An example statement would be "The sharks that could bite us". This enforced us to really think about what kind of challenges we could come to face, which we otherwise would have maybe overlooked during a retrospective. 
 
 ### My experiences with these methodologies during this project
 

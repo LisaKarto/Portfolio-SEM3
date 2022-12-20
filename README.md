@@ -1,4 +1,4 @@
-<span style="font-size:2em"> SEM 3 Portfolio Lisa Kartodimedjo </span>
+<span style="font-size:30px"> SEM 3 Portfolio Lisa Kartodimedjo </span>
 * * *
 
 **Institution of education:** Fontys university of applied sciences   

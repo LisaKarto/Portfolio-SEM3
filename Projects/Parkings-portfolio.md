@@ -159,7 +159,9 @@ To accurately carry out our analysis we must first describe the situation withou
 **current flow:** A visitor shows up at a parking garage and enters through the gate. A visitor will then look around to see if there's any parking spaces available. A visitor will then find a parking space and park their car there.
 <!-- insert diagram here -->
 
-current flow diagram, For ease you can refer to the below activity diagram that serves as a symbolistic illustration on the current process flow:  
+current flow diagram, For ease you can refer to the figure 1 activity diagram that serves as a symbolistic illustration on the current process flow:  
+
+figure 1: non software aided flow diagram.   
  ![Activity diagram no software](/Projects/assets/AD%20no%20software.png)
 
 **Exceptions:** 
@@ -179,8 +181,9 @@ To accurately carry out our analysis we must now describe the situation with the
 
 **software aided flow:** A visitor uses our web application to make a reservation, a visitor chooses a date and time to park. The system lets the visitor know wether or not the visitor can park at that time. If the visitor is able to park at that time the system will assign a designated parking space to the visitor. Now the visitor has a guaranteed spot for the day and time they arrive. On the reserved date a visitor simply drives up to the garage, identifies themselves at the gate and parks in their designated spot.  
 
-software aided flow diagram, For ease you can refer to the below activity diagram that serves as a symbolistic illustration on the software aided process flow:  
+software aided flow diagram, For ease you can refer to the figure 2 activity diagram that serves as a symbolistic illustration on the software aided process flow:  
 
+figure 2: software aided flow diagram.  
 ![Activity diagram no software](/Projects/assets/AD%20software.png)  
 
 **Eceptions:**
@@ -230,7 +233,8 @@ Agile puts focus upon the way of thinking about collaboration and workflows with
 
 ### **How do you work Agile** 
 
-Working Agile is working according to the agile values and principles. But for those who prefer consuming knowledge in paragraphs over lists here are a few examples of actions that Agile teams take; When working Agile teams break large projects down into short timelines and deliver regularly. Delivering regularly helps to make sure that stakeholders are involved during the development cycle as much as possible. Agile teams must have a flexible mindset. If during a delivery meetup with the stakeholders changes are made to requirements, the Agile team should be able to implement this change without suffering too much of a delay. When working Agile you are required to think innovatively and strive to improve by participating in frequent reflections.
+Working Agile is working according to the agile values and principles. But for those who prefer consuming knowledge in paragraphs over lists here are a few actions that Agile teams take; When working Agile teams break large projects down into short timelines and deliver regularly. As for requirement documentation the development team won't spend too much time writing exhaustive documentation. Instead the team will set up a backlog with user stories that have been agreed upon by the customer. User stories are descriptive and relatively quick to write and easy to understand.
+Delivering regularly helps to make sure that stakeholders are involved during the development cycle as much as possible. Agile teams must have a flexible mindset. If during a delivery meetup with the stakeholders changes are made to requirements, the Agile team should be able to implement this change without suffering too much of a delay. When working Agile you are required to think innovatively and strive to improve by participating in frequent reflections.
 
 Below I have listed a simple overview of these values and principles. For more information on these values and principles you can refer to the appendix. (The appendix has anchors back to this part of this document, so you don't have to fear getting lost.)  Or you can redirect to wrike's documentation on agile, which I've used as a source [here](https://www.wrike.com/agile-guide/agile-manifesto/).
 
@@ -292,14 +296,71 @@ If you are interested in the other frameworks listed, you can find more informat
 For our project we decided to make use of the scrum framework within Agile. Scrum is a framework for managing work designed best working for teams of 5-9 members. (Not all scrum is Agile)
 
 
-### scrum
-#### scrum board
-#### sprints
-#### retrospectives
+### **scrum**
+Scrum is an Agile framwork that provides structure for Agile teams to abide to. Scrum can be used for complex projects done by a development team of about 5 - 9 team members. 
 
- 
+
+#### **scrum roles**
+Scrum makes used of different roles, each of which hold specific accountabilities. 
+Below I have listed these roles and what their accountabilities are. The amount of each role in scrum teams can vary. For example a team could have 2 scrummasters at once. 
+
+Disclaimer: These are the most common practices, teams may customize these roles within their organization as they like.
+
+A scrum team consists out of the following roles:
+- Product owner: Makes sure that the scrum team is creating the most valuable product possible.
+
+accountabilities:
+- Communicating the product goal.
+- Clearly communicating Product Backlog items.
+- Ordering Product Backlog items.
+- Ensuring that the Product Backlog is understood.
+
+Scrum Master: Makes sure the scrum team is as effective as possible. Scrum masters have to be good at steering their developers and they need to have a good overview of what is being done. They also tend to manage/take lead in stand-ups, stand-downs and sprint reviews.
+
+accountabilities:
+-  Coaching team members in self management.
+-  Helping the team focus on creating high-value increments that meet the definition of done.
+-  Helping find techniques for effective Product Backlog management.
+-  Leading, training and coaching organizations through scrum adoptions.
+-  Helping others through their scrum knowledge and making sure rules are clear to everyone.
+
+Developer: Works to create the product.
+
+accountabilities:
+ -  Instilling quality by staying faithful to the Definition of Done.
+ -  Holding themselves and others accountable as professionals
+ -  Adapting their plan each day to meet the sprint goal
+  
+#### **backlog**
+As for documentation in Agile, software gets valued more. As stated in Scrum value 2, and scrum principle 7. But there has to be some kind of minimal written down contract. In Agile/scrum the requirements documentation consists out of user stories. These user stories together form a product backlog. This product backlog containing all of the user stories is later used to pick tasks from for sprints. The backlog is never definitive, meaning it is flexible to change and changes may occur throughout the whole development life cycle if demanded. 
+
+>**scrum value 2:** Working software over comprehensive documentation
+
+>**scrum principle 7:** Working software is the primary measure of progress.
+
+#### **scrum board**
+These user stories and tasks can be put in a scrum board. A scrum board offers a clear overview of; what needs to be done, is being done and what is done. Teams can also customize this board to other statusses, a custom example additional status would be: "In testing". The scrum board helps the developers and stakeholders know what the state of the project is at all times in real time. (if utilized properly) You can view an example scrumboard in the image below.
+
+Figure 3. Example scrumboard
+![example scrum board](https://www.visualworkplace.nl/static/upload/full/c6927be1-f3aa-4448-ab6d-5d611745896d/Folens-Scrum+board-%28120x90cm%29-MvJ-v1-13-10-2015.jpg)
+
+
+#### **Daily stand-ups and stand-downs**
+Teams participate in daily stand-ups and stand-downs. These activities ensure good communication within a scrum team and are often steered by the scrum master. During the daily stand-up, often the first thing in the morning the scrumteam comes together to share their ideas and goals for the day. Then the team goes to work and at the end of the workday the team comes together once more to hold their daily stand-down. In which they do a status update to eachother.
+
+#### **sprints**
+As mentioned in the previous segment about Agile, part of Agile is to break up a project in smaller timelines. In scrum we call these shorter timelines "Sprints". Sprints usually consists out of 1-5 weeks of work. At the start of a sprint, the product owners and the team sit down together to decide which tasks need to be worked on. Then the development team goes to work, at the end of the sprint a review/delivery takes place. During said review/delivery the product owners and the development team can discuess what's happend this sprint and what the wishes are for the following sprint. These review/delivery meetings are usually lead by the team's scrummaster.
+
+#### **Sprint reviews**
+At the end of each sprint, the sprint team sits down with the stakeholders of the project and does a status update on the project. These sprint reviews ensure good communication with the stakeholders and also open a oppertunity for discussions, new ideas and or changes.
+
+#### **retrospectives**
+According to Agile, reflection is important in a team during the development lifecycle. Scrum does a great job supporting this by making teams do frequent retrospectives (Most commonly done at the end of each sprint) where developers can face themselves and eachother honestly and think about how to improve their productivity. There's all sorts of approaches a team can utilize to do these retrospectives. There's even tools designed for these retrospectives that enforce teams to really get to the important pressure points that would otherwise be forgotten or overlooked.
+
+
 ## Workflow parkkings
-### **Why we use Agile**
+
+### Why we use Agile and scrum
 First and foremost, obviously
 ### How we, Parkkings used Agile
 
@@ -310,7 +371,7 @@ First and foremost, obviously
 * Miro board exercise  
   For this excercise Mediaan gave us a board with various types of blanks to fill in. 
 
-### My experiences 
+### My experiences with these methodologies during this project
 
 #### My time as scrummaster
 
@@ -563,4 +624,5 @@ https://thedigitalprojectmanager.com/projects/pm-methodology/project-management-
 https://hubstaff.com/tasks/state-of-remote-project-management  
 https://www.redhat.com/en/topics/devops/what-is-agile-methodology  
 https://www.mendix.com/agile-framework/#:~:text=Scrum%20is%20the%20most%20common,%2DDriven%20Development%20(FDD).
-https://www.wrike.com/agile-guide/agile-manifesto/
+https://www.wrike.com/agile-guide/agile-manifesto/  
+https://www.scrum.org/resources/what-is-scrum

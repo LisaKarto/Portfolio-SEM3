@@ -361,19 +361,16 @@ According to Agile, reflection is important in a team during the development lif
 ## Workflow parkkings
 
 ### **Why we use Agile and scrum**
-First and foremost, Using Agile is one of our learning outcomes for this course. So us using Agile is a given as it is forced upon us. However that doesn't mean that is the only reason. If I were to choose what methodology we could pick from, I would still choose Agile as opposed to the Waterfall approach. I have written more about that below.
+First and foremost, Using Agile is one of our learning outcomes for this course. So us using Agile is a given as it is forced upon us. However that doesn't mean that is the only reason. If I were to choose what methodology we could pick from, I would still choose Agile as opposed to the Waterfall approach. I have written more about that below. Using scrum was also encouraged by our stakeholders so naturally we gravitated towards the scrum framework. Agile in addition the scrum framework are commonly used practices.
 
-And Fontys did require for us to use Agile but if you remember from last chapter. Agile has quite a handful of different frameworks to pick from. So why Scrum?
-
-**Why I would choose Agile for this project**  
-But personally for me the Agile [Benefits](#agile-benefits) are it's main selling point. Throughout my developer career I've always been warned of the following situation, the situation where you've worked on a product for 6 months without seeying your customer and delivering it to them. And then the customer looks at you confused and says "This isn't what I asked for?". And 6 months go down the drain, Agile mitigates the risk of this happening as you take your customer with you throughout the entire development cycle.  
+**Why I would choose Agile for this project**   
+Personally for me the Agile [Benefits](#agile-benefits) are it's main selling point. Throughout my developer career I've always been warned of the following situation, the situation where you've worked on a product for 6 months without seeying your customer and delivering it to them. And then the customer looks at you confused and says "This isn't what I asked for?". And 6 months go down the drain, Agile mitigates the risk of this happening as you take your customer with you throughout the entire development cycle.  
 
 **Why I would choose Scrum for this project**
 Agile is nice but without framework I wouldn't entirely know where to start or how to keep going. Scrum has helped a lot by providing some structure. Scrum's daily stand-up and stand-down idealogy has proved very well for in team communication, and I value it just as much as Agile does. I personally struggle with communication at times so the guidelines/structure proves very beneficial for a person like me.
 
 
 ### **How we, Parkkings used Agile**
-
 As mentioned up above, We use the Agile methodology together with it's scrum framework.
 We have also broken our project into smaller parts right away.
 Agile wise we follow most of it's values and principles. For example. Value 2 is utilized, We haven't made much more documentation than user stories so we could start developing swiftly. 
@@ -384,8 +381,20 @@ Agile wise we follow most of it's values and principles. For example. Value 2 is
 As far as the Product owner role went it always stayed the same. The employees from Mediaan would be our Product owners and this never changed. As for Scrum masters however this was different. We've decided to rotate this role around after sprints.
 
 **Product Backlog:**
+At the start of the intial sprint, we had been given a case by our product owners which we then took and converted into a cluster of user stories. Those user stories were then verified by our product owners and those stories became our Product backlog.
 
 **StoryPoints:**
+User stories have storypoints, storypoints are estimates that indicate how long a team suspect a user story or task takes. I wanted to document this because of the way we as a team decided on what storypoint a task should get. In order to define storypoints for task we all sat together and used a third party user point voting tool. After voting we'd discuss for each member why they submitted the number they voted for. And together we'd reach a conclusion on what it should be. 
+
+Personally I liked this process because more often than not it was rapid and it sparked discussion on user stories and got us all talking about what comes to play when developing certain user stories. Sometimes other developers are able to spot functionalities or checks that you hadn't yet thought of.
+
+The tool we used to vote for storypoints: https://www.planitpoker.com/
+
+**Scrumboard:**   
+To keep a clear overview during our work for us as well as the product owners, we kept a scrumboard. Our product owners were very encouraging and fond of this because it helped them see what we are working on at all times. Below I have included a screenshot of our sprintboard during sprint 5. So you get an idea of what our stages of development included.
+
+figure 4: Parkkings sprint 5 scrumboard.
+![parkkings sprint 5 scrumboard](/Projects/assets/scrumboardparkkings.JPG)
 
 **Daily stand-ups:**  
 We made an agreement to hold Daily stand-ups each workday as soon as every member arrived. These went smoothly, The scrum master would call out someone's name and that person would then get the oppertunity to talk. Everyone gave eachother room to speak and if needed for additional information this was always done respectfully.
@@ -394,14 +403,14 @@ We made an agreement to hold Daily stand-ups each workday as soon as every membe
 Just like Daily stand-ups we made an agreement to hold Daily stand-downs. However this was less smooth as some members would sometimes have to leave earlier than others. For this the suggestion had been made to send a message in our discord environment with what you would have wanted to say during the stand-down.
 
 **Sprints:**  
-During our development we worked in sprints of 3 weeks. Each sprint we'd have a number of tasks to work on.
+During our development we worked in sprints of 3 weeks. Each sprint we'd have a number of tasks to work on and thus a goal to meet. Our official workdays would be on Thursdays and Fridays. However later in the semester our team made an agreement to work on Thursdays and Wednesday in order to merge/do checkups before sprint reviews. On Thursdays we'd meet face to face and on the other day, thus either Friday or Wednesday we'd meet online.
 
 **Sprint reviews:**  
-At the end of each sprint we scheduled sprint reviews with our product owners to discuss last sprint and also establish the following sprint.
+At the end of each sprint we scheduled sprint reviews with our product owners to discuss last sprint and also establish tasks for the following sprint.
 
 
 **Retrospectives:**  
-We've done a few retrospective after sprints with our team, sometimes lead by our semestercoach and sometimes even lead by our product owners.
+Throughout our development phase we've done a few retrospective after sprints with our team, sometimes lead by our semestercoach and sometimes even lead by our product owners.
 
 * Excel list:  
   For this retrospective, we sat down with our semestercoach and went down a list of statements to which each team member then gave a 1-5 number signifying whether they agreed with the statement or not. This proved to be rather interesting as certain points did spark, laughter or slight conversation. However this was rather early into the development and our team seemed rather streamlined on most things at the time.
@@ -410,17 +419,23 @@ We've done a few retrospective after sprints with our team, sometimes lead by ou
 * Miro board exercise:  
   For this retrospective excercise Mediaan (POs) gave us a board with various types of blanks to fill in below statements. This proved to be challenging as the statements really made you think in certain directions. An example statement would be "The sharks that could bite us". This enforced us to really think about what kind of challenges we could come to face, which we otherwise would have maybe overlooked during a retrospective. 
 
-### My experiences with these methodologies during this project
+### My experiences with Agile and scrum during this project
 
 #### **My time as scrummaster**
 
 I find that as scrummaster my team seemed to be asking me a lot more questions. 
-And the questions I was being asked were more decision based than technical.
+And the questions I was being asked were more decision based than technical. I also find that Daily stand-ups and stand-downs aren't as nervewrecking to do as I thought but this may also be because I have a very nice team with good morale. We usually have good laughs as I look them all in the eyes and ask them if they need anything. I dont know why they think that is funny, but they do.
 
 During this time I also had to lead a scrum review. This means, setting up a powerpoint and 
-To do this it is important you prepare yourself well as you don't want to have any slip ups in front of your customers. However do not forget that you do still have your team to back you up. And fortunately I had a very nice team for this course and they delivered. 
+To do this it is important you prepare yourself well as you don't want to have any slip ups in front of your customers. As much as I had tried to prepare myself I wasn't quite prepared for just how bad my laptop would handle the application, I usually develop on my PC and it has a lot more power than my laptop. So I did have a bit of a panick realizing that my laptop wasn't taking it well during the review.
+ However do not forget that when something like that happens you do still have your team to back you up. And fortunately I had a very nice team for this course who backed me up during my struggles by taking over the presentation to their laptop so I could present without laptop performance issues.
 
-Feedback I received/What I've learnt while leading a scrum review: 
+**Feedback I received/What I've learnt while leading a scrum review:**
+
+* Rather than adding a table of contents add a Agenda
+* Ask if anyone wants to add anything to the agenda
+* You have the option to take a video of a demo  
+* Deligate responsibilities, example: one person presents another person carries out the demo
 
 **Do I agree with the feedback/tips I received?**
 
@@ -536,7 +551,7 @@ To keep things clear for myself and not just create one big clustered self refle
 **What I've worked on during this sprint**  
 During this sprint, we mainly worked on setting up our Product backlog. I found myself as lead of writing user stories. So I took the case delivered to us by our product owners and started disecting it into 1 central, compact google docs file filled with user stories. Writing user stories for each milestone, included: Writing the userstory, writing the according acceptance criterea, deciding the definition of ready and the definition of done. We also all agreed to study up a bit of REACT as we had decided that was the framework we would be using for the front end of the application.
 
-**Did I accomplish my work during this sprint?**
+**Did I accomplish my work during this sprint?**  
 Yes, mostly. However, I think I should have asked for more reviews/confirmations on the user stories as it is rather hard to write them in advance. As you kind of instantly need to visualize the application. And our application is rather intricate to just be able to write user stories for without forgetting or overlooking anything.
 
 **What I've learnt during this sprint**

@@ -390,7 +390,9 @@ Just like Daily stand-ups we made an agreement to hold Daily stand-downs. Howeve
 sprints:  
 During this development cycle we worked in sprints of 3 weeks.
 
-sprint reviews:
+sprint reviews:  
+At the end of each sprint we scheduled sprint reviews with our product owners to discuss last sprint and also establish the following sprint.
+
 
 retrospectives:
 
@@ -406,8 +408,8 @@ retrospectives:
 I find that as scrummaster my team seemed to be asking me a lot more questions. 
 And the questions I was being asked were more decision based than technical.
 
-##### **Leading scrum reviews**
-As team we decided that whoever is the scrum master for a sprint also leads the review at the start. 
+During this time I also had to lead a scrum review. This means, setting up a powerpoint and 
+To do this it is important you prepare yourself well as you don't want to have any slip ups in front of your customers. However do not forget that you do still have your team to back you up. And fortunately I had a very nice team for this course and they delivered. 
 
 Feedback I received/What I've learnt while leading a scrum review: 
 
@@ -421,20 +423,27 @@ So in conclusion.. I agree with the feedback, at fact there was more positive fe
 
 #### **My time as a teammember/developer**
 Because we rotate the scrum master role you spent most of the time working as just a regular developer. You won't hear me complaining about that, I was very fond of
-I think it's a nice way of working. As stand-ups and stand-downs give you a good oppertunity to communicate with your team. It's nice to have a moment where you are free to speak and everyone listens. It makes sure that if you're in need of anything you are heard. The scrum board also is a very nice tool when you are a developer. Being able to accurately establish what you've done and what others are doing. Makes it a lot harder to have misunderstandings where people point fingers and say "Hey, you're just sitting on your ass." It also helps delegate tasks as you can easily tell who seemingly has got time to spare.
+I think it's a nice way of working. As stand-ups and stand-downs give you a good oppertunity to communicate with your team. It's nice to have a moment where you are free to speak and everyone listens. It makes sure that if you're in need of anything you are heard. The scrum board also is a very nice tool when you are a developer. Being able to accurately establish what you've done and what others are doing. Makes it a lot harder to have misunderstandings where people point fingers and say "Hey, you're just sitting on your ass." It also helps when handing out tasks as you can easily tell who seemingly has got time to spare.
 
 #### **My overal opinion on Agile and Scrum**
 Would I use these methodologies again in the future? 
+Yes I would, I really like the structures that this combination of methodologies offer. I think the benefits are very much worth it, And I've had good experiences using this way of working this far. I think adaptability is one of the strongest skills you can possess of in life and this way of working supports that. I also do think communication in teams is very important and this is supported as well. Therefore I am very satisfied.
 
 
 ## Our work environment
 Here I have listed our work environment platforms and what we used them for.
 
-**Jira:**    
-used for: Scrum environment, Scrum board and backlog  
-**Github:**    
-used for: source code hosting, CI/CD pipelines  
-**Discord:**  
+**Jira:** https://s3-gp-groep2.atlassian.net/jira/software/projects/PAR/boards/1   
+used for: Scrum environment, Scrum board, scrum features and backlog  
+
+**Github:** https://github.com/ParKings-inc   
+used for: source code hosting, CI/CD pipelines   
+
+For those interested the repositories are listed underneath the chapter "Technicalities".  
+Quick navigation:
+[See repository list](#repositories)
+
+**Discord:** not public  
 used for: Communication
 
 
@@ -515,15 +524,20 @@ To keep things clear for myself and not just create one big clustered self refle
 
 ## Sprint 1 reflection
 
-What I've worked on during this sprint
+**What I've worked on during this sprint**  
+During this sprint, we mainly worked on setting up our Product backlog. I found myself as lead of writing user stories. So I took the case delivered to us by our product owners and started disecting it into 1 central, compact google docs file filled with user stories. Writing user stories for each milestone, included: Writing the userstory, writing the according acceptance criterea, deciding the definition of ready and the definition of done. We also all agreed to study up a bit of REACT as we had decided that was the framework we would be using for the front end of the application.
 
-Did I accomplish my work during this sprint?
+**Did I accomplish my work during this sprint?**
+Yes, mostly. However, I think I should have asked for more reviews/confirmations on the user stories as it is rather hard to write them in advance. As you kind of instantly need to visualize the application. And our application is rather intricate to just be able to write user stories for without forgetting or overlooking anything.
 
-What I've learnt during this sprint
+**What I've learnt during this sprint**
+Writing acceptance critereas, Writing definitions of ready and definitions of done.
 
-How do I look back to this sprint?
+**How do I look back to this sprint?**  
+This sprint wasn't yet very taxing as for me it was mostly still writing user stories. As well as doing a little bit of studying ahead on REACT.
 
-Difficulties we've faced during this sprint and how we got over it.
+**Difficulties we've faced during this sprint and how we got over it.**  
+I think during this sprint there weren't many difficulties if any at all.
 
 ## Sprint 2 reflection
 

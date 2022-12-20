@@ -1,5 +1,5 @@
-# SEM 3 Portfolio Lisa Kartodimedjo 
-
+<span style="font-size:2em"> SEM 3 Portfolio Lisa Kartodimedjo </span>
+* * *
 
 **Institution of education:** Fontys university of applied sciences   
 **Study:** HBO ICT  
@@ -20,29 +20,28 @@
 IP = Individual project,
 GP = Group project,
 SC = Semester coach
-* * *
 
-# <a id="table_of_contents"></a>Table of contents
-
-* [1. Introduction](#Introduction)
-  * [1.1 Simple overview learning outcomes](#LO_Simple_Overview)
-* [2. Reader's guide](#Readers_guide)
-    *  [2.1 Portfolio structure](#Portfolio_structure) 
-  *  [2.2 Navigators](#Navigators)
-    * [2.2.1 Full portfolio navigator](#Navigator_full_portfolio)
-    * [2.2.2 Technical projects and deliverables navigator](#Navigator_Technical)
-      * [2.2.2.1 S-DB-IPS3-S3](#Navigator_Technical_IP)
-      * [2.2.2.2 S-DB-GPS3-S3](#Navigator_Technical_GP)
-    * [2.2.3 Written documents and deliverables navigator](#Navigator_written_docs)
-      * [2.2.3.1 Over all semester](#Navigator_written_docs_fullsem)
-      * [2.2.3.2 S-DB-IPS3-S3](#Navigator_written_docs_IP)
-      * [2.2.3.3 S-DB-GPS3-S3](#Navigator_written_docs_GP)
-* [3. Afterword](#Afterword)
+<span style="font-size:2em"> <a id="table_of_contents"></a>Table of contents </span>
+* * * 
+- [1. Introduction](#1-introduction)
+  - [1.1 Learning outcomes simple overview](#11-learning-outcomes-simple-overview)
+- [2. Reader's guide](#2-readers-guide)
+  - [2.1 Portfolio structure](#21-portfolio-structure)
+- [2.2 Navigators](#22-navigators)
+  - [2.2.1 Full portfolio navigator](#221-full-portfolio-navigator)
+  - [2.2.2 Technical projects and deliverables navigator](#222-technical-projects-and-deliverables-navigator)
+      - [2.2.2.1 **S-DB-IPS3-S3**:](#2221-s-db-ips3-s3)
+      - [2.2.2.2 **S-DB-GPS3-S3**:](#2222-s-db-gps3-s3)
+  - [2.2.3 Written documents and deliverables navigator](#223-written-documents-and-deliverables-navigator)
+      - [2.2.3.1 **Overall semester**:](#2231-overall-semester)
+      - [2.2.3.2 **S-DB-IPS3-S3**:](#2232-s-db-ips3-s3)
+      - [2.2.3.3 **S-DB-GPS3-S3**:](#2233-s-db-gps3-s3)
+- [3. Afterword](#3-afterword)
 
 
 * * * 
 
-# <a id="Introduction"></a>1. Introduction
+# 1. Introduction
 
 Over the period of September the 8th 2022 until January the 26th 2023 I have been following the HBO ICT Demand based software engineering course at Fontys university of applied sciences. To establish what I've learnt I've put together this portfolio. Having established this portfolio helps to demonstrate how far I've come to prove sufficient at the necessary learning outcomes of this semester. Within this portfolio you will be able to find all the information for all the different products on which I've worked this semester.
 
@@ -50,7 +49,7 @@ My portfolio consists out of several parts. This document serves as the central 
 
 In case of any questions about my portfolio, I have left my [contact info](#contact_info) at the top of this document. I won't remember much as I am not God. But feel free to try and ask me about stuff anyway.  
 [^ Table of contents](#table_of_contents)
-## <a id="LO_Simple_Overview"></a> 1.1 Learning outcomes simple overview
+## 1.1 Learning outcomes simple overview
 In the table underneath you will find the learning outcomes that have been set by Fontys for students of this semester to prove suffient at. <p style="font-size:12px"> A detailed substantation report on the relationship of my products to the learning outcomes can be found [here](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning%20outcomes%20substansiation/detailed_learning_outcomes_substansiation.md) </p>
 
 
@@ -70,9 +69,9 @@ In the table underneath you will find the learning outcomes that have been set b
 
 [^ Table of contents](#table_of_contents)
 * * *
-# <a id="Readers_guide"></a> 2. Reader's guide
+# 2. Reader's guide
 <!-- How to read this portfolio? -->
-## <a id="Portfolio_structure"></a> 2.1 Portfolio structure
+## 2.1 Portfolio structure
 
 I've split this portfolio into multiple parts in order to avoid my portfolio becoming one very tall brain numbing document, instead this way it's set up that the reader can specifically choose the type of topics to numb their brain with.
 
@@ -81,8 +80,8 @@ I've set up the structure in a way that you can read through it and access all l
 [^ Table of contents](#table_of_contents)
 
 * * *
-# <a id="Navigators"></a> 2.2 Navigators
-## <a id="Navigator_full_portfolio"></a> 2.2.1 Full portfolio navigator
+# 2.2 Navigators
+## 2.2.1 Full portfolio navigator
 Navigation for those who would like to explore all aspects of my portfolio.
 
 There are 2 main projects and thus 2 main portfolios that I've constructed. Both are written as cohorent stories that you can just read through with ease. They can be found below:
@@ -91,20 +90,20 @@ There are 2 main projects and thus 2 main portfolios that I've constructed. Both
 
 
 [^ Table of contents](#table_of_contents)
-## <a id="Navigator_Technical"></a> 2.2.2 Technical projects and deliverables navigator
+## 2.2.2 Technical projects and deliverables navigator
 
 Quick navigation for those who want to take a look at my technical deliverables only.  
 
 **Overall semester:**
 
-##### Nothing yet.  
+<span style="font-size:0.8em"> Nothing yet. </span>  
 
 
 * * * 
 
-<a id="Navigator_Technical_IP"></a>**S-DB-IPS3-S3**:  
+#### 2.2.2.1 **S-DB-IPS3-S3**:  
 
-##### Here you can find the Technical deliverables and projects applicable to **S-DB-IPS3-S3**. 
+<span style="font-size:0.8em">Here you can find the Technical deliverables and projects applicable to **S-DB-IPS3-S3**. </span>
 
 | Product          | Information                                                                | view  | Learning outcome | LO info |
 | ---------------- | -------------------------------------------------------------------------- | :---: | ---------------- | :-----: |
@@ -112,9 +111,9 @@ Quick navigation for those who want to take a look at my technical deliverables 
 | Planpal Backend  | The planpal project backend, written with Java using spring framework.     | [👁]() | LO1              |  [?]()  |
    
 
-<a id="Navigator_Technical_GP"></a>**S-DB-GPS3-S3**: 
+#### 2.2.2.2 **S-DB-GPS3-S3**: 
  
-##### Here you can find the Technical deliverables and projects applicable to **S-DB-GPS3-S3**. 
+<span style="font-size:1em"> Here you can find the Technical deliverables and projects applicable to **S-DB-GPS3-S3**. </span>
 
 | Product   | Information  | view  | Learning outcome | LO info |
 | --------- | :----------: | :---: | ---------------- | :-----: |
@@ -123,31 +122,31 @@ Quick navigation for those who want to take a look at my technical deliverables 
 
 
 [^ Table of contents](#table_of_contents)
-## <a id="Navigator_written_docs"></a> 2.2.3 Written documents and deliverables navigator
+## 2.2.3 Written documents and deliverables navigator
 Quick navigation for those who want to take a look at my written deliverables only.
 
-<a id="Navigator_written_docs_fullsem"></a>**Overall semester**:  
+#### 2.2.3.1 **Overall semester**:  
 
-##### Here you can find the written deliverables and documents applicalble to both S-DB-IPS3-S3 and S-DB-GPS3-S3.
+<span style="font-size:1em"> Here you can find the written deliverables and documents applicalble to both S-DB-IPS3-S3 and S-DB-GPS3-S3. </span>
 ```
 ```
 
-<a id="Navigator_written_docs_IP"></a>**S-DB-IPS3-S3**:  
+#### 2.2.3.2 **S-DB-IPS3-S3**:  
 
-##### Here you can find the written deliverables and documents applicable to S-DB-IPS3-S3. 
+<span style="font-size:1em"> Here you can find the written deliverables and documents applicable to S-DB-IPS3-S3. </span>
 * [Version control substantiation report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning/Documents/Version%20control%20substansiation%20report.md)  
 <a id="Navigator_written_docs_GP"></a>
 
-**S-DB-GPS3-S3**: 
+#### 2.2.3.3 **S-DB-GPS3-S3**: 
 
-##### Here you can find the written deliverables and documents applicable to S-DB-GPS3-S3. 
+<span style="font-size:1em"> Here you can find the written deliverables and documents applicable to S-DB-GPS3-S3. </span>
 * [Parkings full portfolio](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md)  
   
 [^ Table of contents](#table_of_contents)
 
-# <a id="Afterword"></a>3. Afterword
+# 3. Afterword
 
 Thank you for helping me realise that I am flawed.  
-###### knowing that no one will read this portfolio brings me comfort.
+<span style="font-size:0.7em"> knowing that no one will read this portfolio brings me comfort. </span>
 
 [^ Table of contents](#table_of_contents)

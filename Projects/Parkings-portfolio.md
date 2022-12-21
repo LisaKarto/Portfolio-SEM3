@@ -24,73 +24,73 @@ Huge thank you to everyone involved for all their guidence, help and knowledge.
 - [S-DB-GPS-S3 Parking garage Project, Parkings - Mediaan](#s-db-gps-s3-parking-garage-project-parkings---mediaan)
 - [Foreword](#foreword)
 - [Table of contents](#table-of-contents)
-- [Introduction](#introduction)
-- [Stakeholders](#stakeholders)
-  - [**Professors**](#professors)
-  - [**Our team, Parkkings**](#our-team-parkkings)
-    - [**Who are we**](#who-are-we)
-    - [**Our goal**](#our-goal)
-    - [**Members and roles**](#members-and-roles)
-      - [**Members:**](#members)
-      - [**Roles**](#roles)
-  - [**Our assigned Partner in Education, Mediaan**](#our-assigned-partner-in-education-mediaan)
-    - [**Who are they and what do they do?**](#who-are-they-and-what-do-they-do)
-    - [**Where to find them**](#where-to-find-them)
-    - [**Product owners**](#product-owners)
-- [The project](#the-project)
-  - [How does our software support the parking garages?](#how-does-our-software-support-the-parking-garages)
-  - [The reservation business process analysis](#the-reservation-business-process-analysis)
-    - [**parking reservations process without our software system**](#parking-reservations-process-without-our-software-system)
-    - [**parking reservations process using our software system**](#parking-reservations-process-using-our-software-system)
-    - [**Conclusion**](#conclusion)
-- [Website design](#website-design)
-  - [User Interface](#user-interface)
-  - [User Experience](#user-experience)
-  - [Screens](#screens)
-    - [**Parking garage app reservations management screen**](#parking-garage-app-reservations-management-screen)
-    - [**Parking garage app CMS Tarrif management screen**](#parking-garage-app-cms-tarrif-management-screen)
-    - [**Bonus UI \& UX decision example**](#bonus-ui--ux-decision-example)
-- [Project Technicalities](#project-technicalities)
-  - [Architecture and infrastructure](#architecture-and-infrastructure)
-    - [**Architecture**](#architecture)
-    - [**Infrastructure**](#infrastructure)
-- [Culture \& Ethics](#culture--ethics)
-  - [Cultural differences during this project](#cultural-differences-during-this-project)
-  - [Ethics in software](#ethics-in-software)
-  - [Ethical decisions in our group project](#ethical-decisions-in-our-group-project)
-- [Project working process](#project-working-process)
-  - [Working and structure](#working-and-structure)
-  - [Agile](#agile)
-    - [**What is Agile**](#what-is-agile)
-    - [**Working Agile**](#working-agile)
-    - [**Agile benefits**](#agile-benefits)
-      - [**Agile frameworks**](#agile-frameworks)
-    - [**scrum**](#scrum)
-      - [**scrum roles**](#scrum-roles)
-      - [**Product backlog**](#product-backlog)
-      - [**scrum board**](#scrum-board)
-      - [**Daily stand-ups and stand-downs**](#daily-stand-ups-and-stand-downs)
-      - [**sprints**](#sprints)
-      - [**Sprint reviews**](#sprint-reviews)
-      - [**retrospectives**](#retrospectives)
-  - [Workflow parkkings](#workflow-parkkings)
-    - [**Why we use Agile and scrum**](#why-we-use-agile-and-scrum)
-    - [**How we, Parkkings used Agile**](#how-we-parkkings-used-agile)
-    - [**How we, Parkkings used Scrum**](#how-we-parkkings-used-scrum)
-    - [My experiences with Agile and scrum during this project](#my-experiences-with-agile-and-scrum-during-this-project)
-      - [**My time as scrummaster**](#my-time-as-scrummaster)
-      - [**My time as a teammember/developer**](#my-time-as-a-teammemberdeveloper)
-      - [**My overal opinion on Agile and Scrum**](#my-overal-opinion-on-agile-and-scrum)
-  - [Our work environment](#our-work-environment)
-- [Reflection](#reflection)
-  - [Full project reflection](#full-project-reflection)
-- [Appendix](#appendix)
-  - [Agile Values](#agile-values)
-  - [Agile principles](#agile-principles)
-  - [Agile Benefits](#agile-benefits-1)
-- [Sources](#sources)
+- [1. Introduction](#1-introduction)
+- [2. Stakeholders](#2-stakeholders)
+  - [2.1. **Professors**](#21-professors)
+  - [2.2. **Our team, Parkkings**](#22-our-team-parkkings)
+    - [2.2.1. **Who are we**](#221-who-are-we)
+    - [2.2.2. **Our goal**](#222-our-goal)
+    - [2.2.3. **Members and roles**](#223-members-and-roles)
+      - [2.2.3.1. **Members:**](#2231-members)
+      - [2.2.3.2. **Roles**](#2232-roles)
+  - [2.3. **Our assigned Partner in Education, Mediaan**](#23-our-assigned-partner-in-education-mediaan)
+    - [2.3.1. **Who are they and what do they do?**](#231-who-are-they-and-what-do-they-do)
+    - [2.3.2. **Where to find them**](#232-where-to-find-them)
+    - [2.3.3. **Product owners**](#233-product-owners)
+- [3. The project](#3-the-project)
+  - [3.1. How does our software support the parking garages?](#31-how-does-our-software-support-the-parking-garages)
+  - [3.2. The reservation business process analysis](#32-the-reservation-business-process-analysis)
+    - [3.2.1. **parking reservations process without our software system**](#321-parking-reservations-process-without-our-software-system)
+    - [3.2.2. **parking reservations process using our software system**](#322-parking-reservations-process-using-our-software-system)
+    - [3.2.3. **Conclusion**](#323-conclusion)
+- [4. Website design](#4-website-design)
+  - [4.1. User Interface](#41-user-interface)
+  - [4.2. User Experience](#42-user-experience)
+  - [4.3. Screens](#43-screens)
+    - [4.3.1. **Parking garage app reservations management screen**](#431-parking-garage-app-reservations-management-screen)
+    - [4.3.2. **Parking garage app CMS Tarrif management screen**](#432-parking-garage-app-cms-tarrif-management-screen)
+    - [4.3.3. **Bonus UI \& UX decision example**](#433-bonus-ui--ux-decision-example)
+- [5. Project Technicalities](#5-project-technicalities)
+  - [5.1. Architecture and infrastructure](#51-architecture-and-infrastructure)
+    - [5.1.1. **Architecture**](#511-architecture)
+    - [5.1.2. **Infrastructure**](#512-infrastructure)
+- [6. Culture \& Ethics](#6-culture--ethics)
+  - [6.1. Cultural differences during this project](#61-cultural-differences-during-this-project)
+  - [6.2. Ethics in software](#62-ethics-in-software)
+  - [6.3. Ethical decisions in our group project](#63-ethical-decisions-in-our-group-project)
+- [7. Project working process](#7-project-working-process)
+  - [7.1. Working and structure](#71-working-and-structure)
+  - [7.2. Agile](#72-agile)
+    - [7.2.1. **What is Agile**](#721-what-is-agile)
+    - [7.2.2. **Working Agile**](#722-working-agile)
+    - [7.2.3. **Agile benefits**](#723-agile-benefits)
+      - [7.2.3.1. **Agile frameworks**](#7231-agile-frameworks)
+    - [7.2.4. **scrum**](#724-scrum)
+      - [7.2.4.1. **scrum roles**](#7241-scrum-roles)
+      - [7.2.4.2. **Product backlog**](#7242-product-backlog)
+      - [7.2.4.3. **scrum board**](#7243-scrum-board)
+      - [7.2.4.4. **Daily stand-ups and stand-downs**](#7244-daily-stand-ups-and-stand-downs)
+      - [7.2.4.5. **sprints**](#7245-sprints)
+      - [7.2.4.6. **Sprint reviews**](#7246-sprint-reviews)
+      - [7.2.4.7. **retrospectives**](#7247-retrospectives)
+  - [7.3. Workflow parkkings](#73-workflow-parkkings)
+    - [7.3.1. **Why we use Agile and scrum**](#731-why-we-use-agile-and-scrum)
+    - [7.3.2. **How we, Parkkings used Agile**](#732-how-we-parkkings-used-agile)
+    - [7.3.3. **How we, Parkkings used Scrum**](#733-how-we-parkkings-used-scrum)
+    - [7.3.4. My experiences with Agile and scrum during this project](#734-my-experiences-with-agile-and-scrum-during-this-project)
+      - [7.3.4.1. **My time as scrummaster**](#7341-my-time-as-scrummaster)
+      - [7.3.4.2. **My time as a teammember/developer**](#7342-my-time-as-a-teammemberdeveloper)
+      - [7.3.4.3. **My overal opinion on Agile and Scrum**](#7343-my-overal-opinion-on-agile-and-scrum)
+  - [7.4. Our work environment](#74-our-work-environment)
+- [8. Reflection](#8-reflection)
+  - [8.1. Full project reflection](#81-full-project-reflection)
+- [9. Appendix](#9-appendix)
+  - [9.1. Agile Values](#91-agile-values)
+  - [9.2. Agile principles](#92-agile-principles)
+  - [9.3. Agile Benefits](#93-agile-benefits)
+- [10. Sources](#10-sources)
 
-#  Introduction
+#  1. Introduction
 
 During semester 3 of the Fontys HBO-ICT demand based programme, Fontys challenges it's students to complete 2 courses. Namely an individual course and a group project course. This document is written with focus on my group project course experience. If you want to read more about my experience and what I've been doing for the individual course you can find more information in the central portfolio document [here](https://github.com/LisaKarto/Portfolio-SEM3).  
 
@@ -98,9 +98,9 @@ The group project course enforces you to work alongside multiple other developer
 
 [Back to table of content ⬆](#table-of-contents)
 
-# Stakeholders
+# 2. Stakeholders
  
-## **Professors**
+## 2.1. **Professors**
 During the semesters you have designated professors that will grade your work, 
 Some are more involved with the individual course and others are more involved with the group course. Here are listed the professors I've had related to the group project course and what roles they haad during this course.
 
@@ -115,21 +115,21 @@ Some are more involved with the individual course and others are more involved w
 [Back to table of content ⬆](#table-of-contents)
 
 * * *
-## **Our team, Parkkings**
+## 2.2. **Our team, Parkkings**
 
 At the start of the course the class gets tasked to construct teams of about 7 members to work with for the following 4 months. And naturally everyone settles with whoever they've coincidently have been sitting at the same table with. And so the team Parkkings was made. I've worked with these people for several months and it's safe to say that I haven't the faintest idea of who they really are. 
 
-### **Who are we**
+### 2.2.1. **Who are we**
 
 Our team Parkkings consists out of Fontys HBO-ICT students that follow the demand based programme. We all share the same profile, software engineering. 
 
-### **Our goal**
+### 2.2.2. **Our goal**
 We hope to build a functional product to satisfy our product owners, teachers and pass the semester whilst learning new skills and building upon our already existing skills.
 
-### **Members and roles**
+### 2.2.3. **Members and roles**
 To form a team you need members and each member usually holds some sort of role. Below are listed the members of Parkkings as well as some information on our the roles, we've had during this semester.
 
-#### **Members:**
+#### 2.2.3.1. **Members:**
 * Atalay, Gökay - student, software engineering
 * Derks, Jaimy  - student, software engineering - (Start semester - December)
 * Eijnde, Davey, van den - student, software engineering
@@ -138,7 +138,7 @@ To form a team you need members and each member usually holds some sort of role.
 * Peeters, Ramon - student, software engineering
 * Walraven, Jordy - student, software engineering
 
-#### **Roles**
+#### 2.2.3.2. **Roles**
 We decided not to hold any static roles so everyone can get in touch with a little bit of everything at once. So roles switched during each sprint. So at the end we've all had some experience in various scrum roles as well as coding experiences in each field. Below I've listed the roles we've all shared.
 
 **Technical roles:**
@@ -154,12 +154,12 @@ We decided not to hold any static roles so everyone can get in touch with a litt
 [Back to table of content ⬆](#table-of-contents)
 * * *
 
-## **Our assigned Partner in Education, Mediaan**
+## 2.3. **Our assigned Partner in Education, Mediaan**
 For this semester Fontys assigns it's groups with
 These partners often come in and offer projects to work on for students. Partners and help students grow into their careers.
 
 Want to see specific cases? go [here](https://mediaan.com/cases-index).
-### **Who are they and what do they do?**
+### 2.3.1. **Who are they and what do they do?**
 Mediaan is a international company in the field of business transofrmation and tech innovation.
 They also offer consultancy for companies that would like their organization to become more data-driven. 
 The mediaan team combines digital, business and organizational expertise to achieve their goals and/or help other companies achieve their goals.
@@ -168,7 +168,7 @@ Mediaan promises transparancy, skills and agility to their customers.
 read more about them, [here](https://mediaan.com/about-us).
 
 
-### **Where to find them**
+### 2.3.2. **Where to find them**
 In case of interest I have listed Mediaan's socials underneath. 
 
 **Official website:** https://mediaan.com/  
@@ -178,7 +178,7 @@ In case of interest I have listed Mediaan's socials underneath.
 **Youtube:** https://www.youtube.com/channel/UCbX3NvsTGNCc-XqJgH-4i6g  
 **Twitter:** https://twitter.com/mediaan  
 
-### **Product owners**
+### 2.3.3. **Product owners**
 Product owners are the 
 Their role during the development process is to 
 
@@ -190,7 +190,7 @@ Mediaan as a whole has a lot of employees, but the people that we've been fortun
 
 [Back to table of content ⬆](#table-of-contents)
 * * *
-# The project
+# 3. The project
 
 Mediaan has had for parking garages but don't currently have the resources to build a proof of concept for. And that's where we, Parkkings come in to play. Below you can read the information we have received from our Product owners to work with.
 
@@ -239,18 +239,18 @@ Requirements:
 - Logout
 
 <!-- Business process -->
-## How does our software support the parking garages?
+## 3.1. How does our software support the parking garages?
 For this chapter I want to focus on the parking reservations process of a parking space soley. Other processes may be described in the future. 
 
 I believe our system will have impact during the parking reservations process by ensuring a parking space for visitors, because our system lets a visitor know in advance wether a parking space is available or not for the specified time at which the visitor want to park. However a visitor now needs to reserve a parking space in advance if they want their parking space to be ensured. So in order to keep the benefits in the visitor's favour the system's end to end journey for the reservation process needs to be non taxing. So our team has done it's best to ensure that more about that ux/ui listed below underneath the chapter [UI/UX](#website-design).
 
 Below you can read/follow the analysis that has been done to have reached the above conclusion. if that's not what you're into feel free to [skip to the next chapter](#technicalities).
 
-## The reservation business process analysis
+## 3.2. The reservation business process analysis
 I've analysed the business processes by comparing them to eachother, first you will find the parking space process without the aid of our software system alongsides it's flaws and why they're flaws. Then you will find the same process but this time aided by our software system, alongside will be the same list of flaws but with an explaination with why in this use case those same flaws are eliminated. Symbolistic diagrams of the processes will also be included to clearify. Lastly you can read the conclusion drawn from the evidence found during the analysis.
 
 
-### **parking reservations process without our software system**
+### 3.2.1. **parking reservations process without our software system**
 To accurately carry out our analysis we must first describe the situation without any aid of software. 
 
 **current flow:** A visitor shows up at a parking garage and enters through the gate. A visitor will then look around to see if there's any parking spaces available. A visitor will then find a parking space and park their car there.
@@ -273,7 +273,7 @@ figure 1: non software aided flow diagram.
 * **Loss of customers/potential buyers:**
   Driving/waiting around for a spot is tedious, visitors might not want to revisit because of this reason. The parking space will be associated with a bad experience and so will their destinations. This causes a loss of potential customers and thus also a loss of money that could have been earned.
 
-### **parking reservations process using our software system**
+### 3.2.2. **parking reservations process using our software system**
 To accurately carry out our analysis we must now describe the situation with the aid of software. 
 
 **software aided flow:** A visitor uses our web application to make a reservation, a visitor chooses a date and time to park. The system lets the visitor know wether or not the visitor can park at that time. If the visitor is able to park at that time the system will assign a designated parking space to the visitor. Now the visitor has a guaranteed spot for the day and time they arrive. On the reserved date a visitor simply drives up to the garage, identifies themselves at the gate and parks in their designated spot.  
@@ -298,18 +298,18 @@ Additional support:
 * **Potential to carry out data analysis:**
   Through the system experts would be able to track the parking garages, with that data experts get the potential to draw useful conclusions. Such as whether there's enough parking spaces, or at what hour most customers arrive. This way the parking garage's owners will have more support/evidence when making new decisions. For example, data could conclude that much more people want to reserve spots throughout the week than is available in the garage. This new deiscovery can prompt the parking garage's owner to expand their garage or open a new garage nearby.
 
-### **Conclusion**
+### 3.2.3. **Conclusion**
 I conclude out of the analysis I've carried out above that our software will have a positive impact on the finding a parking space process at parking garages. Yet a downside may be that visitors have to reserve a spot in advance. But I suspect it's better and cheaper than going out to a parking garage only to find out there's no available spaces and losing money on gasoline aimlessly driving around for a space whilst wating for a space to clear up. And thus would cause overall benefits for anyone making use of the parking garages and even for stores near parking spaces. Why not grab a quick red bull since we're close? :) ~~Red bull does not sponsor this portfolio~~
 
 other business processes tackled by our software system may be described in the future
 
 [Back to table of content ⬆](#table-of-contents)
 <!-- UI/UX -->
-# Website design
+# 4. Website design
 
 Now that we've done a bit of a dive into the requirements of the project, I'd like to give you more of an idea of what the app looks like. As a visual representation often helps our brains capture the idea a lot easier than a text description can. So in the next chapter I'll show you pictures of the design of our product. I'll also be writing a bit about our approach for these designs and our thoughts behind them.
 
-## User Interface 
+## 4.1. User Interface 
 The user interface is what your users get to see and really interact with and ultimately what really makes your software. User interface can make a huge impact in how a user perceives your product. And therefore it comes with it's own set of challenges and decisions. In this chapter I'd like to write about the UI decisions we've made.
 
 To approach this I'm going over two different designs for two different apps that have different target demographics. By doing this I can make clear the differences of approach when a target audience changes.
@@ -335,7 +335,7 @@ As opposed to the public application the CMS hasn't been developed nor designed 
 **Conlusion user interface**   
 So as you can see there's a clear difference between these 2 designs, this is caused by the different target groups. Public applications tend to want to stimulate satisfaction in users and extrude friendly energy. However the more private work related applications are often aimed to look more practical. Don't get mistaken private applications are still allowed to look slick, beautiful and friendly, it just often isn't the first thought when designing them as there are certain standards and requirements to be met.
 
-## User Experience 
+## 4.2. User Experience 
 While the previous segment focused on the visual representation of the app and how it impacts a user's experience visual appearance alone isn't enough 
 User experience are things such as; how many clicks it takes a user to get somewhere, whether or not it's easy for a user to navigate around your application or if they get lost a lot. An application shouldn't be too puzzeling to use for users or it may cause a recession in how much a user would like to use your application.
 
@@ -359,13 +359,13 @@ To approach this I'm going over two different designs for two different apps tha
 **Conlusion user experience**  
 The way your audience experiences your software is very important, as bad experiences drive your targets away into the hands of a competitor that offers a better experience. Thus it's important to think about what your user wants from your application and how you can offer it to your using in the least taxing form. For example; Content management systems are work related. So our audience want simplified designs that are quick to use for max efficiency (no confusing routes, not too many clicks) and stress reduction, without too much care about how it looks because it's all go go go in this environment.
 
-## Screens
+## 4.3. Screens
 For ease I chose to showcase the screens below with description for UI and UX decisions according to each screen. I've structured this chapter this way to avoid showcasing all the screens twice. I've split the screens based on their feature.
 
 * [See Parking garage app view reservations screens ⬇](#parking-garage-app-reservations-management-screen)  
 * [See Parking garage app CMS Tarrif management screens ⬇](#parking-garage-app-cms-tarrif-management-screen)
 
-### **Parking garage app reservations management screen**
+### 4.3.1. **Parking garage app reservations management screen**
 <!-- Continue here; Include screens and small descriptions -->
 **Screen viewing parking reservations:**   
 ![reservation-overview](/Projects/assets/reservation-overview.JPG)  
@@ -379,7 +379,7 @@ For ease I chose to showcase the screens below with description for UI and UX de
 [back to ui information ⬆](#user-interface)  
 [back to ux information ⬆](#user-experience)
 
-### **Parking garage app CMS Tarrif management screen**
+### 4.3.2. **Parking garage app CMS Tarrif management screen**
 <!-- Continue here; Include screens and small descriptions -->
 **Screen Viewing hourly tarrifs:**  
 ![tarrif-overview](/Projects/assets/tarrif-overview.JPG)  
@@ -396,7 +396,7 @@ the concious decision has been made on this screen to not bombard a user with ma
 [back to ux information ⬆](#user-experience)
 
 
-### **Bonus UI & UX decision example**
+### 4.3.3. **Bonus UI & UX decision example**
 <!-- Continue here; Include screens and small descriptions -->
 **Space selection screen:**  
 ![bonus-ui-ux-overview](/Projects/assets/bonus-ui-example-space-choosing.JPG)  
@@ -427,14 +427,14 @@ For those interested I have included links to our design work environment below;
 
 [Back to table of content ⬆](#table-of-contents)
 <!-- Web application -->
-# Project Technicalities
+# 5. Project Technicalities
 Software consists out of a bunch of building blocks, building blocks like languages, frameworks and a lot more that's going on below that. But the way we software developers create it is by utilizing languages and frameworks. So decisions need to be made, which languages and frameworks do you use for what project and why? In this chapter I will list what we have made use of during our building process and why. You will also find diagrams to help clearify these architectural structures.
 
 For this semester Fontys has challenged it's software engineering students to set up a distributed architecture since this has many benefits and is commonly used in software development today. So we better get to learning. This is the reason that we've chosen to set up REST api's for the backend. Fontys also wanted us to use a javascript based framework for the front end and that pairs well with a REST api distributed architecture. 
 
-## Architecture and infrastructure
+## 5.1. Architecture and infrastructure
 In this section you will find the architecture and infrastructure of the product, listed followed with compact substantiations where needed.
-### **Architecture**
+### 5.1.1. **Architecture**
 In this section you can read about the architecture of our product.  
 
 **Languages and frameworks used:**  
@@ -466,7 +466,7 @@ Below you can view a diagram that symbolizes the interaction/flow between these 
 ![Languages and frameworks diagram](/Projects/assets/Languages_and_frameworks_architecture_diagram.png)
 
 
-### **Infrastructure**
+### 5.1.2. **Infrastructure**
 Now that we know what languages and frameworks are used in the project, it may be nice to go over how these applications interact with eachother. You can find such information here. First I will list what applications make the whole Parkkings application.
 
 The Parkkings application consists out of: 
@@ -485,11 +485,11 @@ The Parkkings application consists out of:
 ![ERD](/Projects/assets/ClassDiagram_Proftaak.drawio_4.png)  
 [Back to table of content ⬆](#table-of-contents)  
 <!-- cultural differences and ethics -->
-# Culture & Ethics
+# 6. Culture & Ethics
 In this chapter you can find information on the culture & ethics within our group.
 
 
-## Cultural differences during this project
+## 6.1. Cultural differences during this project
 
 **In our team**
 As for culture we didn't have many hinders if any at all, we are all Dutch students experienced at Fontys with an interest in Software technology. Therefore our values and principles were all relatively streamlined. Within the team there were no cultural actions needed like switching up the language. 
@@ -500,11 +500,11 @@ Mediaan is an international company, however our product owners were experienced
 **The software**
 As for the software, like mentioned above our Product owners come from an international business. Therefore the software has been written to be consumed internationally. And because of that the application's text for the user to consume has all been written in English as it is our world's international language. Another example would be the colour pallete utilizes colors familiar in all countries. Green is universially known as "Good/Safe", Yellow is universionally known as "Mediocre/Warning". And red is universially known as "Bad/Danger".
 
-## Ethics in software
+## 6.2. Ethics in software
 
 Software today is incredibly impactful in society, In the world today software plays a role in how people work, live, act and even think. Which makes software engineers a rather powerful influential group. We, as software engineers need to be careful with what we put out into the world as our product can have big impact onto people their lives this impact can be good as well as it can be bad.
 
-## Ethical decisions in our group project
+## 6.3. Ethical decisions in our group project
 Our webapp mostly consists of seemingly safe features, We aren't setting strangers up together for a date without supervision or anything like that. However there are still potential dangers to our application. In 9 out of 10 software products there are hidden ethical decisions that need to be made. In our project this was mostly centered around handling user data. Our product owners brought data safety to the surface very early on in our development life cycle.
 
 **Making use of third-party components**  
@@ -523,12 +523,12 @@ When an app is produced and you want to make use of it, it's mainly initialized 
 
 [Back to table of content ⬆](#table-of-contents)
 <!-- Agile method -->
-# Project working process
+# 7. Project working process
 Underneath this chapter you can read more about how are working flow was during this project.
 
 I've first written a bit of information on the methods (Agile, scrum) we've used to guide our workflow, if you are already familiar with these methods or want to skip this section for any reason. You can refer [here](#workflow-parkkings) to get directly into how we utilized Agile and scrum during our project time.
 
-## Working and structure
+## 7.1. Working and structure
 During this semester there's a big focus drawn to a developer's way of working, products can be made just like any passion project can be made in someone's backyard.
 But me.. I never managed to finish the guillotine I'd tried to built from scratch in my backyard, why? Because I had no plan and no working structure. 
 
@@ -537,17 +537,17 @@ But me.. I never managed to finish the guillotine I'd tried to built from scratc
 A good working flow, with rules and structure can help to prevent misscommunication errors or other type of errors within a team. For we are all human after all, and working alongside eachother can be immensely challenging but with good structure we may work in complete cohorent unity. And if lucky, also harmony. If unlucky harmony without the "ony".
 
 
-## Agile 
+## 7.2. Agile 
 Sadly, I wasn't the first person alive and yes, I do blame my parents. However out of tragedy comes something good and in this case, this good something is the fact that other people have done important work for me. Such as creating the Agile way of workings. But because of that I also had no idea of it's existence, let alone it's working. However it is important to know considering it's commonly used in development teams today. But how does it work? And why do we use it? You can find the answers to that question in the following section where I've established a small research on Agile and it's most frequently used framework; Scrum.
 
-### **What is Agile**
+### 7.2.1. **What is Agile**
 > Agile is an approach to software development that seeks the continuous delivery of working software created in rapid iterations. - Red hat
 
 As the name Agile suggests, Agile designs it's teams to be able to pivot quickly and adapt to change without much difficulty. This way of working has gained a lot of popularity over the past 2 decades. When working according to the agile methodology you work by breaking your project into several phases, staying in constant collaboration with stakeholders and continuesly imrpove your product at every stage. Agile guides teams by enforcing them to engage in project planning, executing and evaluating. 
 
 Agile puts focus upon the way of thinking about collaboration and workflows with a set of values to guides a team's choices.  
 
-### **Working Agile** 
+### 7.2.2. **Working Agile** 
 
 Working Agile is working according to the agile values and principles. But for those who prefer consuming knowledge in paragraphs over lists here are a few actions that Agile teams take; When working Agile teams break large projects down into short timelines and deliver regularly. As for requirement documentation the development team won't spend too much time writing exhaustive documentation. Instead the team will set up a backlog with user stories that have been agreed upon by the customer. User stories are descriptive and relatively quick to write and easy to understand.
 Delivering regularly helps to make sure that stakeholders are involved during the development cycle as much as possible. Agile teams must have a flexible mindset. If during a delivery meetup with the stakeholders changes are made to requirements, the Agile team should be able to implement this change without suffering too much of a delay. When working Agile you are required to think innovatively and strive to improve by participating in frequent reflections.
@@ -584,7 +584,7 @@ Below a list of the 12 Agile principles values:
 
 When staying faithful to these values and principles Agile rewards you with a few benefits. 
 
-### **Agile benefits**
+### 7.2.3. **Agile benefits**
 
 When staying faithful to these values and principles Agile rewards you with many benefits of which 6 core benefits. I have listed these benefits underneath. These benefits are also listed in the appendix with more detailed descriptions of how they come to be. 
 
@@ -601,7 +601,7 @@ Below a list of the 6 core Agile benefits:
 >5. Reduced risk
 >6. Better communication
 
-#### **Agile frameworks**
+#### 7.2.3.1. **Agile frameworks**
 Agile doesn't come with a singular approach and is not a set of prescriptions listing exactly what actions to take. But then how do you really work with it? You can develop your own way of working and still abide to Agile. However to save teams some time, they have the option to choose out of various Agile frameworks and follow accordingly. To list a few of the popular ones: Scrum, Kanban and Extreme programming(XP). However our team Parkkings have made use of the Scrum Agile development framework, therefore in this document I'll only focus on that framework in particular and you can learn more about the others on your own.
 
 If you are interested in the other frameworks listed, you can find more information here:
@@ -612,11 +612,11 @@ If you are interested in the other frameworks listed, you can find more informat
 For our project we decided to make use of the scrum framework within Agile. Scrum is a framework for managing work designed best working for teams of 5-9 members. (Not all scrum is Agile)
 
 
-### **scrum**
+### 7.2.4. **scrum**
 Scrum is an Agile framwork that provides structure for Agile teams to abide to. Scrum can be used for complex projects done by a development team of about 5 - 9 team members. 
 
 
-#### **scrum roles**
+#### 7.2.4.1. **scrum roles**
 Scrum makes use of different roles, each of which hold specific accountabilities. 
 Below I have listed these roles and what their accountabilities are. The amount of each role in scrum teams can vary. For example a team could have 2 scrummasters at once. 
 
@@ -647,36 +647,36 @@ accountabilities:
  -  Holding themselves and others accountable as professionals
  -  Adapting their plan each day to meet the sprint goal
   
-#### **Product backlog**
+#### 7.2.4.2. **Product backlog**
 As for documentation in Agile, software gets valued more. As stated in Scrum value 2, and scrum principle 7. But there has to be some kind of minimal written down contract. In Agile/scrum the requirements documentation consists out of user stories. User stories are a clear, concise, compact and less taxing form of requirement documentation. These user stories together form a product backlog. This product backlog containing all of the user stories is later used to pick tasks from for sprints. The backlog is never definitive, meaning it is flexible to change and changes may occur throughout the whole development life cycle if demanded. 
 
 >**scrum value 2:** Working software over comprehensive documentation
 
 >**scrum principle 7:** Working software is the primary measure of progress.
 
-#### **scrum board**
+#### 7.2.4.3. **scrum board**
 These user stories and tasks can be put in a scrum board. A scrum board offers a clear overview of; what needs to be done, is being done and what is done. Teams can also customize this board to other statusses, a custom example additional status would be: "In testing". The scrum board helps the developers and stakeholders know what the state of the project is at all times in real time. (if utilized properly) You can view an example scrumboard in the image below.
 
 Figure 3. Example scrumboard
 ![example scrum board](https://www.visualworkplace.nl/static/upload/full/c6927be1-f3aa-4448-ab6d-5d611745896d/Folens-Scrum+board-%28120x90cm%29-MvJ-v1-13-10-2015.jpg)
 
 
-#### **Daily stand-ups and stand-downs**
+#### 7.2.4.4. **Daily stand-ups and stand-downs**
 Teams participate in daily stand-ups and stand-downs. These activities ensure good communication within a scrum team and are often steered by the scrum master. During the daily stand-up, often the first thing in the morning the scrumteam comes together to share their ideas and goals for the day. Then the team goes to work and at the end of the workday the team comes together once more to hold their daily stand-down. In which they do a status update to eachother.
 
-#### **sprints**
+#### 7.2.4.5. **sprints**
 As mentioned in the previous segment about Agile, part of Agile is to break up a project in smaller timelines. In scrum we call these shorter timelines "Sprints". Sprints usually consists out of 1-5 weeks of work. At the start of a sprint, the product owners and the team sit down together to decide which tasks need to be worked on. Then the development team goes to work, at the end of the sprint a review/delivery takes place. During said review/delivery the product owners and the development team can discuess what's happend this sprint and what the wishes are for the following sprint. These review/delivery meetings are usually lead by the team's scrummaster.
 
-#### **Sprint reviews**
+#### 7.2.4.6. **Sprint reviews**
 At the end of each sprint, the sprint team sits down with the stakeholders of the project and does a status update on the project. These sprint reviews ensure good communication with the stakeholders and also open a oppertunity for discussions, new ideas and or changes.
 
-#### **retrospectives**
+#### 7.2.4.7. **retrospectives**
 According to Agile, reflection is important in a team during the development lifecycle. Scrum does a great job supporting this by making teams do frequent retrospectives (Most commonly done at the end of each sprint) where developers can face themselves and eachother honestly and think about how to improve their productivity. There's all sorts of approaches a team can utilize to do these retrospectives. There's even tools designed for these retrospectives that enforce teams to really get to the important pressure points that would otherwise be forgotten or overlooked.
 
 [Back to table of content ⬆](#table-of-contents)
-## Workflow parkkings
+## 7.3. Workflow parkkings
 
-### **Why we use Agile and scrum**
+### 7.3.1. **Why we use Agile and scrum**
 First and foremost, Using Agile is one of our learning outcomes for this course. So us using Agile is a given as it is forced upon us. However that doesn't mean that is the only reason. If I were to choose what methodology we could pick from, I would still choose Agile as opposed to the Waterfall approach. I have written more about that below. Using scrum was also encouraged by our stakeholders so naturally we gravitated towards the scrum framework. Agile in addition the scrum framework are commonly used practices.
 
 **Why I would choose Agile for this project**   
@@ -686,12 +686,12 @@ Personally for me the Agile [Benefits](#agile-benefits) are it's main selling po
 Agile is nice but without framework I wouldn't entirely know where to start or how to keep going. Scrum has helped a lot by providing some structure. Scrum's daily stand-up and stand-down idealogy has proved very well for in team communication, and I value it just as much as Agile does. I personally struggle with communication at times so the guidelines/structure proves very beneficial for a person like me.
 
 
-### **How we, Parkkings used Agile**
+### 7.3.2. **How we, Parkkings used Agile**
 As mentioned up above, We use the Agile methodology together with it's scrum framework.
 As suggested by Agile we started by breaking the project down into smaller pieces and
 we've made sure to abide to most of it's values and principles if not all. For example the way Value 2 is utilized within our project, We haven't made extra documentation other than user stories so we could start developing swiftly. And throughout the entire development cycle we have included our customers. We did all of this by abiding to Agile's notorious framework; Scrum.
 
-### **How we, Parkkings used Scrum**
+### 7.3.3. **How we, Parkkings used Scrum**
 In order to work Agile and get lost due to lack of structure we've decided to make use of Agile's framework: Scrum. We took actions from Scrum such as, assigning scrum roles, working in sprints, keeping a scrumboard and holding frequent retrospectives. You can read more about these things specifically below.
 
 
@@ -737,11 +737,11 @@ Throughout our development phase we've done a few retrospective after sprints wi
 * Miro board exercise:  
   For this retrospective excercise Mediaan (POs) gave us a board with various types of blanks to fill in below statements. This proved to be challenging as the statements really made you think in certain directions. An example statement would be "The sharks that could bite us". This enforced us to really think about what kind of challenges we could come to face, which we otherwise would have maybe overlooked during a retrospective. 
 
-### My experiences with Agile and scrum during this project
+### 7.3.4. My experiences with Agile and scrum during this project
 Here I'd like to lay the focus back a little bit on me, as this is my portfolio and so far what I've written about our workflow has been very teambased or generic.
 And that generic,team based information doesn't really make much clear about what I've learnt and have experienced personally. So in order to make my experiences clear I've written some of my experiences and things I've learnt from them below. 
 
-#### **My time as scrummaster**
+#### 7.3.4.1. **My time as scrummaster**
 
 I find that as scrummaster my team seemed to be asking me a lot more questions. 
 And the questions I was being asked were more decision based than technical. As to when I am a fellow developer I am approached with more technical question. I also find that Daily stand-ups and stand-downs aren't as nervewrecking to do as I thought it would be. I was lucky to have been in a team with good morale, We usually had good laughs as I look them all in the eyes and ask them if they needed anything for during their workdays. I'm not sure why it was funny as I think it's a necessary question to ask according to Agile's value number one that prompts teams to value their people. But it made them laugh which raised morale so that's good.
@@ -764,16 +764,16 @@ So the tips they gave are very handy as I will probably continue on with the sam
 
 So in conclusion.. I agree with the feedback, at fact there was more positive feedback than I had expected. :) So Thank you to the product owners, my GP-teacher and Semestercoach for being so kind about the review. 
 
-#### **My time as a teammember/developer**
+#### 7.3.4.2. **My time as a teammember/developer**
 Because we rotated the scrum master role you spent most of the time working as just a regular developer. You won't hear me complaining about that, I was very fond of being a teammember as it gives you the luxury to mostly focus on yourself and knock out tasks. And because of Stand-ups and Stand-downs you don't risk being completely isolated from your team. As stand-ups and stand-downs enforce oppertunities to communicate with your team. During stand-ups and stand-downs you get a moment where you are free to speak and everyone listens. It makes sure that if you're in need of anything you are heard. The scrum board also is a very nice tool when you are a developer. Being able to accurately establish what you've done and what others are doing. Makes it a lot harder to have misunderstandings within the team. It also helps when handing out tasks as you can easily tell who seemingly has got time to spare.
 
-#### **My overal opinion on Agile and Scrum**
+#### 7.3.4.3. **My overal opinion on Agile and Scrum**
 Would I use these methodologies again in the future? 
 
 Yes I would, I really like the structures that this combination of methodologies offer. I think the benefits are very much worth it, And I've had good experiences using this way of working this far. I think adaptability is one of the strongest skills you can possess of in life and this way of working supports that. I also do think communication in teams is very important and this is supported as well. Therefore I am very satisfied.
 
 [Back to table of content ⬆](#table-of-contents)
-## Our work environment
+## 7.4. Our work environment
 Here I have listed our work environment platforms and what we used them for.
 
 **Jira:** https://s3-gp-groep2.atlassian.net/jira/software/projects/PAR/boards/1   
@@ -791,7 +791,7 @@ used for: Communication
 
 [Back to table of content ⬆](#table-of-contents)
 <!-- Professional skills -->
-# Reflection
+# 8. Reflection
 It's been a long period of time working on this group project. 
 And it's always good to look back at things so you can give your brain the oppertunity to pause amidst the chaos. To really think about the observations and experiences you've had in order to find the true meaning in what the !@#$@!$ just happend. With that being said, here you can read my self reflection; 
 
@@ -854,7 +854,7 @@ Difficulties we've faced during this sprint and how we got over it.
 **Sprint 5 reflection**
 Hasn't finished.
 * * * 
-## Full project reflection
+## 8.1. Full project reflection
 Project hasn't yet finished.
 
 And that concludes my portfolio for the S-DB-GPS3-S3 course.  
@@ -865,9 +865,9 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
 
 [Back to table of content ⬆](#table-of-contents)
 * * *
-# Appendix 
+# 9. Appendix 
 
-## Agile Values
+## 9.1. Agile Values
 
 **1. Individuals and interactions over processes and tools** [🔙](#how-do-you-work-agile)
 >
@@ -896,7 +896,7 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
   
 [Back to table of content ⬆](#table-of-contents)  
 * * * 
-## Agile principles 
+## 9.2. Agile principles 
 **1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.**[🔙](#how-do-you-work-agile)
 >What is the number one rule in software development? Keep your customer happy. Aim to deliver software to your users at regular intervals throughout the project life cycle, rather than keep them waiting for one final deliverable.
 
@@ -937,7 +937,7 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
 [Back to table of content ⬆](#table-of-contents)
 * * * 
 
-## Agile Benefits 
+## 9.3. Agile Benefits 
 
 **1. Satisfied customers** [🔙](#agile-benefits)
 >By involving customers in the development process, Agile teams keep them in the loop and show that they value their opinion. Stakeholders want to be engaged throughout the project life cycle so they can offer feedback and ensure that the final product will be suited to their needs. These tailor-made deliverables will likely improve the overall user experience and boost customer retention.
@@ -962,7 +962,7 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
 * * * 
 
 [Back to table of content ⬆](#table-of-contents)
-# Sources
+# 10. Sources
 
 https://www.wrike.com/project-management-guide/faq/what-is-agile-methodology-in-project-management/
 https://thedigitalprojectmanager.com/projects/pm-methodology/project-management-methodologies-made-simple/  

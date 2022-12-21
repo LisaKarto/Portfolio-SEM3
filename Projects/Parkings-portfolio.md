@@ -480,7 +480,7 @@ The Parkkings application consists out of:
 * MSSQL database
     
 **Infrastructure diagram**
-![Parkkigs infrastructure](/Projects/assets/architectuur_parkkings.drawio.png)
+![Parkkigs infrastructure](/Projects/assets/architectuur_parkkings.drawio.png)  
 **ERD database**
 ![ERD](/Projects/assets/ClassDiagram_Proftaak.drawio_4.png)  
 [Back to table of content ⬆](#table-of-contents)  

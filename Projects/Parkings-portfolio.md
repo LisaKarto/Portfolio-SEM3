@@ -242,9 +242,9 @@ Requirements:
 ## 3.1. How does our software support the parking garages?
 For this chapter I want to focus on the parking reservations process of a parking space soley. Other processes may be described in the future. 
 
-I believe our system will have impact during the parking reservations process by ensuring a parking space for visitors, because our system lets a visitor know in advance wether a parking space is available or not for the specified time at which the visitor want to park. However a visitor now needs to reserve a parking space in advance if they want their parking space to be ensured. So in order to keep the benefits in the visitor's favour the system's end to end journey for the reservation process needs to be non taxing. So our team has done it's best to ensure that more about that ux/ui listed below underneath the chapter [UI/UX](#website-design).
+I believe our system will have impact during the parking reservations process by ensuring a parking space for visitors, because our system lets a visitor know in advance wether a parking space is available or not for the specified time at which the visitor want to park. However a visitor now needs to reserve a parking space in advance if they want their parking space to be ensured. So in order to keep the benefits in the visitor's favour the system's end to end journey for the reservation process needs to be non taxing. So our team has done it's best to ensure that more about that ux/ui listed below underneath the chapter [UI/UX](#4-website-design).
 
-Below you can read/follow the analysis that has been done to have reached the above conclusion. if that's not what you're into feel free to [skip to the next chapter](#technicalities).
+Below you can read/follow the analysis that has been done to have reached the above conclusion. if that's not what you're into feel free to [skip to the next chapter](#5-project-technicalities).
 
 ## 3.2. The reservation business process analysis
 I've analysed the business processes by comparing them to eachother, first you will find the parking space process without the aid of our software system alongsides it's flaws and why they're flaws. Then you will find the same process but this time aided by our software system, alongside will be the same list of flaws but with an explaination with why in this use case those same flaws are eliminated. Symbolistic diagrams of the processes will also be included to clearify. Lastly you can read the conclusion drawn from the evidence found during the analysis.
@@ -320,7 +320,7 @@ To approach this I'm going over two different designs for two different apps tha
 **Function:** Viewing parking reservations  
 **UI approach for the parking garage app for customers:**
 We chose to develop our styles mobile first, which means we would first design the mobile version of the application and then scale outwards all up until we'd reach good designs for desktops in order for our application to be responsive on all devices. We plan for the application to be predominantly used on mobile phones so responsitivity was a great importance.   
-[See Parking garage app view reservations screens ⬇](#parking-garage-app-reservations-management-screen)
+[See Parking garage app view reservations screens ⬇](#431-parking-garage-app-reservations-management-screen)
 
 
 **Parking garage app CMS Tarrif management**  
@@ -329,7 +329,7 @@ We chose to develop our styles mobile first, which means we would first design t
 **Function:** Viewing hourly tarrifs for a specified parking garage   
 **UI approach for the parking garage app CMS for employees:**
 As opposed to the public application the CMS hasn't been developed nor designed mobile first, as we plan for this application to mainly be used via desktop in the basement where Betty is being held captive.  
-[See Parking garage app CMS Tarrif management screens ⬇](#parking-garage-app-cms-tarrif-management-screen)
+[See Parking garage app CMS Tarrif management screens ⬇](#432-parking-garage-app-cms-tarrif-management-screen)
 
 
 **Conlusion user interface**   
@@ -347,14 +347,14 @@ To approach this I'm going over two different designs for two different apps tha
 **Function:** Reserving a parking spot at specified parking garage  
 **UX approach for the parking garage app for customers:** It's important to offer good user experience to your customers. Nothing should be confusing, it should be swift and easy to navigate through and it should provide enough user feedback. This is what we've aimed for. For each screen we thought about what a user may need on said screen and in case it needed a reference to another page it would be provided. We've made sure to include animations and or messages to provide user feedback.
 
- [See Parking garage app view reservations screens ⬇](#parking-garage-app-reservations-management-screen)
+ [See Parking garage app view reservations screens ⬇](#431-parking-garage-app-reservations-management-screen)
 
 **Parking garage app CMS Tarrif management**
 >**Visability:** Private  
 **Target:** Admins/Employees  
 **Function:** Managing hourly tarrifs for a specified parking garage   
 **UX approach for the parking garage app CMS for employees:** The CMS is a work environment, it's made for employees their day to day use. So it should be easy to learn, easy to use and none taxing for ones mind as that could evoke stress within a person. This application has to be structured in a way to mitigate possible data confusion mistakes. So it needs to have very clear intentions on each page and warnings when risky features like deletion features are called.  
-[See Parking garage app CMS Tarrif management screens ⬇](#parking-garage-app-cms-tarrif-management-screen)
+[See Parking garage app CMS Tarrif management screens ⬇](#432-parking-garage-app-cms-tarrif-management-screen)
 
 **Conlusion user experience**  
 The way your audience experiences your software is very important, as bad experiences drive your targets away into the hands of a competitor that offers a better experience. Thus it's important to think about what your user wants from your application and how you can offer it to your using in the least taxing form. For example; Content management systems are work related. So our audience want simplified designs that are quick to use for max efficiency (no confusing routes, not too many clicks) and stress reduction, without too much care about how it looks because it's all go go go in this environment.
@@ -362,8 +362,8 @@ The way your audience experiences your software is very important, as bad experi
 ## 4.3. Screens
 For ease I chose to showcase the screens below with description for UI and UX decisions according to each screen. I've structured this chapter this way to avoid showcasing all the screens twice. I've split the screens based on their feature.
 
-* [See Parking garage app view reservations screens ⬇](#parking-garage-app-reservations-management-screen)  
-* [See Parking garage app CMS Tarrif management screens ⬇](#parking-garage-app-cms-tarrif-management-screen)
+* [See Parking garage app view reservations screens ⬇](#431-parking-garage-app-reservations-management-screen)  
+* [See Parking garage app CMS Tarrif management screens ⬇](#432-parking-garage-app-cms-tarrif-management-screen)
 
 ### 4.3.1. **Parking garage app reservations management screen**
 <!-- Continue here; Include screens and small descriptions -->
@@ -376,8 +376,8 @@ For ease I chose to showcase the screens below with description for UI and UX de
 **UX decisions:** This page is aimed at reservations but what stands out is the "manage cars" option that is mounted at the top next to "new reservation". Cars have a relationship to reservations, when a user wants to make a reservation a user needs to think about what car they want to use for this reservation as the car is what identifies a user at the gate. Because of that thought proces the user might want to manage their cars and thus a quick navigation option to the car management page is provided so a user doesn't have to refer all the way back to the home screen to manage their cars.
 >
 
-[back to ui information ⬆](#user-interface)  
-[back to ux information ⬆](#user-experience)
+[back to ui information ⬆](#41-user-interface)  
+[back to ux information ⬆](#42-user-experience)
 
 ### 4.3.2. **Parking garage app CMS Tarrif management screen**
 <!-- Continue here; Include screens and small descriptions -->
@@ -392,8 +392,8 @@ This is a concious decision from the development team, this way a user can quick
 **UX decisions:** A user will navigate with the motivation to do something specific so
 the concious decision has been made on this screen to not bombard a user with many different options. And keep the page to the point and practical.
 
-[back to ui information ⬆](#user-interface)  
-[back to ux information ⬆](#user-experience)
+[back to ui information ⬆](#41-user-interface)  
+[back to ux information ⬆](#42-user-experience)
 
 
 ### 4.3.3. **Bonus UI & UX decision example**
@@ -408,8 +408,8 @@ This has been removed due to increase of the end 2 end journey for a user so ins
 
 **UI decision:** Visually what really stands out on this page is the icons next to spaces. These icons are an easy way to make quickly make clear to the user that the space has a certain trait. For example the wheelchair that signifies that it's a parking spot meant for people with disabilities. And the second icon signifying that the parking spot offers a charging station for electrical cars.  
 
-[back to ui information ⬆](#user-interface)  
-[back to ux information ⬆](#user-experience)
+[back to ui information ⬆](#41-user-interface)    
+[back to ux information ⬆](#42-user-experience)  
 
 **Overall conclusion**  
 If you compare the above examples you can see that there's a clear difference in approach. For both applications the goal for the user experience was for it to be as pleasant, simple and easy to use as possible. However for the visual representation there's a clear difference, As for the more public application styling is a lot more welcoming and friendly. Whereas for the private content management application the visuals are aimed more towards practicality than aesthetic.
@@ -526,7 +526,7 @@ When an app is produced and you want to make use of it, it's mainly initialized 
 # 7. Project working process
 Underneath this chapter you can read more about how are working flow was during this project.
 
-I've first written a bit of information on the methods (Agile, scrum) we've used to guide our workflow, if you are already familiar with these methods or want to skip this section for any reason. You can refer [here](#workflow-parkkings) to get directly into how we utilized Agile and scrum during our project time.
+I've first written a bit of information on the methods (Agile, scrum) we've used to guide our workflow, if you are already familiar with these methods or want to skip this section for any reason. You can refer [here](#73-workflow-parkkings) to get directly into how we utilized Agile and scrum during our project time.
 
 ## 7.1. Working and structure
 During this semester there's a big focus drawn to a developer's way of working, products can be made just like any passion project can be made in someone's backyard.
@@ -555,8 +555,8 @@ Delivering regularly helps to make sure that stakeholders are involved during th
 Below I have listed a simple overview of these values and principles. For more information on these values and principles you can refer to the appendix. (The appendix has anchors back to this part of this document, so you don't have to fear getting lost.)  Or you can redirect to wrike's documentation on agile, which I've used as a source [here](https://www.wrike.com/agile-guide/agile-manifesto/).
 
 quick navigation:  
-[Check out valeus in the appendix](#agile-values).  
-[Check out principles in the appendix](#agile-principles). 
+[Check out valeus in the appendix](#91-agile-values).  
+[Check out principles in the appendix](#92-agile-principles). 
 
 Below a list of the 4 Agile values:
 >**4 Agile values** 
@@ -589,7 +589,7 @@ When staying faithful to these values and principles Agile rewards you with a fe
 When staying faithful to these values and principles Agile rewards you with many benefits of which 6 core benefits. I have listed these benefits underneath. These benefits are also listed in the appendix with more detailed descriptions of how they come to be. 
 
 quick navigation:  
-[Check out Agile benefits in the appendix](#agile-benefits).  
+[Check out Agile benefits in the appendix](#93-agile-benefits).  
 
 Below a list of the 6 core Agile benefits:
 
@@ -680,7 +680,7 @@ According to Agile, reflection is important in a team during the development lif
 First and foremost, Using Agile is one of our learning outcomes for this course. So us using Agile is a given as it is forced upon us. However that doesn't mean that is the only reason. If I were to choose what methodology we could pick from, I would still choose Agile as opposed to the Waterfall approach. I have written more about that below. Using scrum was also encouraged by our stakeholders so naturally we gravitated towards the scrum framework. Agile in addition the scrum framework are commonly used practices.
 
 **Why I would choose Agile for this project**   
-Personally for me the Agile [Benefits](#agile-benefits) are it's main selling point. Throughout my developer career I've always been warned of the following situation, the situation where you've worked on a product for 6 months without seeying your customer and delivering it to them. And then the customer looks at you confused and says "This isn't what I asked for?". And 6 months go down the drain, Agile mitigates the risk of this happening as you take your customer with you throughout the entire development cycle.  
+Personally for me the Agile [Benefits](#93-agile-benefits) are it's main selling point. Throughout my developer career I've always been warned of the following situation, the situation where you've worked on a product for 6 months without seeying your customer and delivering it to them. And then the customer looks at you confused and says "This isn't what I asked for?". And 6 months go down the drain, Agile mitigates the risk of this happening as you take your customer with you throughout the entire development cycle.  
 
 **Why I would choose Scrum for this project**
 Agile is nice but without framework I wouldn't entirely know where to start or how to keep going. Scrum has helped a lot by providing some structure. Scrum's daily stand-up and stand-down idealogy has proved very well for in team communication, and I value it just as much as Agile does. I personally struggle with communication at times so the guidelines/structure proves very beneficial for a person like me.
@@ -782,9 +782,9 @@ used for: Scrum environment, Scrum board, scrum features and backlog
 **Github:** https://github.com/ParKings-inc   
 used for: source code hosting, CI/CD pipelines   
 
-For those interested the repositories are listed underneath the chapter "Technicalities".  
-Quick navigation:
-[See repository list](#repositories)
+<!-- For those interested the repositories are listed underneath the chapter "Technicalities".  
+Quick navigation:  
+[See repository list](#repositories) -->
 
 **Discord:** not public  
 used for: Communication
@@ -869,7 +869,7 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
 
 ## 9.1. Agile Values
 
-**1. Individuals and interactions over processes and tools** [🔙](#how-do-you-work-agile)
+**1. Individuals and interactions over processes and tools** [🔙](#722-working-agile)
 >
 >The first value gets straight to the core of Agile methodology: the focus is on the people. You can use the best processes and tools available to support your projects, but they will only work if your people are doing their best work. Your team is your most valuable resource. Communication plays a key role here — when people interact with each other regularly and share their ideas, they build better products.  
 > 
@@ -897,7 +897,7 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
 [Back to table of content ⬆](#table-of-contents)  
 * * * 
 ## 9.2. Agile principles 
-**1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.**[🔙](#how-do-you-work-agile)
+**1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.**[🔙](#722-working-agile)
 >What is the number one rule in software development? Keep your customer happy. Aim to deliver software to your users at regular intervals throughout the project life cycle, rather than keep them waiting for one final deliverable.
 
 **2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.**
@@ -939,7 +939,7 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
 
 ## 9.3. Agile Benefits 
 
-**1. Satisfied customers** [🔙](#agile-benefits)
+**1. Satisfied customers** [🔙](#93-agile-benefits)
 >By involving customers in the development process, Agile teams keep them in the loop and show that they value their opinion. Stakeholders want to be engaged throughout the project life cycle so they can offer feedback and ensure that the final product will be suited to their needs. These tailor-made deliverables will likely improve the overall user experience and boost customer retention.
 
 **2. Improved quality**

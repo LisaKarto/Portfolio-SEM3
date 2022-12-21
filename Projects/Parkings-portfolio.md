@@ -20,13 +20,82 @@ SC = Semester coach
 # Foreword
 Huge thank you to everyone involved for all their guidence, help and knowledge.
 * * * 
-# Table of content
+# Table of contents
+- [S-DB-GPS-S3 Parking garage Project, Parkings - Mediaan](#s-db-gps-s3-parking-garage-project-parkings---mediaan)
+- [Foreword](#foreword)
+- [Table of contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Stakeholders](#stakeholders)
+  - [**Professors**](#professors)
+  - [**Our team, Parkkings**](#our-team-parkkings)
+    - [**Who are we**](#who-are-we)
+    - [**Our goal**](#our-goal)
+    - [**Members and roles**](#members-and-roles)
+      - [**Members:**](#members)
+      - [**Roles**](#roles)
+  - [**Our assigned Partner in Education, Mediaan**](#our-assigned-partner-in-education-mediaan)
+    - [**Who are they and what do they do?**](#who-are-they-and-what-do-they-do)
+    - [**Where to find them**](#where-to-find-them)
+    - [**Product owners**](#product-owners)
+- [The project](#the-project)
+  - [How does our software support the parking garages?](#how-does-our-software-support-the-parking-garages)
+  - [The reservation business process analysis](#the-reservation-business-process-analysis)
+    - [**parking reservations process without our software system**](#parking-reservations-process-without-our-software-system)
+    - [**parking reservations process using our software system**](#parking-reservations-process-using-our-software-system)
+    - [**Conclusion**](#conclusion)
+- [Website design](#website-design)
+  - [User Interface](#user-interface)
+  - [User Experience](#user-experience)
+  - [Screens](#screens)
+    - [**Parking garage app reservations management screen**](#parking-garage-app-reservations-management-screen)
+    - [**Parking garage app CMS Tarrif management screen**](#parking-garage-app-cms-tarrif-management-screen)
+    - [**Bonus UI \& UX decision example**](#bonus-ui--ux-decision-example)
+- [Project Technicalities](#project-technicalities)
+  - [Architecture and infrastructure](#architecture-and-infrastructure)
+    - [**Architecture**](#architecture)
+    - [**Infrastructure**](#infrastructure)
+- [Culture \& Ethics](#culture--ethics)
+  - [Ethical decisions](#ethical-decisions)
+  - [Cultural decisions](#cultural-decisions)
+- [Project working process](#project-working-process)
+  - [Working and structure](#working-and-structure)
+  - [Agile](#agile)
+    - [**What is Agile**](#what-is-agile)
+    - [**Working Agile**](#working-agile)
+    - [**Agile benefits**](#agile-benefits)
+      - [**Agile frameworks**](#agile-frameworks)
+    - [**scrum**](#scrum)
+      - [**scrum roles**](#scrum-roles)
+      - [**Product backlog**](#product-backlog)
+      - [**scrum board**](#scrum-board)
+      - [**Daily stand-ups and stand-downs**](#daily-stand-ups-and-stand-downs)
+      - [**sprints**](#sprints)
+      - [**Sprint reviews**](#sprint-reviews)
+      - [**retrospectives**](#retrospectives)
+  - [Workflow parkkings](#workflow-parkkings)
+    - [**Why we use Agile and scrum**](#why-we-use-agile-and-scrum)
+    - [**How we, Parkkings used Agile**](#how-we-parkkings-used-agile)
+    - [**How we, Parkkings used Scrum**](#how-we-parkkings-used-scrum)
+    - [My experiences with Agile and scrum during this project](#my-experiences-with-agile-and-scrum-during-this-project)
+      - [**My time as scrummaster**](#my-time-as-scrummaster)
+      - [**My time as a teammember/developer**](#my-time-as-a-teammemberdeveloper)
+      - [**My overal opinion on Agile and Scrum**](#my-overal-opinion-on-agile-and-scrum)
+  - [Our work environment](#our-work-environment)
+- [Reflection](#reflection)
+  - [Full project reflection](#full-project-reflection)
+- [Appendix](#appendix)
+  - [Agile Values](#agile-values)
+  - [Agile principles](#agile-principles)
+  - [Agile Benefits](#agile-benefits-1)
+- [Sources](#sources)
 
 #  Introduction
 
 During semester 3 of the Fontys HBO-ICT demand based programme, Fontys challenges it's students to complete 2 courses. Namely an individual course and a group project course. This document is written with focus on my group project course experience. If you want to read more about my experience and what I've been doing for the individual course you can find more information in the central portfolio document [here](https://github.com/LisaKarto/Portfolio-SEM3).  
 
 The group project course enforces you to work alongside multiple other developers on a project at once for a partner in education, which helps you build your coding skills as well as your social skills all while giving you a sense of the "real world". In this document you'll find the information on topics such as, who the stakeholders for the project are, Our workflow during the project, what the project is and how it improves the current business process, what ethical decisions we've had to make and much more. You will also be able to find all of our work in this document.
+
+[Back to table of content ⬆](#table-of-contents)
 
 # Stakeholders
  
@@ -41,6 +110,8 @@ Some are more involved with the individual course and others are more involved w
 **Name**: John Wijnen   
 **Role**: Semester coach  
 **Actions**: Leading retrospectives, available for support/advice, giving feedback, grading overall process
+
+[Back to table of content ⬆](#table-of-contents)
 
 * * *
 ## **Our team, Parkkings**
@@ -79,7 +150,7 @@ We decided not to hold any static roles so everyone can get in touch with a litt
 * Team member
 
 
-
+[Back to table of content ⬆](#table-of-contents)
 * * *
 
 ## **Our assigned Partner in Education, Mediaan**
@@ -116,6 +187,7 @@ Mediaan as a whole has a lot of employees, but the people that we've been fortun
 **Timothy Hamilton**, Product owner  
 **Ramona Domen**, Product owner on occasion 
 
+[Back to table of content ⬆](#table-of-contents)
 * * *
 # The project
 
@@ -169,7 +241,7 @@ Requirements:
 ## How does our software support the parking garages?
 For this chapter I want to focus on the parking reservations process of a parking space soley. Other processes may be described in the future. 
 
-I believe our system will have impact during the parking reservations process by ensuring a parking space for visitors, because our system lets a visitor know in advance wether a parking space is available or not for the specified time at which the visitor want to park. However a visitor now needs to reserve a parking space in advance if they want their parking space to be ensured. So in order to keep the benefits in the visitor's favour the system's end to end journey for the reservation process needs to be non taxing. So our team has done it's best to ensure that more about that ux/ui listed below underneath the chapter [UI/UX]().
+I believe our system will have impact during the parking reservations process by ensuring a parking space for visitors, because our system lets a visitor know in advance wether a parking space is available or not for the specified time at which the visitor want to park. However a visitor now needs to reserve a parking space in advance if they want their parking space to be ensured. So in order to keep the benefits in the visitor's favour the system's end to end journey for the reservation process needs to be non taxing. So our team has done it's best to ensure that more about that ux/ui listed below underneath the chapter [UI/UX](#website-design).
 
 Below you can read/follow the analysis that has been done to have reached the above conclusion. if that's not what you're into feel free to [skip to the next chapter](#technicalities).
 
@@ -210,7 +282,7 @@ software aided flow diagram, For ease you can refer to the figure 2 activity dia
 figure 2: software aided flow diagram.  
 ![Activity diagram no software](/Projects/assets/AD%20software.png)  
 
-**Eceptions:**
+**Exceptions:**
 * no spots available, during very busy days/hours what if there's absolutely no spots available. This exception could still occur yet is improved because the visitor is aided with the benefit of knowing this information before driving out to the parking space and thus has the time to come up or initialize their backup plan. The system could in the future also be optimized to notify a visitor when reservations for their desired date and time are canceled so they can reserve a spot after all.
 
 How our software system eliminates these flaws:
@@ -229,39 +301,130 @@ Additional support:
 I conclude out of the analysis I've carried out above that our software will have a positive impact on the finding a parking space process at parking garages. Yet a downside may be that visitors have to reserve a spot in advance. But I suspect it's better and cheaper than going out to a parking garage only to find out there's no available spaces and losing money on gasoline aimlessly driving around for a space whilst wating for a space to clear up. And thus would cause overall benefits for anyone making use of the parking garages and even for stores near parking spaces. Why not grab a quick red bull since we're close? :) ~~Red bull does not sponsor this portfolio~~
 
 other business processes tackled by our software system may be described in the future
+
+[Back to table of content ⬆](#table-of-contents)
 <!-- UI/UX -->
 # Website design
 
-Now that we've done a bit of a dive into the requirements of the project, I'd like to give you more of an idea of what the app looks like. As a visual representation often helps our brains capture the idea a lot easier than a text description can. So in the next chapter I'll show you pictures of the design of our product. I'll also be writing a bit about our approach for these designs, our thoughts behind them and how they came to be.
+Now that we've done a bit of a dive into the requirements of the project, I'd like to give you more of an idea of what the app looks like. As a visual representation often helps our brains capture the idea a lot easier than a text description can. So in the next chapter I'll show you pictures of the design of our product. I'll also be writing a bit about our approach for these designs and our thoughts behind them.
 
 ## User Interface 
-The user interface is what your users get to see and really interact with and ultimately what really makes your software. User interface can make a huge impact in how a user perceives your product. And therefore it comes with it's own set of challenges and decisions. In this chapter I'd like to write about the UI challenges we've faced and decisions we've made.
+The user interface is what your users get to see and really interact with and ultimately what really makes your software. User interface can make a huge impact in how a user perceives your product. And therefore it comes with it's own set of challenges and decisions. In this chapter I'd like to write about the UI decisions we've made.
 
 To approach this I'm going over two different designs for two different apps that have different target demographics. By doing this I can make clear the differences of approach when a target audience changes.
 
+**Parking garage app reservations management**  
+>**Visability:** Public  
+**Target:** Visitors/Customers  
+**Function:** Viewing parking reservations  
+**UI approach for the parking garage app for customers:**
+We chose to develop our styles mobile first, which means we would first design the mobile version of the application and then scale outwards all up until we'd reach good designs for desktops in order for our application to be responsive on all devices. We plan for the application to be predominantly used on mobile phones so responsitivity was a great importance.   
+[See Parking garage app view reservations screens ⬇](#parking-garage-app-reservations-management-screen)
 
-**Parking garage app reservations management**
-Approach for the parking garage app for customers:
-We chose to develop our styles mobile first, which means we would first design the mobile version of the application and then scale outwards all up until we'd reach good designs for desktops.
+
+**Parking garage app CMS Tarrif management**  
+>**Visability:** Private  
+**Target:** Admins/Employees  
+**Function:** Viewing hourly tarrifs for a specified parking garage   
+**UI approach for the parking garage app CMS for employees:**
+As opposed to the public application the CMS hasn't been developed nor designed mobile first, as we plan for this application to mainly be used via desktop in the basement where Betty is being held captive.  
+[See Parking garage app CMS Tarrif management screens ⬇](#parking-garage-app-cms-tarrif-management-screen)
 
 
-**Parking garage app CMS Tarrif management**
-Approach for the parking garage app CMS for employees:
-
-
-Conclusion
-If you compare the above you can see there's a clear difference in approach. As for the more public application styling is a lot more
-Whereas for the private application the colours serve a more practical function but don't look as astheatically pleasing.
+**Conlusion user interface**   
+So as you can see there's a clear difference between these 2 designs, this is caused by the different target groups. Public applications tend to want to stimulate satisfaction in users and extrude friendly energy. However the more private work related applications are often aimed to look more practical. Don't get mistaken private applications are still allowed to look slick, beautiful and friendly, it just often isn't the first thought when designing them as there are certain standards and requirements to be met.
 
 ## User Experience 
+While the previous segment focused on the visual representation of the app and how it impacts a user's experience visual appearance alone isn't enough 
+User experience are things such as; how many clicks it takes a user to get somewhere, whether or not it's easy for a user to navigate around your application or if they get lost a lot. An application shouldn't be too puzzeling to use for users or it may cause a recession in how much a user would like to use your application.
+
+To approach this I'm going over two different designs for two different apps that have different target demographics. By doing this I can make clear the differences of approach when a target audience changes.
+
+**Parking garage app reservations management**
+>**Visability:** Public  
+**Target:** Visitors/Customers  
+**Function:** Reserving a parking spot at specified parking garage  
+**UX approach for the parking garage app for customers:** It's important to offer good user experience to your customers. Nothing should be confusing, it should be swift and easy to navigate through and it should provide enough user feedback. This is what we've aimed for. For each screen we thought about what a user may need on said screen and in case it needed a reference to another page it would be provided. We've made sure to include animations and or messages to provide user feedback.
+
+ [See Parking garage app view reservations screens ⬇](#parking-garage-app-reservations-management-screen)
+
+**Parking garage app CMS Tarrif management**
+>**Visability:** Private  
+**Target:** Admins/Employees  
+**Function:** Managing hourly tarrifs for a specified parking garage   
+**UX approach for the parking garage app CMS for employees:** The CMS is a work environment, it's made for employees their day to day use. So it should be easy to learn, easy to use and none taxing for ones mind as that could evoke stress within a person. This application has to be structured in a way to mitigate possible data confusion mistakes. So it needs to have very clear intentions on each page and warnings when risky features like deletion features are called.  
+[See Parking garage app CMS Tarrif management screens ⬇](#parking-garage-app-cms-tarrif-management-screen)
+
+**Conlusion user experience**  
+The way your audience experiences your software is very important, as bad experiences drive your targets away into the hands of a competitor that offers a better experience. Thus it's important to think about what your user wants from your application and how you can offer it to your using in the least taxing form. For example; Content management systems are work related. So our audience want simplified designs that are quick to use for max efficiency (no confusing routes, not too many clicks) and stress reduction, without too much care about how it looks because it's all go go go in this environment.
+
+## Screens
+For ease I chose to showcase the screens below with description for UI and UX decisions according to each screen. I've structured this chapter this way to avoid showcasing all the screens twice. I've split the screens based on their feature.
+
+* [See Parking garage app view reservations screens ⬇](#parking-garage-app-reservations-management-screen)  
+* [See Parking garage app CMS Tarrif management screens ⬇](#parking-garage-app-cms-tarrif-management-screen)
+
+### **Parking garage app reservations management screen**
+<!-- Continue here; Include screens and small descriptions -->
+**Screen viewing parking reservations:**   
+![reservation-overview](/Projects/assets/reservation-overview.JPG)  
+**Screen description:** On this page a customer can view reservation's that they've set.  
+
+**UI decisions:** In this page we are conciously utilizing colours for the statuses of a reservation, this way a user can instantly see whether or not their reservation has been accepting,denied or is still pending. We've made sure to choose familiar colors; green, yellow and red, meanings of these colors are frequent in society with similar meanings. You can trace these meanings back to traffic lights for example.   
+>
+**UX decisions:** This page is aimed at reservations but what stands out is the "manage cars" option that is mounted at the top next to "new reservation". Cars have a relationship to reservations, when a user wants to make a reservation a user needs to think about what car they want to use for this reservation as the car is what identifies a user at the gate. Because of that thought proces the user might want to manage their cars and thus a quick navigation option to the car management page is provided so a user doesn't have to refer all the way back to the home screen to manage their cars.
+>
+
+[back to ui information ⬆](#user-interface)  
+[back to ux information ⬆](#user-experience)
+
+### **Parking garage app CMS Tarrif management screen**
+<!-- Continue here; Include screens and small descriptions -->
+**Screen Viewing hourly tarrifs:**  
+![tarrif-overview](/Projects/assets/tarrif-overview.JPG)  
+**Screen description:** On this screen a employee can view and manage tarrifs for specific parking garages.  
+
+**UI decisions:** As for the UI there's a huge difference in loudness on this screen. The most important components in this page are highlighted; Have a look at the blocks within the calendar, they have been granted outstanding colours whereas the rest of the page is very monotone and silent. What's also worth mentioning is that both blocks have different colours, because they serve different functions. 
+
+This is a concious decision from the development team, this way a user can quickly see and associate traits with certain blocks. In this case the yellow blocks represents a one time change, whereas a purple block represents a repetitive rule.  
+
+**UX decisions:** A user will navigate with the motivation to do something specific so
+the concious decision has been made on this screen to not bombard a user with many different options. And keep the page to the point and practical.
+
+[back to ui information ⬆](#user-interface)  
+[back to ux information ⬆](#user-experience)
 
 
+### **Bonus UI & UX decision example**
+<!-- Continue here; Include screens and small descriptions -->
+**Space selection screen:**  
+![bonus-ui-ux-overview](/Projects/assets/bonus-ui-example-space-choosing.JPG)  
+**Screen description:** This is a bonus screen, the design for this screen has been made but it's never been implemented due to a change in the application's flow.
+Screen description: On this page a visitor could choose a prefered space after selecting times for a reservation.    
 
-navigation
+**UX decision:** 
+This has been removed due to increase of the end 2 end journey for a user so instead we have automated the space selection function in the backend without the user having to do any additional clicks. They just get a space assigned to them. 
 
-figma design: https://www.figma.com/file/rKlcGcAKuvNdvQK8NnsnZq/Untitled?t=WOYUZzSKHsRF0ZgU-0  
+**UI decision:** Visually what really stands out on this page is the icons next to spaces. These icons are an easy way to make quickly make clear to the user that the space has a certain trait. For example the wheelchair that signifies that it's a parking spot meant for people with disabilities. And the second icon signifying that the parking spot offers a charging station for electrical cars.  
+
+[back to ui information ⬆](#user-interface)  
+[back to ux information ⬆](#user-experience)
+
+**Overall conclusion**  
+If you compare the above examples you can see that there's a clear difference in approach. For both applications the goal for the user experience was for it to be as pleasant, simple and easy to use as possible. However for the visual representation there's a clear difference, As for the more public application styling is a lot more welcoming and friendly. Whereas for the private content management application the visuals are aimed more towards practicality than aesthetic.
+
+There's a lot more coming into play than meets the eye when it comes to application design. What a user sees are all a visual representation of thoughtful decisions, for example how we seperate and cluster information together visually. And different target groups call for different approaches.
 
 
+**navigation**  
+All designs were made using the designing tool Figma.
+For those interested I have included links to our design work environment below;
+
+**Figma design work environment:** https://www.figma.com/file/rKlcGcAKuvNdvQK8NnsnZq/Untitled?t=WOYUZzSKHsRF0ZgU-0  
+**Figma design demo:** https://www.figma.com/proto/rKlcGcAKuvNdvQK8NnsnZq/Untitled?node-id=73%3A5&scaling=scale-down&page-id=0%3A1&starting-point-node-id=73%3A5&show-proto-sidebar=1  
+
+
+[Back to table of content ⬆](#table-of-contents)
 <!-- Web application -->
 # Project Technicalities
 Software consists out of a bunch of building blocks, building blocks like languages, frameworks and a lot more that's going on below that. But the way we software developers create it is by utilizing languages and frameworks. So decisions need to be made, which languages and frameworks do you use for what project and why? In this chapter I will list what we have made use of during our building process and why. You will also find diagrams to help clearify these architectural structures.
@@ -271,8 +434,9 @@ For this semester Fontys has challenged it's software engineering students to se
 ## Architecture and infrastructure
 In this section you will find the architecture and infrastructure of the product, listed followed with compact substantiations where needed.
 ### **Architecture**
-In this section you can read about the architecture of our product.
-### Languages and frameworks used:
+In this section you can read about the architecture of our product.  
+
+**Languages and frameworks used:**  
 Underneath I have listed the languages alongsides the frameworks we have decided to use for the project.
 
 **Backend:** 
@@ -294,8 +458,9 @@ Underneath I have listed the languages alongsides the frameworks we have decided
 * Google Oauth 2.0
   * Substantiation: Google's Oauth 2.0 protocol is very strong and easy for developers to use. Google is wildly popular so the chances that an adult today has a car but not a google account are very slim so we found Google's Oauth the perfect solution to having a safe authentication feature. Fontys also challenged us to make use of a microservice and by calling Google's Oauth we do exactly that.
 * Mollie payment service
-  * Substantiation: offers 
-### Languages and frameworks used architectural diagram:
+  * Substantiation: offers   
+  * 
+**Languages and frameworks used architectural diagram:**  
 Below you can view a diagram that symbolizes the interaction/flow between these languages and frameworks.
 ![Languages and frameworks diagram](/Projects/assets/Languages_and_frameworks_architecture_diagram.png)
 
@@ -305,20 +470,25 @@ Now that we know what languages and frameworks are used in the project, it may b
 
 The Parkkings application consists out of: 
 
-**Clients:**  
-Guest User interface (used by visitors/customers):   
-Content Management system (used by admins):  
+**Front end:**  
+* Guest User interface (used by visitors/customers)   
+* Content Management system (used by admins)  
 
-**Developers:**  
-REST API:  
-MSSQL database:
-### Infrastructure diagram
+**Back end:**  
+* REST API  
+* MSSQL database
+    
+**Infrastructure diagram**
 ![Parkkigs infrastructure](/Projects/assets/architectuur_parkkings.drawio.png)
+**ERD database**
+![ERD](/Projects/assets/ClassDiagram_Proftaak.drawio_4.png)  
+[Back to table of content ⬆](#table-of-contents)  
 <!-- cultural differences and ethics -->
-# Cultural & Ethical Decisions we've had to make 
+# Culture & Ethics
 ## Ethical decisions
 ## Cultural decisions
 
+[Back to table of content ⬆](#table-of-contents)
 <!-- Agile method -->
 # Project working process
 Underneath this chapter you can read more about how are working flow was during this project.
@@ -470,7 +640,7 @@ At the end of each sprint, the sprint team sits down with the stakeholders of th
 #### **retrospectives**
 According to Agile, reflection is important in a team during the development lifecycle. Scrum does a great job supporting this by making teams do frequent retrospectives (Most commonly done at the end of each sprint) where developers can face themselves and eachother honestly and think about how to improve their productivity. There's all sorts of approaches a team can utilize to do these retrospectives. There's even tools designed for these retrospectives that enforce teams to really get to the important pressure points that would otherwise be forgotten or overlooked.
 
-
+[Back to table of content ⬆](#table-of-contents)
 ## Workflow parkkings
 
 ### **Why we use Agile and scrum**
@@ -569,7 +739,7 @@ Would I use these methodologies again in the future?
 
 Yes I would, I really like the structures that this combination of methodologies offer. I think the benefits are very much worth it, And I've had good experiences using this way of working this far. I think adaptability is one of the strongest skills you can possess of in life and this way of working supports that. I also do think communication in teams is very important and this is supported as well. Therefore I am very satisfied.
 
-
+[Back to table of content ⬆](#table-of-contents)
 ## Our work environment
 Here I have listed our work environment platforms and what we used them for.
 
@@ -586,7 +756,7 @@ Quick navigation:
 **Discord:** not public  
 used for: Communication
 
-
+[Back to table of content ⬆](#table-of-contents)
 <!-- Professional skills -->
 # Reflection
 It's been a long period of time working on this group project. 
@@ -595,7 +765,7 @@ And it's always good to look back at things so you can give your brain the opper
 To keep things clear for myself and not just create one big clustered self reflection, I decided to approach this reflection by dividing them into sprints. By answering the same set of questions for each sprint I hope to create a clear overview of how I've felt during this project and what I've done. This way my end result should cover each timeframe thoroughly. And in the end (in consideration of those who don't like to read so much) I will compactly conclude my reflections into one.
 
 
-## Sprint 1 reflection
+**Sprint 1 reflection**
 
 **What I've worked on during this sprint**  
 During this sprint, we mainly worked on setting up our Product backlog. I found myself as lead of writing user stories. So I took the case delivered to us by our product owners and started disecting it into 1 central, compact google docs file filled with user stories. Writing user stories for each milestone, included: Writing the userstory, writing the according acceptance criterea, deciding the definition of ready and the definition of done. We also all agreed to study up a bit of REACT as we had decided that was the framework we would be using for the front end of the application.
@@ -611,20 +781,8 @@ This sprint wasn't yet very taxing as for me it was mostly still writing user st
 
 **Difficulties we've faced during this sprint and how we got over it.**  
 I think during this sprint there weren't many difficulties if any at all.
-
-## Sprint 2 reflection
-
-What I've worked on during this sprint
-
-Did I accomplish my work during this sprint?
-
-What I've learnt during this sprint
-
-How do I look back to this sprint?
-
-Difficulties we've faced during this sprint and how we got over it.
-
-## Sprint 3 reflection
+image.png
+**Sprint 2 reflection**
 
 What I've worked on during this sprint
 
@@ -636,7 +794,9 @@ How do I look back to this sprint?
 
 Difficulties we've faced during this sprint and how we got over it.
 
-## Sprint 4 reflection
+* * *
+**Sprint 3 reflection**
+
 What I've worked on during this sprint
 
 Did I accomplish my work during this sprint?
@@ -646,11 +806,22 @@ What I've learnt during this sprint
 How do I look back to this sprint?
 
 Difficulties we've faced during this sprint and how we got over it.
+* * * 
+**Sprint 4 reflection**
+What I've worked on during this sprint
 
-## Sprint 5 reflection
+Did I accomplish my work during this sprint?
+
+What I've learnt during this sprint
+
+How do I look back to this sprint?
+
+Difficulties we've faced during this sprint and how we got over it.
+* * * 
+**Sprint 5 reflection**
 Hasn't finished.
-
-## Overall project reflection
+* * * 
+## Full project reflection
 Project hasn't yet finished.
 
 And that concludes my portfolio for the S-DB-GPS3-S3 course.  
@@ -659,6 +830,7 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
  Justice for Betty ✊
  </span>
 
+[Back to table of content ⬆](#table-of-contents)
 * * *
 # Appendix 
 
@@ -689,6 +861,7 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
 >
 >These four values form the basis of Agile software development, highlighting key priority areas for teams to focus their energies on. The core values are supported by the 12 Agile Manifesto principles.  
   
+[Back to table of content ⬆](#table-of-contents)  
 * * * 
 ## Agile principles 
 **1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.**[🔙](#how-do-you-work-agile)
@@ -727,9 +900,11 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
 **12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.**
 >When you review team performance regularly, you can spot issues before they escalate, as well as potential areas for improvement. A healthy Agile team is one that self-reflects in order to eliminate unhelpful practices and advance skills.
 
+
+[Back to table of content ⬆](#table-of-contents)
 * * * 
 
-# Agile Benefits 
+## Agile Benefits 
 
 **1. Satisfied customers** [🔙](#agile-benefits)
 >By involving customers in the development process, Agile teams keep them in the loop and show that they value their opinion. Stakeholders want to be engaged throughout the project life cycle so they can offer feedback and ensure that the final product will be suited to their needs. These tailor-made deliverables will likely improve the overall user experience and boost customer retention.
@@ -752,6 +927,8 @@ And that concludes my portfolio for the S-DB-GPS3-S3 course.
 
 >**source 4 Agile values, 12 Agile princples and 6 Agile benefits:** https://www.wrike.com/agile-guide/agile-manifesto/  
 * * * 
+
+[Back to table of content ⬆](#table-of-contents)
 # Sources
 
 https://www.wrike.com/project-management-guide/faq/what-is-agile-methodology-in-project-management/
@@ -761,3 +938,5 @@ https://www.redhat.com/en/topics/devops/what-is-agile-methodology
 https://www.mendix.com/agile-framework/#:~:text=Scrum%20is%20the%20most%20common,%2DDriven%20Development%20(FDD).
 https://www.wrike.com/agile-guide/agile-manifesto/  
 https://www.scrum.org/resources/what-is-scrum
+
+[Back to table of content ⬆](#table-of-contents)

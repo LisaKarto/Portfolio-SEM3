@@ -798,23 +798,23 @@ And it's always good to look back at things so you can give your brain the opper
 To keep things clear for myself and not just create one big clustered self reflection, I decided to approach this reflection by dividing them into sprints. By answering the same set of questions for each sprint I hope to create a clear overview of how I've felt during this project and what I've done. This way my end result should cover each timeframe thoroughly. And in the end (in consideration of those who don't like to read so much) I will compactly conclude my reflections into one.
 
 
-**Sprint 1 reflection**
+**Sprint 1 reflection**  
 
-**What I've worked on during this sprint**  
+**What I've worked on during this sprint**    
 During this sprint, we mainly worked on setting up our Product backlog. I found myself as lead of writing user stories. So I took the case delivered to us by our product owners and started disecting it into 1 central, compact google docs file filled with user stories. Writing user stories for each milestone, included: Writing the userstory, writing the according acceptance criterea, deciding the definition of ready and the definition of done. We also all agreed to study up a bit of REACT as we had decided that was the framework we would be using for the front end of the application.
 
-**Did I accomplish my work during this sprint?**  
+**Did I accomplish my work during this sprint?**    
 Yes, mostly. However, I think I should have asked for more reviews/confirmations on the user stories as it is rather hard to write them in advance. As you kind of instantly need to visualize the application. And our application is rather intricate to just be able to write user stories for without forgetting or overlooking anything.
 
-**What I've learnt during this sprint**
+**What I've learnt during this sprint**  
 Writing acceptance critereas, Writing definitions of ready and definitions of done.
 
 **How do I look back to this sprint?**  
 This sprint wasn't yet very taxing as for me it was mostly still writing user stories. As well as doing a little bit of studying ahead on REACT.
 
 **Difficulties we've faced during this sprint and how we got over it.**  
-I think during this sprint there weren't many difficulties if any at all.
-image.png
+I think during this sprint there weren't many difficulties if any at all.  
+ 
 **Sprint 2 reflection**
 
 What I've worked on during this sprint

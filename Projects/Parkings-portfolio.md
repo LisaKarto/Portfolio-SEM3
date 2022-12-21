@@ -814,7 +814,7 @@ This sprint wasn't yet very taxing as for me it was mostly still writing user st
 
 **Difficulties we've faced during this sprint and how we got over it.**  
 I think during this sprint there weren't many difficulties if any at all.  
- 
+* * *  
 **Sprint 2 reflection**
 
 What I've worked on during this sprint

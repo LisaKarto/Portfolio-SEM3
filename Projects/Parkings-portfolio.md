@@ -510,16 +510,18 @@ Our webapp mostly consists of seemingly safe features, We aren't setting strange
 **Making use of third-party components**  
 As we are 2nd year students with little to no experience in creating secure enough software to fend of the advanced hackers in the world, we decided to turn to third-party solutions. For example for authentication, we turned to google as they are on of the most popular leading software companies and we handle user data through/from them. So we don't have to store any user data in a insecure place instead it's handled by google one of the most reliable companies today. 
 
-**Google Oauth**
+**Google Oauth**  
 As mentioned above we make use of Google as Oauth it's a reliable secure service set up by professionals. We figure this is a lot more secure than if we'd make our own system for this feature. This was a decision we've made based of ethical beliefs.
 
-**Mollie payment system**
+**Mollie payment system**  
 Similarily to the authentication feature, the payment feature also handles sensitive user data. And thus must be very secure and uninterceptable. As we are not experienced with creating secure enough software we were recommended by our product owners to use this third party service.
 
+**Letting a user know what they're getting into**  
+When an app is produced and you want to make use of it, it's mainly initialized with a terms of service of some sort to make sure a user knows what they're getting into. We haven't established any during this team but if it were up to me and the legal system, this would definitely be included in the future. This way we can also let users know ahead that we are in collaboration with Google services and other third party services.
+
+**conclusion**  
 In conclusion it is ethically our duty to care for due diligence and thus carry out enough research around the third party components we choose to make use of.
 
-**Letting a user know what they're getting into**
-When an app is produced and you want to make use of it, it's mainly initialized with a terms of service of some sort to make sure a user knows what they're getting into. We haven't established any during this team but if it were up to me and the legal system, this would definitely be included in the future. This way we can also let users know ahead that we are in collaboration with Google services and other third party services.
 
 [Back to table of content ⬆](#table-of-contents)
 <!-- Agile method -->

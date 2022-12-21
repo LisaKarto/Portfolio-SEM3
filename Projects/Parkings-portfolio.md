@@ -55,8 +55,9 @@ Huge thank you to everyone involved for all their guidence, help and knowledge.
     - [**Architecture**](#architecture)
     - [**Infrastructure**](#infrastructure)
 - [Culture \& Ethics](#culture--ethics)
-  - [Ethical decisions](#ethical-decisions)
-  - [Cultural decisions](#cultural-decisions)
+  - [Cultural differences during this project](#cultural-differences-during-this-project)
+  - [Ethics in software](#ethics-in-software)
+  - [Ethical decisions in our group project](#ethical-decisions-in-our-group-project)
 - [Project working process](#project-working-process)
   - [Working and structure](#working-and-structure)
   - [Agile](#agile)
@@ -485,8 +486,40 @@ The Parkkings application consists out of:
 [Back to table of content ⬆](#table-of-contents)  
 <!-- cultural differences and ethics -->
 # Culture & Ethics
-## Ethical decisions
-## Cultural decisions
+In this chapter you can find information on the culture & ethics within our group.
+
+
+## Cultural differences during this project
+
+**In our team**
+As for culture we didn't have many hinders if any at all, we are all Dutch students experienced at Fontys with an interest in Software technology. Therefore our values and principles were all relatively streamlined. Within the team there were no cultural actions needed like switching up the language. 
+
+**Our Product owners**
+Mediaan is an international company, however our product owners were experienced Dutch software engineers. Because of their shared software engineering backgrounds there weren't any language barriers caused by termonology, which can be a thing when developers work with companies. For example a Business or art major may not understand or be familiar with most software technologies.
+
+**The software**
+As for the software, like mentioned above our Product owners come from an international business. Therefore the software has been written to be consumed internationally. And because of that the application's text for the user to consume has all been written in English as it is our world's international language. Another example would be the colour pallete utilizes colors familiar in all countries. Green is universially known as "Good/Safe", Yellow is universionally known as "Mediocre/Warning". And red is universially known as "Bad/Danger".
+
+## Ethics in software
+
+Software today is incredibly impactful in society, In the world today software plays a role in how people work, live, act and even think. Which makes software engineers a rather powerful influential group. We, as software engineers need to be careful with what we put out into the world as our product can have big impact onto people their lives this impact can be good as well as it can be bad.
+
+## Ethical decisions in our group project
+Our webapp mostly consists of seemingly safe features, We aren't setting strangers up together for a date without supervision or anything like that. However there are still potential dangers to our application. In 9 out of 10 software products there are hidden ethical decisions that need to be made. In our project this was mostly centered around handling user data. Our product owners brought data safety to the surface very early on in our development life cycle.
+
+**Making use of third-party components**  
+As we are 2nd year students with little to no experience in creating secure enough software to fend of the advanced hackers in the world, we decided to turn to third-party solutions. For example for authentication, we turned to google as they are on of the most popular leading software companies and we handle user data through/from them. So we don't have to store any user data in a insecure place instead it's handled by google one of the most reliable companies today. 
+
+**Google Oauth**
+As mentioned above we make use of Google as Oauth it's a reliable secure service set up by professionals. We figure this is a lot more secure than if we'd make our own system for this feature. This was a decision we've made based of ethical beliefs.
+
+**Mollie payment system**
+Similarily to the authentication feature, the payment feature also handles sensitive user data. And thus must be very secure and uninterceptable. As we are not experienced with creating secure enough software we were recommended by our product owners to use this third party service.
+
+In conclusion it is ethically our duty to care for due diligence and thus carry out enough research around the third party components we choose to make use of.
+
+**Letting a user know what they're getting into**
+When an app is produced and you want to make use of it, it's mainly initialized with a terms of service of some sort to make sure a user knows what they're getting into. We haven't established any during this team but if it were up to me and the legal system, this would definitely be included in the future. This way we can also let users know ahead that we are in collaboration with Google services and other third party services.
 
 [Back to table of content ⬆](#table-of-contents)
 <!-- Agile method -->

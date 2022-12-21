@@ -139,7 +139,31 @@ Mediaan has had for parking garages but don't currently have the resources to bu
 >**Bonus:**  
 >Many parking garages have multple exists which lead to different areas of the city above. People always want to park their car as close as possible to their wanted destination. The company has decided to invest in projectors that can project arrows on the ground that drivers can see. By stating their destination (by reserving up-front or indicating it at the gate), the system will lead them to a free parking spot that is closest to the exit for their destination.
 
-From that information we have set up a bunch of user stories based on each milestone, which you can find in our [Jira environment's backlog](https://s3-gp-groep2.atlassian.net/jira/software/projects/PAR/boards/1/backlog). The use stories are marked their milestone.
+From that information we have set up a bunch of user stories based on each milestone, which you can find in our [Jira environment's backlog](https://s3-gp-groep2.atlassian.net/jira/software/projects/PAR/boards/1/backlog). The user stories are marked their milestone.
+
+However for those who do not have the time to go through all those user stories I have listed a quick overview of the applications that are make the overall project and their requirements.
+
+**Parking garage app**   
+**Target:** Parking garage visitors
+
+Requirements:
+- Login to the app
+- Manage cars
+- Creating and managing parking reservations
+- List parking information
+- List reservation details
+- Pay for parking
+- Logout
+
+**Parking garage app: Content management system**  
+**Target:** Parking garage employees
+
+Requirements:
+- Login to the app
+- Manage garages
+- Change tarrifs
+- Manage parking reservations
+- Logout
 
 <!-- Business process -->
 ## How does our software support the parking garages?
@@ -205,12 +229,101 @@ Additional support:
 I conclude out of the analysis I've carried out above that our software will have a positive impact on the finding a parking space process at parking garages. Yet a downside may be that visitors have to reserve a spot in advance. But I suspect it's better and cheaper than going out to a parking garage only to find out there's no available spaces and losing money on gasoline aimlessly driving around for a space whilst wating for a space to clear up. And thus would cause overall benefits for anyone making use of the parking garages and even for stores near parking spaces. Why not grab a quick red bull since we're close? :) ~~Red bull does not sponsor this portfolio~~
 
 other business processes tackled by our software system may be described in the future
+<!-- UI/UX -->
+# Website design
+
+Now that we've done a bit of a dive into the requirements of the project, I'd like to give you more of an idea of what the app looks like. As a visual representation often helps our brains capture the idea a lot easier than a text description can. So in the next chapter I'll show you pictures of the design of our product. I'll also be writing a bit about our approach for these designs, our thoughts behind them and how they came to be.
+
+## User Interface 
+The user interface is what your users get to see and really interact with and ultimately what really makes your software. User interface can make a huge impact in how a user perceives your product. And therefore it comes with it's own set of challenges and decisions. In this chapter I'd like to write about the UI challenges we've faced and decisions we've made.
+
+To approach this I'm going over two different designs for two different apps that have different target demographics. By doing this I can make clear the differences of approach when a target audience changes.
+
+
+**Parking garage app reservations management**
+Approach for the parking garage app for customers:
+We chose to develop our styles mobile first, which means we would first design the mobile version of the application and then scale outwards all up until we'd reach good designs for desktops.
+
+
+**Parking garage app CMS Tarrif management**
+Approach for the parking garage app CMS for employees:
+
+
+Conclusion
+If you compare the above you can see there's a clear difference in approach. As for the more public application styling is a lot more
+Whereas for the private application the colours serve a more practical function but don't look as astheatically pleasing.
+
+## User Experience 
+
+
+
+navigation
+
+figma design: https://www.figma.com/file/rKlcGcAKuvNdvQK8NnsnZq/Untitled?t=WOYUZzSKHsRF0ZgU-0  
+
+
+<!-- Web application -->
+# Project Technicalities
+Software consists out of a bunch of building blocks, building blocks like languages, frameworks and a lot more that's going on below that. But the way we software developers create it is by utilizing languages and frameworks. So decisions need to be made, which languages and frameworks do you use for what project and why? In this chapter I will list what we have made use of during our building process and why. You will also find diagrams to help clearify these architectural structures.
+
+For this semester Fontys has challenged it's software engineering students to set up a distributed architecture since this has many benefits and is commonly used in software development today. So we better get to learning. This is the reason that we've chosen to set up REST api's for the backend. Fontys also wanted us to use a javascript based framework for the front end and that pairs well with a REST api distributed architecture. 
+
+## Architecture and infrastructure
+In this section you will find the architecture and infrastructure of the product, listed followed with compact substantiations where needed.
+### **Architecture**
+In this section you can read about the architecture of our product.
+### Languages and frameworks used:
+Underneath I have listed the languages alongsides the frameworks we have decided to use for the project.
+
+**Backend:** 
+* **Main REST API:** C# - ASP.NET - Swagger
+  * Substantiation:  The main API is written in C#, we find c# and ASP.Net core is more than capable for the functionalities we need to make for this project. We have made use of the swagger framework to make this process easier and thus save us some time.
+* **CMS REST API:** C# - ASP.NET
+  * Substantiation: Again c# ASP.NET is fully capable for the functionalities needed in the CMS rest api.
+  * Note: This API, may be removed in the future. It is currently up for discussion within our team.
+* **DATABASE:** Relational SQL database - Microsoft SQL server
+  * Substantiation: For this project we have deduced that we need a relational database for it's functions. And since we all have SQL experience we decided that MSSQL is more than viable for the job. MSSQL also cooperates  well with C# - ASP.Net.
+
+**Frontend:**
+* **MAIN UI:** Javascript, HTML, CSS - REACT - Material UI
+  * Substantiation: We found that REACT is fully capable of carrying out and looks very slick. Additionally we had variations in experiences in react so we figured this could work well for us as some students could further their current skill on it and others could learn whilst always having various helpers available.
+* **CMS UI:** Javascript, HTML, CSS - REACT - Material UI
+  * Substantiation: We found that REACT is fully capable of carrying out and looks very slick. Additionally we had variations in experiences in react so we figured this could work well for us as some students could further their current skill on it and others could learn whilst always having various helpers available.
+
+**External services:**
+* Google Oauth 2.0
+  * Substantiation: Google's Oauth 2.0 protocol is very strong and easy for developers to use. Google is wildly popular so the chances that an adult today has a car but not a google account are very slim so we found Google's Oauth the perfect solution to having a safe authentication feature. Fontys also challenged us to make use of a microservice and by calling Google's Oauth we do exactly that.
+* Mollie payment service
+  * Substantiation: offers 
+### Languages and frameworks used architectural diagram:
+Below you can view a diagram that symbolizes the interaction/flow between these languages and frameworks.
+![Languages and frameworks diagram](/Projects/assets/Languages_and_frameworks_architecture_diagram.png)
+
+
+### **Infrastructure**
+Now that we know what languages and frameworks are used in the project, it may be nice to go over how these applications interact with eachother. You can find such information here. First I will list what applications make the whole Parkkings application.
+
+The Parkkings application consists out of: 
+
+**Clients:**  
+Guest User interface (used by visitors/customers):   
+Content Management system (used by admins):  
+
+**Developers:**  
+REST API:  
+MSSQL database:
+### Infrastructure diagram
+![Parkkigs infrastructure](/Projects/assets/architectuur_parkkings.drawio.png)
+<!-- cultural differences and ethics -->
+# Cultural & Ethical Decisions we've had to make 
+## Ethical decisions
+## Cultural decisions
+
 <!-- Agile method -->
 # Project working process
-Before really diving into the technical details of the project, 
-I'd like describe our team's way of working first. For those who would like to skip this chapter and jump ahead to the technical details please refere [here](#project-technicalities). 
+Underneath this chapter you can read more about how are working flow was during this project.
 
-I've first written a bit of information on the methods we've used to guide our workflow, if you want to skip that and get directly into how we utilized them during our project time, go [here](#workflow-parkkings). 
+I've first written a bit of information on the methods (Agile, scrum) we've used to guide our workflow, if you are already familiar with these methods or want to skip this section for any reason. You can refer [here](#workflow-parkkings) to get directly into how we utilized Agile and scrum during our project time.
 
 ## Working and structure
 During this semester there's a big focus drawn to a developer's way of working, products can be made just like any passion project can be made in someone's backyard.
@@ -472,75 +585,6 @@ Quick navigation:
 
 **Discord:** not public  
 used for: Communication
-
-
-# Website design
-<!-- UI/UX -->
-## User Interface 
-User interface
-
-### design
-## User Experience 
-
-navigation
-
-
-<!-- Web application -->
-# Project Technicalities
-Software consists out of a bunch of building blocks, building blocks like languages, frameworks and a lot more that's going on below that. But the way we software developers create it is by utilizing languages and frameworks. So decisions need to be made, which languages and frameworks do you use for what project and why? In this chapter I will list what we have made use of during our building process and why. You will also find diagrams to help clearify these architectural structures.
-
-For this semester Fontys has challenged it's software engineering students to set up a distributed architecture since this has many benefits and is commonly used in software development today. So we better get to learning. This is the reason that we've chosen to set up REST api's for the backend. Fontys also wanted us to use a javascript based framework for the front end and that pairs well with a REST api distributed architecture. 
-
-## Architecture and infrastructure
-In this section you will find the architecture and infrastructure of the product, listed followed with compact substantiations where needed.
-### **Architecture**
-In this section you can read about the architecture of our product.
-### Languages and frameworks used:
-Underneath I have listed the languages alongsides the frameworks we have decided to use for the project.
-
-**Backend:** 
-* **Main REST API:** C# - ASP.NET - Swagger
-  * Substantiation:  The main API is written in C#, we find c# and ASP.Net core is more than capable for the functionalities we need to make for this project. We have made use of the swagger framework to make this process easier and thus save us some time.
-* **CMS REST API:** C# - ASP.NET
-  * Substantiation: Again c# ASP.NET is fully capable for the functionalities needed in the CMS rest api.
-  * Note: This API, may be removed in the future. It is currently up for discussion within our team.
-* **DATABASE:** Relational SQL database - Microsoft SQL server
-  * Substantiation: For this project we have deduced that we need a relational database for it's functions. And since we all have SQL experience we decided that MSSQL is more than viable for the job. MSSQL also cooperates  well with C# - ASP.Net.
-
-**Frontend:**
-* **MAIN UI:** Javascript, HTML, CSS - REACT - Material UI
-  * Substantiation: We found that REACT is fully capable of carrying out and looks very slick. Additionally we had variations in experiences in react so we figured this could work well for us as some students could further their current skill on it and others could learn whilst always having various helpers available.
-* **CMS UI:** Javascript, HTML, CSS - REACT - Material UI
-  * Substantiation: We found that REACT is fully capable of carrying out and looks very slick. Additionally we had variations in experiences in react so we figured this could work well for us as some students could further their current skill on it and others could learn whilst always having various helpers available.
-
-**External services:**
-* Google Oauth 2.0
-  * Substantiation: Google's Oauth 2.0 protocol is very strong and easy for developers to use. Google is wildly popular so the chances that an adult today has a car but not a google account are very slim so we found Google's Oauth the perfect solution to having a safe authentication feature. Fontys also challenged us to make use of a microservice and by calling Google's Oauth we do exactly that.
-* Mollie payment service
-  * Substantiation: offers 
-### Languages and frameworks used architectural diagram:
-Below you can view a diagram that symbolizes the interaction/flow between these languages and frameworks.
-![Languages and frameworks diagram](/Projects/assets/Languages_and_frameworks_architecture_diagram.png)
-
-
-### **Infrastructure**
-Now that we know what languages and frameworks are used in the project, it may be nice to go over how these applications interact with eachother. You can find such information here. First I will list what applications make the whole Parkkings application.
-
-The Parkkings application consists out of: 
-
-**Clients:**  
-Guest User interface (used by visitors/customers):   
-Content Management system (used by admins):  
-
-**Developers:**  
-REST API:  
-MSSQL database:
-### Infrastructure diagram
-![Parkkigs infrastructure](/Projects/assets/architectuur_parkkings.drawio.png)
-<!-- cultural differences and ethics -->
-# Cultural & Ethical Decisions we've had to make 
-## Ethical decisions
-## Cultural decisions
 
 
 <!-- Professional skills -->

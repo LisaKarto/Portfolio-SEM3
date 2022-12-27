@@ -44,7 +44,7 @@ To prove proficient at the web application learning outcome, you'd have to prove
 -    You can implement security measures
 
 
-**My products and their relation to this learning outcome:**  
+**My products/Information and their relation to this learning outcome:**  
 Here you can find a list of information and products I've made throughout the semester that are related to this learning out come.
 ### S-DB-IPS3-S3
  * * * 
@@ -95,15 +95,22 @@ See overview below:
 **Clarification:**  
 > **Tooling and methodology:** Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews. 
   
-**How to prove proficient?**  
-**My products and their relation to this learning outcome:**  
+**How to prove proficient?** 
   - You unit test your code
   - You take measures to prevent messy code from being commited to your code base
   - You implement code reviews
-  - Automation testing 
+  - Automation testing
+    
+**My products/Information and their relation to this learning outcome:**   
+* [Planpal tests]()
+* [Sonarcloud reports]()
+* [Enforced Github branch rules]()
 <!-- Cross browser testing -->
 <!-- Test on multiple devices testing -->
 <!-- Software reports? CI/CD -->
+
+
+
 <!-- Agile method -->
 # Agile method
 **Description:** 
@@ -112,8 +119,14 @@ See overview below:
 **Clarification:**
 > **Choose:** You are aware of the most popular agile methods and their underlying agile principles. Your choice of a method is motivated and based on well-defined selection criteria and context analyses.   
 
-**How to prove proficient?**      
+**How to prove proficient?**   
+- Work according to Agile
+- Write a report on Agile
+
 **My products and their relation to this learning outcome:**
+* [Research Agile](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#7-project-working-process)
+* [How Parkkings utilized Agile](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#73-workflow-parkkings)
+* [SEM 3 Workflow report]()
 <!-- CI/CD -->
 # CI/CD
 **Description:** 
@@ -123,8 +136,12 @@ See overview below:
 > D**esign and implement:** You design a release process and implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker).  
 >
 **How to prove proficient?**   
-
+- Implement continues integration yml that contains deployment and building commands
+- Document your CI/CD workflow
+  
 **My products and their relation to this learning outcome:**   
+[How I make use of Github actions]()
+[Research on Docker]()
 <!-- Cultural differencese and ethics -->
 # Cultural differences and ethics
 **Description:** 
@@ -139,7 +156,13 @@ See overview below:
 
  
 **How to prove proficient?**    
+- Analyze where you come across cultural differences and ethics
+  - Document findings   
+
 **My products and their relation to this learning outcome:**
+* [Parkkings cultural differences and ethics](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#6-culture--ethics)
+  * [Parkkings cultural differences](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#61-cultural-differences-during-this-project)
+  * [Parkkings ethics](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#62-ethics-in-software)
 <!-- Requirements and design -->
 # Requirements and design
 **Description:**  
@@ -148,8 +171,17 @@ See overview below:
 **Clarification:** 
 > **Multiple types of test techniques:** You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance.   
 > 
-**How to prove proficient?**    
+**How to prove proficient?**
+- Involving stakeholders during the entire development life cycle
+- Creating wireframes/designs
+- Create an agreement on quality standards with stakeholders  
+(TIP: These points are easily achieved following Agile methodology)  
+
 **My products and their relation to this learning outcome:**
+- [Parkkings prototype]()
+- [Planpal prototype]() 
+- [Reports on Parkkings sprint reviews]()
+- [Reports feedpulse with teachers]()
 <!-- Business processes -->
 # Business processes
 **Description:**  
@@ -164,8 +196,12 @@ See overview below:
 >
 >Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance).  
 
-**How to prove proficient?**    
+**How to prove proficient?**
+* Analyze business processes
+* Document analysis
+
 **My products and their relation to this learning outcome:**
+* [Parkkings business process analysis](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#31-how-does-our-software-support-the-parking-garages)
 <!-- Professional -->
 # Professional
 **Description:** 
@@ -183,7 +219,13 @@ You choose and substantiate solutions for a given problem.
  - Write helpful project documentation 
  - Set up clear work environments
  - Publish your work  
+ - Follow software methodology
+ - Follow team agreements  
+(TIP: Easy to achieve following Agile methodology)  
+
 **My products and their relation to this learning outcome:**
+* [My github environment's central document](https://github.com/LisaKarto/Portfolio-SEM3)
+* [My efforts for our group projects](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#8-reflection)
 
 # Proficiency level
 | #   | name learning outcome               | Proficiency level |

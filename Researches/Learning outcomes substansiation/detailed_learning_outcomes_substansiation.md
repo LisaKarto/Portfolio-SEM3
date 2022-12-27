@@ -2,10 +2,24 @@
 In this document you can find information on the learning outcomes that students have to achieve in order to pass semester 3.
 
 # Table of content
-[Introduction](#introduction)  
-[Web application](#web-application)
+- [Learning outcomes semester 3](#learning-outcomes-semester-3)
+- [Table of content](#table-of-content)
+- [1. Introduction](#1-introduction)
+- [2. Web application](#2-web-application)
+    - [2.0.1. S-DB-IPS3-S3](#201-s-db-ips3-s3)
+    - [2.0.2. S-DB-GPS3-S3](#202-s-db-gps3-s3)
+- [3. Software quality](#3-software-quality)
+- [4. Agile method](#4-agile-method)
+- [5. CI/CD](#5-cicd)
+- [6. Cultural differences and ethics](#6-cultural-differences-and-ethics)
+- [7. Requirements and design](#7-requirements-and-design)
+- [8. Business processes](#8-business-processes)
+- [9. Professional](#9-professional)
+- [10. Proficiency level](#10-proficiency-level)
+- [11. Related topics](#11-related-topics)
+- [12. Sources](#12-sources)
 
-# Introduction
+# 1. Introduction
 
 
 All my deliverables explained and sorted ordered by learning outcome.
@@ -24,7 +38,7 @@ All my deliverables explained and sorted ordered by learning outcome.
 | 8   | **Professional:** You act in a professional manner during software development and learning.                                                                            | **Professional manners:** You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team.You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions.You choose and substantiate solutions for a given problem. | [more about professional](#professional)                                       |
 
 <!-- Web application -->
-# Web application
+# 2. Web application
 **Description:**  
 > You design and build user-friendly, full-stack web applications.  
 >
@@ -46,7 +60,7 @@ To prove proficient at the web application learning outcome, you'd have to prove
 
 **My products/Information and their relation to this learning outcome:**  
 Here you can find a list of information and products I've made throughout the semester that are related to this learning out come.
-### S-DB-IPS3-S3
+### 2.0.1. S-DB-IPS3-S3
  * * * 
 **Product:**  [PlanPal]()  
 **PlanPal's relationship to the web application learning outcome:**   
@@ -63,7 +77,7 @@ See overview below:
 
 [Planpal user stories]()
 
-### S-DB-GPS3-S3
+### 2.0.2. S-DB-GPS3-S3
 * * * 
 **Product:**  [Parkkings](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md)  
 **Parkkings's relationship to the web application learning outcome:**   
@@ -88,7 +102,7 @@ See overview below:
 [Detailed Technicalities Parkkings](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#5-project-technicalities)
 
 <!-- Software quality -->
-# Software quality
+# 3. Software quality
 **Description:** 
 > You use software tooling and methodology that continuously monitors and improve the software quality during software development. 
 >  
@@ -112,7 +126,7 @@ See overview below:
 
 
 <!-- Agile method -->
-# Agile method
+# 4. Agile method
 **Description:** 
 > You choose and implement the most suitable agile software development method for your software project.   
   
@@ -128,7 +142,7 @@ See overview below:
 * [How Parkkings utilized Agile](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#73-workflow-parkkings)
 * [SEM 3 Workflow report]()
 <!-- CI/CD -->
-# CI/CD
+# 5. CI/CD
 **Description:** 
 > You design and implement a (semi)automated software release process that matches the needs of the project context. 
 > 
@@ -143,7 +157,7 @@ See overview below:
 [How I make use of Github actions]()
 [Research on Docker]()
 <!-- Cultural differencese and ethics -->
-# Cultural differences and ethics
+# 6. Cultural differences and ethics
 **Description:** 
 > You recognize and take into account cultural differences between project stakeholders and ethical aspects in software development.   
  
@@ -164,7 +178,7 @@ See overview below:
   * [Parkkings cultural differences](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#61-cultural-differences-during-this-project)
   * [Parkkings ethics](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#62-ethics-in-software)
 <!-- Requirements and design -->
-# Requirements and design
+# 7. Requirements and design
 **Description:**  
 > You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques. 
 >    
@@ -183,7 +197,7 @@ See overview below:
 - [Reports on Parkkings sprint reviews]()
 - [Reports feedpulse with teachers]()
 <!-- Business processes -->
-# Business processes
+# 8. Business processes
 **Description:**  
 >You analyze and describe simple business processes that are related to your project.  
 
@@ -203,7 +217,7 @@ See overview below:
 **My products and their relation to this learning outcome:**
 * [Parkkings business process analysis](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#31-how-does-our-software-support-the-parking-garages)
 <!-- Professional -->
-# Professional
+# 9. Professional
 **Description:** 
 > You act in a professional manner during software development and learning.   
 > 
@@ -227,7 +241,7 @@ You choose and substantiate solutions for a given problem.
 * [My github environment's central document](https://github.com/LisaKarto/Portfolio-SEM3)
 * [My efforts for our group projects](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#8-reflection)
 
-# Proficiency level
+# 10. Proficiency level
 | #   | name learning outcome               | Proficiency level |
 | --- | ----------------------------------- | ----------------- |
 | 1   | [Web application]()                 | undefined         |
@@ -238,5 +252,5 @@ You choose and substantiate solutions for a given problem.
 | 6   | [Requirements and design]()         | undefined         |
 | 7   | [Business processes]()              | undefined         |
 | 8   | [Professional manners]()            | undefined         |
-# Related topics
-# Sources
+# 11. Related topics
+# 12. Sources

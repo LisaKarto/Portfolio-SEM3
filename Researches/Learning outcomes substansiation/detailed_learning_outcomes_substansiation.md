@@ -1,5 +1,5 @@
 # Learning outcomes semester 3
-
+In this document you can find information on the learning outcomes that students have to achieve in order to pass semester 3.
 
 # Table of content
 [Introduction](#introduction)  
@@ -38,13 +38,54 @@ All my deliverables explained and sorted ordered by learning outcome.
 Here you can read about what you'd have to show to prove sufficient at the web application learning outcomes.   
 
 To prove proficient at the web application learning outcome, you'd have to prove the following:
+<!-- Check with Leon -->
+-    You can design and build a full stack application that makes use of a distributed architecture
+-    You can implement external web services
+-    You can implement security measures
 
--    
+
 **My products and their relation to this learning outcome:**  
-Here you can find a list of products I've made throughout the semester that are related to this learning out come.
-
+Here you can find a list of information and products I've made throughout the semester that are related to this learning out come.
+### S-DB-IPS3-S3
+ * * * 
 **Product:**  [PlanPal]()  
-**PlanPal's relationship to the web application learning outcome:** 
+**PlanPal's relationship to the web application learning outcome:**   
+Planpal is a full stack web application that makes use of a distributed architecture. Planpal also makes use of external web services and has implemented security measures. Read more about Planpal [here]().  
+
+See overview below:  
+**Planpal obtains:**
+* Distributed architecture
+  * REST API architecture
+* Security
+  * AUTH0 authentication
+* Functionality
+  * Create, Read, Update, Delete functionalities for Lists  
+
+[Planpal user stories]()
+
+### S-DB-GPS3-S3
+* * * 
+**Product:**  [Parkkings](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md)  
+**Parkkings's relationship to the web application learning outcome:**   
+Parkkings is a full stack web application that makes use of a distributed architecture. Parkkings also makes use of external web services and has implemented security measures. 
+ Read more about Parkkings [here](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md).   
+See overview below:     
+**Parkkings's project obtains:**
+* Distributed architecture
+  * REST API architecture
+* Security
+  * Oauth 2.0 authentication
+* Functionality
+  * Login to the app
+  * Manage cars
+  * Creating and managing parking reservations 
+  * List parking information
+  * List reservation details
+  * Pay for parking
+  * Logout  
+  
+[Detailed requirements Parkkings](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#3-the-project)  
+[Detailed Technicalities Parkkings](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#5-project-technicalities)
 
 <!-- Software quality -->
 # Software quality
@@ -55,8 +96,14 @@ Here you can find a list of products I've made throughout the semester that are 
 > **Tooling and methodology:** Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews. 
   
 **How to prove proficient?**  
-**My products and their relation to this learning outcome:**
-
+**My products and their relation to this learning outcome:**  
+  - You unit test your code
+  - You take measures to prevent messy code from being commited to your code base
+  - You implement code reviews
+  - Automation testing 
+<!-- Cross browser testing -->
+<!-- Test on multiple devices testing -->
+<!-- Software reports? CI/CD -->
 <!-- Agile method -->
 # Agile method
 **Description:** 
@@ -132,7 +179,10 @@ Here you can find a list of products I've made throughout the semester that are 
 >You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions.
 You choose and substantiate solutions for a given problem.  
 
-**How to prove proficient?**      
+**How to prove proficient?**    
+ - Write helpful project documentation 
+ - Set up clear work environments
+ - Publish your work  
 **My products and their relation to this learning outcome:**
 
 # Proficiency level
@@ -146,9 +196,5 @@ You choose and substantiate solutions for a given problem.
 | 6   | [Requirements and design]()         | undefined         |
 | 7   | [Business processes]()              | undefined         |
 | 8   | [Professional manners]()            | undefined         |
-# Reflection semester 3
 # Related topics
-[Agile in semester 3]()  
-[How I work with Git and GitHub]()  
-[]()
 # Sources

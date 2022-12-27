@@ -817,41 +817,63 @@ This sprint wasn't yet very taxing as for me it was mostly still writing user st
 **Difficulties we've faced during this sprint and how we got over it.**  
 I think during this sprint there weren't many difficulties if any at all.  
 * * *  
-**Sprint 2 reflection**
+**Sprint 2 reflection**  
+Since I was in charge of writing the user stories in the previous sprint, I was allowed to continue working on them as it's common that certain user stories need to be refined. So this sprint, I revisited them, improved them wherever I could and updated them in the Jira backlog. Meanwhile I also flexed, meaning I was open to helping other teammembers but I had not been requested on large things. Mostly just quick questions in which I got asked for my opinions during a fellow developer's decision making.
 
-What I've worked on during this sprint
+**What I've worked on during this sprint**  
+Refining user stories, updating user stories to the Jira backlog, Flex 
 
-Did I accomplish my work during this sprint?
+**Did I accomplish my work during this sprint?**  
+Yes and no, as updating the user stories was a bit annoying given it had been written in a word document previously. SO in later sprints I am still, refining, adjusting certain user stories. What's also hard about writing user stories in advance are the acceptance criteria's, these are of high standard thus need to be perfect and it's hard not to miss something when you're writing user stories for the first time.
 
-What I've learnt during this sprint
+**What I've learnt during this sprint**  
+* I've learnt a bit about the Jira environment.
+* In our review there were a few complaints about the lack of appearance in the app.
+I learnt that building a prototype, wireframes and checking in with the PO's regularly goes a far way during software development for the satisfication of our PO's.
+* To be more assertive during the sprint reviews and have the courage to take control over the meeting
+* As a team you are allowed to stand up for yourselves
+**How do I look back to this sprint?**  
+I have no hard feellings towards this sprint.
 
-How do I look back to this sprint?
-
-Difficulties we've faced during this sprint and how we got over it.
-
+**Difficulties we've faced during this sprint and how we got over it.**  
+The sprint review was a bit rough, as our application lacked a bit of designs. And because of that the work we did in our backend is less appearant. We learn to mitigate that possibility in future sprints by making appearance part of our user stories's acceptance criterea. Taking the lead during sprint reviews still deemed a bit difficult, but efforts have been made which is improvement. :)
 * * *
 **Sprint 3 reflection**
+During this sprint I really got into coding, mostly in the front-end. I personally think this sprint was a lot of fun but also a bit nerve wrecking as it was the sprint before a big review at which all groups would be present. And since our previous sprint review wasn't the biggest succes we wanted to really impress our PO's this time.
+Overall I think during this sprint we as a team did a great job.
 
-What I've worked on during this sprint
+**What I've worked on during this sprint**  
+Reservations CRUD Front-end. 
 
-Did I accomplish my work during this sprint?
+**Did I accomplish my work during this sprint?**  
+Yes, it ended up working just fine. 
 
-What I've learnt during this sprint
+**What I've learnt during this sprint**  
+REACT, Axios Requests
 
-How do I look back to this sprint?
+**How do I look back to this sprint?**  
+I look back at this sprint fondly as I had a lot of fun programming the functionalities. It was different from writing user stories which is what I had done mostly thus far.
 
-Difficulties we've faced during this sprint and how we got over it.
+**Difficulties we've faced during this sprint and how we got over it.**  
+There was a vacation during this sprint, so there were some communication errors.
+As some people could be reached but others weren't.
 * * * 
-**Sprint 4 reflection**
-What I've worked on during this sprint
+**Sprint 4 reflection**  
+It was a rough sprint for me as I preferably don't do presentations however I will admit it was a good experience to have as I learnt a lot, got tips on how to improve. Which makes me look more fondly at the future in which I will likely have to present something again. Work wise, it was a pretty good sprint.
 
-Did I accomplish my work during this sprint?
+**What I've worked on during this sprint**  
+Worked together with Jordy on the tarrif system in the CMS.
+At the end of this sprint I held the sprint review.  
+**Did I accomplish my work during this sprint?**
+Yes, but I mostly have Jordy to thank as he was lead programmer in our cooperation. And he works very effiecient and fast. So to be completely honest, I had it quite easy this sprint thanks to my colleague.
+**What I've learnt during this sprint**  
+How to improve leading a scrum review, making use of external calendar code.  
+**How do I look back to this sprint?**
+I look back at this sprint in a grateful way because of all the feedback I've received. I'm happy it happend.
 
-What I've learnt during this sprint
+**Difficulties we've faced during this sprint and how we got over it.**  
+Different values within the team, we solved this by having serious conversations about it. And making sure that agreements were understood and confirmed by everyone.
 
-How do I look back to this sprint?
-
-Difficulties we've faced during this sprint and how we got over it.
 * * * 
 **Sprint 5 reflection**
 Hasn't finished.

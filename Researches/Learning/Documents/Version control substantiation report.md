@@ -1,8 +1,5 @@
-<h1> Version Control substantiation report</h1>
-Applicable to my individual project.  
-
-<br> 
-
+<h1>Version Control research report</h1>
+ 
 [< redirect to portfolio main](https://github.com/LisaKarto/Portfolio-SEM3)
 
 # Table of content
@@ -23,6 +20,12 @@ Applicable to my individual project.
     - [**What is GitHub**](#what-is-github)
     - [**What is GitLab**](#what-is-gitlab)
     - [**My final choice in version control platform**](#my-final-choice-in-version-control-platform)
+- [Design oriented triangulation (DOT) framework methods used](#design-oriented-triangulation-dot-framework-methods-used)
+  - [Library](#library)
+  - [Field](#field)
+  - [Lab](#lab)
+  - [Showroom](#showroom)
+  - [Workshop](#workshop)
 - [Related topics](#related-topics)
 - [Sources](#sources)
 
@@ -31,6 +34,15 @@ Applicable to my individual project.
 # Introduction
 
 This document serves as a substantiation report to my version control tools choices, In this report I hope to make my decision to use the version control tools that I use (Git and GitHub) clear by exploring the basics of version control and comparing the chosen tools to other tools that are out there which offer similar functions. In the end I will draw a conclusion as to why I've decided to settle for Git and GitHub. 
+
+- What is version control?
+- Why do we need version control?
+- How can I implement good version control in my project?
+  - What are version control tools?
+    - What version control tools best fit my project?
+  - What are version control platforms? 
+    - What version control platform best fit my project?
+ 
   
   [^ Back to table of content](#table-of-content)
 # My background
@@ -272,24 +284,41 @@ I've prior experience using GitLab, namely in the last semesters so I wanted to 
 **Definitive version control system of choice:** Git  
 **Definitive version control platform:** GitHub  
 
+
+* * * 
+# Design oriented triangulation (DOT) framework methods used
+
+## Library
+**Description**: Library research is done to explore what is already done and what guidelines and theories exist that could help you further your design. Since the advent of the internet library research is also called desk research.
+
+  * 
+## Field
+**Description**:
+Field research is done to explore the application context. You apply a field strategy to get to know your end users, their needs, desires and limitations as organizational and physical contexts in which they will use your product.
+
+  *
+## Lab
+**Description**:Lab research is done to test parts or concepts of your product, of the final product. You use lab research to learn if things work out the way you intended them, or to test different scenarios.
+
+  *
+## Showroom
+**Description**:Showroom research is done to test your ideas in relation to existing work. Showing your prototype to experts can be a form of showroom research or spelling out how your product is different from the competition. Also testing your product to general guidelines is a form of showroom research.
+
+  *
+## Workshop
+**Description**:Workshop research is done to explore opportunities. Prototyping, designing and co-creation activities are all ways to gain insights in what is possible and how things could work.
+
+  *
+
+
+
+
 [^ Back to table of content](#table-of-content)
 # Related topics 
 [redirect to portfolio main](https://github.com/LisaKarto/Portfolio-SEM3)  
 
-
 * [Workflow within my project]()
-  * [Agile]()
-    * [Scrum]()
-  * [Work environment]()
-* [How I work with Git and GitHub]()
-  * [GitHub repositories]()
-  * [GitHub issues]()
-  * [GitHub projects]()
-  * [GitHub boards]()
-* [Learning projects with GitHub]()
-* [Learning Issues with GitHub]()
-* [Learning GitHub workflow]()
-* [Learning outcomes]() 
+
   
 [^ Back to table of content](#table-of-content)  
 # Sources
@@ -300,5 +329,6 @@ https://sccs.sourceforge.net/sccs_vs_rcs.html
 https://www.geeksforgeeks.org/centralized-vs-distributed-version-control-which-one-should-we-choose/  
 https://www.ryadel.com/en/using-github-with-mercurial-and-tortoisehg/  
 https://jelvix.com/blog/bitbucket-vs-github-vs-gitlab  
+https://ictresearchmethods.nl/Methods  
 
 [^ Back to table of content](#table-of-content)

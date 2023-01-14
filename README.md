@@ -133,8 +133,8 @@ Quick navigation for those who want to take a look at my written deliverables on
 
 <span style="font-size:1em"> Here you can find the written deliverables and documents applicalble to both S-DB-IPS3-S3 and S-DB-GPS3-S3. </span>
 
-* [Sudden death user story]()
-  * [Development report]()
+* [Sudden death user story](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/User%20story%20SD.md)
+  * [Development report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/Topics/Development%20report.md)
   * [Test report]()
   * [CI/CD report]()
   

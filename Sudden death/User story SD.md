@@ -1,12 +1,5 @@
 # User story SD
 
-
-**Why?**
-This semester I have found my 
-I thought it was funny to call it "user story SD" meaning user story sudden death as this is my last chance to bring home the victory for my ancestors and pass Fontys semester 3.
-
-# The user story
-
 ## As a busy student I want to be able to mark a list as done or not done, so I can see/track which lists I have completed and which I haven't.
 
 **Acceptance criteria:**

@@ -39,7 +39,8 @@ SC = Semester coach
       - [2.2.3.1 **Overall semester**:](#2231-overall-semester)
       - [2.2.3.2 **S-DB-IPS3-S3**:](#2232-s-db-ips3-s3)
       - [2.2.3.3 **S-DB-GPS3-S3**:](#2233-s-db-gps3-s3)
-- [3. Afterword](#3-afterword)
+- [3. Reflection](#3-reflection)
+- [4. Afterword](#4-afterword)
 
 
 * * * 
@@ -108,19 +109,19 @@ Quick navigation for those who want to take a look at my technical deliverables 
 
 <span style="font-size:0.8em">Here you can find the Technical deliverables and projects applicable to **S-DB-IPS3-S3**. </span>
 
-| Product          | Information                                                                | view  | Learning outcome | LO info |
-| ---------------- | -------------------------------------------------------------------------- | :---: | ---------------- | :-----: |
-| Planpal frontend | The planpal project frontend, written with Javascript using vue framework. | [👁]() | LO1              |  [?]()  |
-| Planpal Backend  | The planpal project backend, written with Java using spring framework.     | [👁]() | LO1              |  [?]()  |
+| Product          | Information                                                                |                          view                           | Learning outcome | LO info |
+| ---------------- | -------------------------------------------------------------------------- | :-----------------------------------------------------: | ---------------- | :-----: |
+| Planpal frontend | The planpal project frontend, written with Javascript using vue framework. | [👁](https://github.com/LisaKarto/Planpal_Front-end_Vue) | LO1              |  [?]()  |
+| Planpal Backend  | The planpal project backend, written with Java using spring framework.     | [👁](https://github.com/LisaKarto/Planpal_Back-end_Java) | LO1              |  [?]()  |
    
 
 #### 2.2.2.2 **S-DB-GPS3-S3**: 
  
 <span style="font-size:1em"> Here you can find the Technical deliverables and projects applicable to **S-DB-GPS3-S3**. </span>
 
-| Product   | Information  | view  | Learning outcome | LO info |
-| --------- | :----------: | :---: | ---------------- | :-----: |
-| Parkkings | left-aligned | [👁]() | LO1              |  [?]()  |
+| Product   | Information  |                                           view                                            | Learning outcome | LO info |
+| --------- | :----------: | :---------------------------------------------------------------------------------------: | ---------------- | :-----: |
+| Parkkings | left-aligned | [👁](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md) | LO1              |  [?]()  |
   
 
 
@@ -131,9 +132,12 @@ Quick navigation for those who want to take a look at my written deliverables on
 #### 2.2.3.1 **Overall semester**:  
 
 <span style="font-size:1em"> Here you can find the written deliverables and documents applicalble to both S-DB-IPS3-S3 and S-DB-GPS3-S3. </span>
-```
-```
 
+* [Sudden death user story]()
+  * [Development report]()
+  * [Test report]()
+  * [CI/CD report]()
+  
 #### 2.2.3.2 **S-DB-IPS3-S3**:  
 
 <span style="font-size:1em"> Here you can find the written deliverables and documents applicable to S-DB-IPS3-S3. </span>
@@ -147,7 +151,30 @@ Quick navigation for those who want to take a look at my written deliverables on
   
 [^ Table of contents](#table_of_contents)
 
-# 3. Afterword
+# 3. Reflection
+**Group course**
+
+find my reflection on the group course [here](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#8-reflection)  
+
+**Individual course**
+
+Due to personal reasons I've gotten done less than I would have liked to.
+But my teachers have been kind and understanding enough to comprimise.
+
+Agreements:
+- Write at least 1 research report
+- 1 user story that runs through the whole software methodology
+  - Development
+    - User story with acceptance criteria
+  - Testing
+    - Front end
+    - Back end
+  - CI/CD
+    - Deploy to dockerhub
+  
+I'm very grateful for this comprimise as it made me feel like there was at least some hope to still pass the semester.
+
+# 4. Afterword
 
 Thank you for helping me realise that I am flawed.  
 <span style="font-size:0.7em"> knowing that no one will read this portfolio brings me comfort. </span>

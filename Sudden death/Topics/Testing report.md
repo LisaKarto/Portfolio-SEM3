@@ -70,11 +70,40 @@ test service
 # Frontend
 - Vue test utils  
   
-viewlists
+  check if toggle status btn exists
 ```js
-```
-put status change
-```js
+describe('ListManageComponent', () => {
+
+  // test 1
+
+  // wrap component
+  // check if toggle button exists in component
+
+  const list = {
+    idList: 1,
+    listName: "MyTestList",
+    listType: "Todo-list",
+    isDone: 1,
+    uid: "myUID"
+  }
+
+  it('correct list prop gets rendered', () => {
+
+    const wrapper = shallowMount(ListManageComponent, {
+      mocks: {
+        $route: {
+          params: {
+            idList: list.idList
+          }
+        }
+      }
+    })
+
+    const button = wrapper.get('[data-test="status-btn"]')
+    expect(button.exists()).toBe(true);
+  })
+
+
 ```
 
 

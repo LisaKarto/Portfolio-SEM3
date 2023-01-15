@@ -15,7 +15,8 @@
 **Definition of done:** Developed, tested and deployed to dockerhub
 
 * * * 
-- [x] **Developed**  
+- [x] **Developed** 
+   
 **Definition of ready:** User story has been created along with acceptance criteria.   
 **Definition of done:** All acceptance criteria have been developed in the front end and back end.
 
@@ -23,12 +24,18 @@
 
 
 - [ ] **tested**   
+  - [x] Backend  
+  - [ ] Frontend  
+  
 **Definition of ready:** All acceptance criteria have been developed.  
 **Definition of done:** Both frontend and backend user story related code must be tested.
 
 [test report]()
 
 - [ ] **deployed**  
+  - [ ] Backend  
+  - [ ] Frontend   
+  
 **Definition of ready:** Both frontend and backend user story related code has been tested.  
 **Definition of done:** CI pipeline deploys code to dockerhub
 

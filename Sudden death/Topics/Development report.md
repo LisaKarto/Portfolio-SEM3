@@ -144,24 +144,29 @@ private ListResponse mapToListResponse(List listModel){
         }
 }
 ```
-Method to retrieve lists from specified user
-```java 
+Methods to retrieve lists from specified user
+
+```java
 // get lists from user
-    public java.util.List<ListResponse> ShowAllListsFromUser(String UID){
-        java.util.List<List> lists = listRepository.findAll();
-        java.util.List<ListResponse> userlists = lists.stream().map(this::mapToListResponse).collect(Collectors.toList());
+    public java.util.List<ListResponse> filterLists(java.util.List<ListResponse> userlists,String UID){
 
         Iterator<ListResponse> i = userlists.iterator();
         while (((Iterator<?>) i).hasNext()) {
             ListResponse s = i.next();
-           // do not show list if uid is null or is not equal to the given UID
+            // do not show list if uid is null or is not equal to the given UID
             if(s.getUID() == null  || !s.getUID().equals(UID)) {
                 i.remove();
             }
         }
         return userlists;
-    }    
+    }
 
+    public java.util.List<ListResponse> ShowAllListsFromUser(String UID){
+        java.util.List<List> lists = listRepository.findAll();
+        java.util.List<ListResponse> userlists = lists.stream().map(this::mapToListResponse).collect(Collectors.toList());
+
+        return filterLists(userlists,UID);
+    }  
 ```
 
 

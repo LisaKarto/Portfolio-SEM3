@@ -875,11 +875,14 @@ I look back at this sprint in a grateful way because of all the feedback I've re
 Different values within the team, we solved this by having serious conversations about it. And making sure that agreements were understood and confirmed by everyone.
 
 * * * 
-**Sprint 5 reflection**
-Hasn't finished.
+**Sprint 5 reflection**  
+I admit to having done less work during this sprint as I had something playing in my personal life and was behind on IP work. However I was still scrummaster during this time, I did get assisted by my teammates during this task which I am grateful for as I had kind of lost view on the process. In the end I can say my teammates delivered greatly during this sprint and I am very proud of how far we had come. We had about 60 story points scheduled for this sprint and we delivered :) A succesful sprint indeed. 
 * * * 
 ## 8.1. Full project reflection
-Project hasn't yet finished.
+The start of a group project is always a challenge, you get thrown in the deep in end with a list of tasks and a bunch of strangers often. And then develop further not only the project but also the team. As for productivity we have had our ups and downs during sprints but in the end we did manage to hit that sweet spots, where we knew just how eachother's minds worked and got comfortable enough to look eachother in the eyes to ask "Do you need anything from me?". This kind of openess helps a team progress a lot. 
+
+Over all I am proud of my teammembers and our product.
+I've also learnt a lot from our Teachers and PO's, they've always offered useful tips and feedback. Some of which helped me shift certain prior taught perspectives that I've had, I now look at the relationship between a development team and PO's more equally. Instead of thinking a development team has to just listen and shut up. I think this shift of perspective will help me a lot in the future.
 
 And that concludes my portfolio for the S-DB-GPS3-S3 course.  
 

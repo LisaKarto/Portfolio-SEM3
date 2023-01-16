@@ -20,25 +20,25 @@
 **Definition of ready:** User story has been created along with acceptance criteria.   
 **Definition of done:** All acceptance criteria have been developed in the front end and back end.
 
-[development report]()
+[development report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/Topics/Development%20report.md)
 
 
-- [ ] **tested**   
+- [x] **tested**   
   - [x] Backend  
-  - [ ] Frontend  
+  - [x] Frontend  
   
 **Definition of ready:** All acceptance criteria have been developed.  
 **Definition of done:** Both frontend and backend user story related code must be tested.
 
-[test report]()
+[test report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/Topics/Testing%20report.md)
 
-- [ ] **deployed**  
-  - [ ] Backend  
-  - [ ] Frontend   
+- [x] **deployed**  
+  - [] Backend   (Failed)
+  - [x] Frontend   
   
 **Definition of ready:** Both frontend and backend user story related code has been tested.  
 **Definition of done:** CI pipeline deploys code to dockerhub
 
-[deployment report]()
+[deployment report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/Topics/Deployment%20report.md)
 
 

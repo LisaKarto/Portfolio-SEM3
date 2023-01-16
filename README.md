@@ -56,7 +56,10 @@ In case of any questions about my portfolio, I have left my [contact info](#cont
 [^ Table of contents](#table_of_contents)
 ## 1.1 Learning outcomes substantation report
 
-A detailed substantation report on the relationship of my products to the learning outcomes can be found [here](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning%20outcomes%20substansiation/detailed_learning_outcomes_substansiation.md) </p>
+The table is no more, I'm sorry however a detailed substantation report on the relationship of my products to the learning outcomes can be found [here](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning%20outcomes%20substansiation/detailed_learning_outcomes_substansiation.md)  
+
+[Use this if you want to search for my products by learning outcome otherwise refer down for more simplified navigation.](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning%20outcomes%20substansiation/detailed_learning_outcomes_substansiation.md)
+ </p>
 
 
 
@@ -80,7 +83,7 @@ Navigation for those who would like to explore all aspects of my portfolio.
 There are 2 main projects and thus 2 main portfolios that I've constructed. Both are written as cohorent stories that you can just read through with ease. They can be found below:
 
 * [Group project course Parkkings portfolio whole](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md)  
-
+* [User story SD report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/User%20story%20SD.md)
 
 [^ Table of contents](#table_of_contents)
 ## 2.2.2 Technical projects and deliverables navigator
@@ -100,8 +103,8 @@ Quick navigation for those who want to take a look at my technical deliverables 
 
 | Product          | Information                                                                |                          view                           | Learning outcome | LO info |
 | ---------------- | -------------------------------------------------------------------------- | :-----------------------------------------------------: | ---------------- | :-----: |
-| Planpal frontend | The planpal project frontend, written with Javascript using vue framework. | [👁](https://github.com/LisaKarto/Planpal_Front-end_Vue) | LO1              |  [?]()  |
-| Planpal Backend  | The planpal project backend, written with Java using spring framework.     | [👁](https://github.com/LisaKarto/Planpal_Back-end_Java) | LO1              |  [?]()  |
+| Planpal frontend | The planpal project frontend, written with Javascript using vue framework. | [👁](https://github.com/LisaKarto/Planpal_Front-end_Vue) | LO1              |         |
+| Planpal Backend  | The planpal project backend, written with Java using spring framework.     | [👁](https://github.com/LisaKarto/Planpal_Back-end_Java) | LO1              |         |
    
 
 #### 2.2.2.2 **S-DB-GPS3-S3**: 
@@ -110,7 +113,7 @@ Quick navigation for those who want to take a look at my technical deliverables 
 
 | Product   | Information  |                                           view                                            | Learning outcome | LO info |
 | --------- | :----------: | :---------------------------------------------------------------------------------------: | ---------------- | :-----: |
-| Parkkings | left-aligned | [👁](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md) | LO1              |  [?]()  |
+| Parkkings | left-aligned | [👁](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md) | LO1              |         |
   
 
 
@@ -124,13 +127,13 @@ Quick navigation for those who want to take a look at my written deliverables on
 
 * [Sudden death user story](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/User%20story%20SD.md)
   * [Development report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/Topics/Development%20report.md)
-  * [Test report]()
-  * [CI/CD report]()
+  * [Test report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/Topics/Testing%20report.md)
+  * [deployment report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/Topics/Deployment%20report.md)
   
 #### 2.2.3.2 **S-DB-IPS3-S3**:  
 
 <span style="font-size:1em"> Here you can find the written deliverables and documents applicable to S-DB-IPS3-S3. </span>
-* [Version control substantiation report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning/Documents/Version%20control%20substansiation%20report.md)  
+* [Version control research report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning/Documents/Version%20control%20research%20report.md)  
 <a id="Navigator_written_docs_GP"></a>
 
 #### 2.2.3.3 **S-DB-GPS3-S3**: 
@@ -147,8 +150,7 @@ find my reflection on the group course [here](https://github.com/LisaKarto/Portf
 
 **Individual course**
 
-Due to personal reasons I've gotten done less than I would have liked to.
-But my teachers have been kind and understanding enough to comprimise.
+Due to personal reasons I'd fallen behind and gotten done less than I would have liked to. But my teacher has been kind and understanding thus offered compromise. Following are the agreements we made for me to complete in the limited time I had left to pass the semester:
 
 Agreements:
 - Write at least 1 research report
@@ -161,7 +163,14 @@ Agreements:
   - CI/CD
     - Deploy to dockerhub
   
-I'm very grateful for this comprimise as it made me feel like there was at least some hope to still pass the semester.
+I'm very grateful for this offer as it made me feel like there was at least some hope to still pass the semester.
+
+**Workflow reflection**  
+Looking back I notice a big difference within my way of working at the start of the semester and at the end. At the start I had not yet completely put my attention onto the user stories. Instead I went with the vague ideas in my head with what needed be done. At the end during USSD, I had decided to follow the user stories like some sort of plan and work with dedication to that plan and it proved to be very efficient.
+
+USSD urged me to set priorities and get rid of the other fog around me.. at least for a little while. 
+
+Over all harsh semester for me personally, however I have truly learnt a lot from it. And think more lightly upon future developing when abiding to a streamlined way of working.
 
 # 4. Afterword
 

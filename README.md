@@ -10,6 +10,7 @@
 **Class:** DB04  
 **Professors:** Leon van Bokhorst (IP), Thijs Naus (GP), John Wijnen (SC)  
 **Main project IP:**  Planpal  
+**Bueno achieved:** [?](https://rlv.zcache.nl/svc/view?rlvnet=1&realview=113581592887380958&design=0a45756a-bcdc-4b05-ad20-2945ab54161a&style=hanes_mens_crew_tshirt_5250&size=a_s&color=white&max_dim=1700)  
 **Project GP:** Parking system  
 **GP Partner in Education:** Mediaan  
 <a id="contact_info"></a>  
@@ -27,7 +28,7 @@ SC = Semester coach
 - [SEM 3 Portfolio Lisa Kartodimedjo](#sem-3-portfolio-lisa-kartodimedjo)
 - [Table of contents](#table-of-contents)
 - [1. Introduction](#1-introduction)
-  - [1.1 Learning outcomes simple overview](#11-learning-outcomes-simple-overview)
+  - [1.1 Learning outcomes substantation report](#11-learning-outcomes-substantation-report)
 - [2. Reader's guide](#2-readers-guide)
   - [2.1 Portfolio structure](#21-portfolio-structure)
 - [2.2 Navigators](#22-navigators)
@@ -53,22 +54,10 @@ My portfolio consists out of several parts. This document serves as the central 
 
 In case of any questions about my portfolio, I have left my [contact info](#contact_info) at the top of this document. I won't remember much as I am not God. But feel free to try and ask me about stuff anyway.  
 [^ Table of contents](#table_of_contents)
-## 1.1 Learning outcomes simple overview
-In the table underneath you will find the learning outcomes that have been set by Fontys for students of this semester to prove suffient at. <p style="font-size:12px"> A detailed substantation report on the relationship of my products to the learning outcomes can be found [here](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning%20outcomes%20substansiation/detailed_learning_outcomes_substansiation.md) </p>
+## 1.1 Learning outcomes substantation report
 
+A detailed substantation report on the relationship of my products to the learning outcomes can be found [here](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning%20outcomes%20substansiation/detailed_learning_outcomes_substansiation.md) </p>
 
-
-
-| #   | Learning outcome                | Description                                                                                                                             | Clarification |
-| --- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | :-----------: |
-| 1   | Web application                 | You design and build user-friendly, full-stack web applications.                                                                        |   [view]()    |
-| 2   | Software quality                | You use software tooling and methodology that continuously monitors and improve the software quality during software development.       |   [view]()    |
-| 3   | Agile method                    | You choose and implement the most suitable agile software development method for your software project.                                 |   [view]()    |
-| 4   | CI/CD                           | You design and implement a (semi)automated software release process that matches the needs of the project context.                      |   [view]()    |
-| 5   | Cultural differences and ethics | You recognize and take into account cultural differences between project stakeholders and ethical aspects in software development.      |   [view]()    |
-| 6   | Requirements and design         | You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques. |   [view]()    |
-| 7   | Business processes              | You analyze and describe simple business processes that are related to your project.                                                    |   [view]()    |
-| 8   | Professional                    | You act in a professional manner during software development and learning.                                                              |   [view]()    |
 
 
 [^ Table of contents](#table_of_contents)

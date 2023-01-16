@@ -61,7 +61,7 @@ However doing this manually has a lot of flaws as well as it is time consuming a
 [^ Back to table of content](#table-of-content)
 ### **Comparing version control software**
 Underneath I have listed a couple of version control software that are out there free to use. You can read the core of the software as well as some pros and cons. In the end I am giving a conclusion which states which version control software I have chosen for my current project and why.
-note: I willl only be comparing distributed version control software.
+note: I willl only be comparing decentralized version control software.
 
 [^ Back to table of content](#table-of-content)
 ### **What is Bazaar**

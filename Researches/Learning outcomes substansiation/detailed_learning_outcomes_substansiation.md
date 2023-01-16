@@ -5,19 +5,17 @@ In this document you can find information on the learning outcomes that students
 - [Learning outcomes semester 3](#learning-outcomes-semester-3)
 - [Table of content](#table-of-content)
 - [1. Introduction](#1-introduction)
-- [2. Web application](#2-web-application)
+- [2. Web application LO1](#2-web-application-lo1)
     - [2.0.1. S-DB-IPS3-S3](#201-s-db-ips3-s3)
     - [2.0.2. S-DB-GPS3-S3](#202-s-db-gps3-s3)
-- [3. Software quality](#3-software-quality)
-- [4. Agile method](#4-agile-method)
-- [5. CI/CD](#5-cicd)
-- [6. Cultural differences and ethics](#6-cultural-differences-and-ethics)
-- [7. Requirements and design](#7-requirements-and-design)
-- [8. Business processes](#8-business-processes)
-- [9. Professional](#9-professional)
+- [3. Software quality LO2](#3-software-quality-lo2)
+- [4. Agile method LO3](#4-agile-method-lo3)
+- [5. CI/CD LO4](#5-cicd-lo4)
+- [6. Cultural differences and ethics LO5](#6-cultural-differences-and-ethics-lo5)
+- [7. Requirements and design LO6](#7-requirements-and-design-lo6)
+- [8. Business processes LO7](#8-business-processes-lo7)
+- [9. Professional LO8](#9-professional-lo8)
 - [10. Proficiency level](#10-proficiency-level)
-- [11. Related topics](#11-related-topics)
-- [12. Sources](#12-sources)
 
 # 1. Introduction
 
@@ -38,7 +36,7 @@ All my deliverables explained and sorted ordered by learning outcome.
 | 8   | **Professional:** You act in a professional manner during software development and learning.                                                                            | **Professional manners:** You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team.You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions.You choose and substantiate solutions for a given problem. | [more about professional](#professional)                                       |
 
 <!-- Web application -->
-# 2. Web application
+# 2. Web application LO1
 **Description:**  
 > You design and build user-friendly, full-stack web applications.  
 >
@@ -62,9 +60,9 @@ To prove proficient at the web application learning outcome, you'd have to prove
 Here you can find a list of information and products I've made throughout the semester that are related to this learning out come.
 ### 2.0.1. S-DB-IPS3-S3
  * * * 
-**Product:**  [PlanPal]()  
+**Product:**  Planpal  
 **PlanPal's relationship to the web application learning outcome:**   
-Planpal is a full stack web application that makes use of a distributed architecture. Planpal also makes use of external web services and has implemented security measures. Read more about Planpal [here]().  
+Planpal is a full stack web application that makes use of a distributed architecture. Planpal also makes use of external web services and has implemented security measures. Read more about Planpal [here](https://github.com/LisaKarto/Planpal_Front-end_Vue).  
 
 See overview below:  
 **Planpal obtains:**
@@ -75,7 +73,8 @@ See overview below:
 * Functionality
   * Create, Read, Update, Delete functionalities for Lists  
 
-[Planpal user stories]()
+[Planpal user stories](https://github.com/users/LisaKarto/projects/2)  
+[Planpal USSD](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/User%20story%20SD.md)
 
 ### 2.0.2. S-DB-GPS3-S3
 * * * 
@@ -102,7 +101,7 @@ See overview below:
 [Detailed Technicalities Parkkings](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#5-project-technicalities)
 
 <!-- Software quality -->
-# 3. Software quality
+# 3. Software quality LO2
 **Description:** 
 > You use software tooling and methodology that continuously monitors and improve the software quality during software development. 
 >  
@@ -116,9 +115,9 @@ See overview below:
   - Automation testing
     
 **My products/Information and their relation to this learning outcome:**   
-* [Planpal tests]()
-* [Sonarcloud reports]()
-* [Enforced Github branch rules]()
+* [Planpal tests](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/Topics/Testing%20report.md)
+* [Sonarcloud report example](https://github.com/LisaKarto/Planpal_Front-end_Vue/runs/10661794647)
+* Enforced Github branch rules
 <!-- Cross browser testing -->
 <!-- Test on multiple devices testing -->
 <!-- Software reports? CI/CD -->
@@ -126,7 +125,7 @@ See overview below:
 
 
 <!-- Agile method -->
-# 4. Agile method
+# 4. Agile method LO3
 **Description:** 
 > You choose and implement the most suitable agile software development method for your software project.   
   
@@ -140,9 +139,9 @@ See overview below:
 **My products and their relation to this learning outcome:**
 * [Research Agile](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#7-project-working-process)
 * [How Parkkings utilized Agile](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#73-workflow-parkkings)
-* [SEM 3 Workflow report]()
+
 <!-- CI/CD -->
-# 5. CI/CD
+# 5. CI/CD LO4
 **Description:** 
 > You design and implement a (semi)automated software release process that matches the needs of the project context. 
 > 
@@ -154,10 +153,12 @@ See overview below:
 - Document your CI/CD workflow
   
 **My products and their relation to this learning outcome:**   
-[How I make use of Github actions]()
-[Research on Docker]()
+[USSD CI/CD](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/Topics/Deployment%20report.md)
+
+[Front end Workflows](https://github.com/LisaKarto/Planpal_Front-end_Vue)  
+[Backend workdlows](https://github.com/LisaKarto/Planpal_Back-end_Java/actions)
 <!-- Cultural differencese and ethics -->
-# 6. Cultural differences and ethics
+# 6. Cultural differences and ethics LO5
 **Description:** 
 > You recognize and take into account cultural differences between project stakeholders and ethical aspects in software development.   
  
@@ -178,7 +179,7 @@ See overview below:
   * [Parkkings cultural differences](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#61-cultural-differences-during-this-project)
   * [Parkkings ethics](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#62-ethics-in-software)
 <!-- Requirements and design -->
-# 7. Requirements and design
+# 7. Requirements and design LO6
 **Description:**  
 > You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques. 
 >    
@@ -192,12 +193,12 @@ See overview below:
 (TIP: These points are easily achieved following Agile methodology)  
 
 **My products and their relation to this learning outcome:**
-- [Parkkings prototype]()
-- [Planpal prototype]() 
-- [Reports on Parkkings sprint reviews]()
-- [Reports feedpulse with teachers]()
+- [Parkings requirements](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#3-the-project)
+- [Parkings design](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#4-website-design)
+- [USSD requirements](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Sudden%20death/User%20story%20SD.md)
+- [Planpal user stories](https://github.com/users/LisaKarto/projects/2)
 <!-- Business processes -->
-# 8. Business processes
+# 8. Business processes LO7
 **Description:**  
 >You analyze and describe simple business processes that are related to your project.  
 
@@ -217,7 +218,7 @@ See overview below:
 **My products and their relation to this learning outcome:**
 * [Parkkings business process analysis](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#31-how-does-our-software-support-the-parking-garages)
 <!-- Professional -->
-# 9. Professional
+# 9. Professional LO8
 **Description:** 
 > You act in a professional manner during software development and learning.   
 > 
@@ -239,18 +240,17 @@ You choose and substantiate solutions for a given problem.
 
 **My products and their relation to this learning outcome:**
 * [My github environment's central document](https://github.com/LisaKarto/Portfolio-SEM3)
+* [Version control research report](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Researches/Learning/Documents/Version%20control%20research%20report.md)
 * [My efforts for our group projects](https://github.com/LisaKarto/Portfolio-SEM3/blob/main/Projects/Parkings-portfolio.md#8-reflection)
 
 # 10. Proficiency level
-| #   | name learning outcome               | Proficiency level |
-| --- | ----------------------------------- | ----------------- |
-| 1   | [Web application]()                 | undefined         |
-| 2   | [software Quality]()                | undefined         |
-| 3   | [Agile method]()                    | undefined         |
-| 4   | [CI/CD]()                           | undefined         |
-| 5   | [Cultural differences and ethics]() | undefined         |
-| 6   | [Requirements and design]()         | undefined         |
-| 7   | [Business processes]()              | undefined         |
-| 8   | [Professional manners]()            | undefined         |
-# 11. Related topics
-# 12. Sources
+| #   | name learning outcome                                                     | Proficiency level |
+| --- | ------------------------------------------------------------------------- | ----------------- |
+| 1   | [Web application](#2-web-application-lo1)                                 | proficient        |
+| 2   | [software Quality](#3-software-quality-lo2)                               | proficient        |
+| 3   | [Agile method](#4-agile-method-lo3)                                       | Advanced🎉         |
+| 4   | [CI/CD](#5-cicd-lo4)                                                      | proficient        |
+| 5   | [Cultural differences and ethics](#6-cultural-differences-and-ethics-lo5) | proficient        |
+| 6   | [Requirements and design](#7-requirements-and-design-lo6)                 | proficient        |
+| 7   | [Business processes](#8-business-processes-lo7)                           | proficient        |
+| 8   | [Professional manners](#9-professional-lo8)                               | proficient        |
